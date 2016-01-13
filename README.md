@@ -1,6 +1,6 @@
 # ingunict-bot
 
-Fornità agli studenti informazioni sui professori e sugli orari
+Fornirà agli studenti informazioni sui professori e sugli orari
 
 
 ## Bot:
