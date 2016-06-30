@@ -1,50 +1,16 @@
-# ingunict-bot
+# Telegram IngUniCT Bot
 
-Fornirà agli studenti informazioni sui professori e sugli orari
+**ingunict-bot** Source code for **@IngUniCT_bot**, a Telegram bot focused in helping student get information about engineering departmens in University of Catania.
 
+### WARNING 
 
-## Bot:
-
-
-	db:
-
-	professori (id_p,nome, cognome, materie, ricevimento,studio,sito,telefono,mail)
-
-	materie (id_m,nome,codice,cfu,anno,id_p)
-
-	lezioni (id_l,giorno,ora_inizio, ora_fine,id_a,id_m)
-	
-	aule (id_a, nome, edificio)
-
-	esami (id_m,ora,giorno,id_a)
-	
-	
-	dati costanti:
-	
-	mensa
-	segreterie
-	ersu
-	cus
-	cdc	
+Is currently under developement, if you have some requests do from github's issues, 
 
 
 
+### Online version is avaiable on [@IngUniCT_bot] (https://web.telegram.org/#/im?p=@IngUniCT_bot)
+Send '/start' or '/help' to get a list of avaiable commands
 
-	parser----->api<----->db
-
-	bot<-----api<---->db
-
-
-
-
- ## api:
-
-	/getProfessor(?id) informazioni sul prof GET
-	/putProfessor?par={id_....}		POST
-
-
-	/getLezioni?anno GET [{id_l.....
-
-
-	
+###License
+This open-source software is published under the Apache License version 2.0. Please refer to the "LICENSE" file of this project for the full text.
 
