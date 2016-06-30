@@ -1,0 +1,109 @@
+[
+	{
+		"Nome":"D02",
+		"Edificio": "Didattica",
+		"Piano": "0"
+	},
+	{
+		"Nome":"D03",
+		"Edificio": "Didattica",
+		"Piano": "0"
+	},
+	{
+		"Nome":"D21",
+		"Edificio": "Didattica",
+		"Piano": "2"
+	},
+	{
+		"Nome":"D22",
+		"Edificio": "Didattica",
+		"Piano": "2"
+	},
+	{
+		"Nome":"D23",
+		"Edificio": "Didattica",
+		"Piano": "2"
+	},
+	{
+		"Nome":"D24",
+		"Edificio": "Didattica",
+		"Piano": "2"
+	},
+	{
+		"Nome":"D31",
+		"Edificio": "Didattica",
+		"Piano": "3"
+	},
+	{
+		"Nome":"D32",
+		"Edificio": "Didattica",
+		"Piano": "3"
+	},
+	{
+		"Nome":"D33",
+		"Edificio": "Didattica",
+		"Piano": "3"
+	},
+	{
+		"Nome":"D34",
+		"Edificio": "Didattica",
+		"Piano": "3"
+	},
+	{
+		"Nome":"D41",
+		"Edificio": "Didattica",
+		"Piano": "4"
+	},
+	{
+		"Nome":"D42",
+		"Edificio": "Didattica",
+		"Piano": "4"
+	},
+	{
+		"Nome":"D43",
+		"Edificio": "Didattica",
+		"Piano": "4"
+	},
+	{
+		"Nome":"D44",
+		"Edificio": "Didattica",
+		"Piano": "4"
+	},
+	{
+		"Nome":"P2",
+		"Edificio": "Polifunzionale",
+		"Piano": "1"
+	},
+	{
+		"Nome":"P3",
+		"Edificio": "Polifunzionale",
+		"Piano": "1"
+	},
+	{
+		"Nome":"P4",
+		"Edificio": "Polifunzionale",
+		"Piano": "4"
+	},
+	{
+		"Nome":"P5",
+		"Edificio": "Polifunzionale",
+		"Piano": "4"
+	},
+	{
+		"Nome":"P6",
+		"Edificio": "Polifunzionale",
+		"Piano": "5"
+	},
+	{
+		"Nome":"P7",
+		"Edificio": "Polifunzionale",
+		"Piano": "5"
+	},
+	{
+		"Nome":"P8",
+		"Edificio": "Polifunzionale",
+		"Piano": "6"
+	}
+	
+]
+

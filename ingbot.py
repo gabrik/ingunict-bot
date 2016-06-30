@@ -6,6 +6,18 @@
 
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 import logging
+from utility import *
+
+
+#need load configuration from file
+AULEFILE='aule.json'
+CDSFILE='cds.json'
+
+##global variables
+aule={}
+cds={}
+
+
 
 
 # loading token from config file
@@ -48,7 +60,23 @@ def insegnamento(bot, update):
 	bot.sendMessage(update.message.chat_id, text='Insegnamento')
 
 def aula(bot, update):
-	bot.sendMessage(update.message.chat_id, text='aula')
+
+	msg=update.message.text
+	msg=msg.split(' ')
+	
+
+
+	if len(msg)==2:
+
+		key= msg[1].upper().strip()
+		
+		if key in aule:
+			aula=aule[key]
+			bot.sendMessage(update.message.chat_id, text='Aula %s , Edificio %s, Piano %s' % (key,aula['Edificio'],aula['Piano']))
+		else:
+			bot.sendMessage(update.message.chat_id, text='Aula non trovata')
+	else:
+		bot.sendMessage(update.message.chat_id, text="Devi inserire l'aula su cui ottenere informazioni!\n/aula <nome>")
 
 def segreteria(bot, update):
 
@@ -86,32 +114,49 @@ def error(bot, update, error):
 
 def main():
 
-    updater = Updater(TOKEN)
+	logger.info('[Loading] aule from "%s"' % AULEFILE)
+	global aule
+	aule = load_aule(AULEFILE)
+	logger.info('[Done] loading aule')
 
-    dp = updater.dispatcher
+	#print aule['d44'.upper()]
 
+	logger.info('[Loading] courses from "%s"' % CDSFILE)
+	global cds
+	cds = load_cds(CDSFILE)
+	logger.info('[Done] loading courses')
 
-    dp.add_handler(CommandHandler("start", start))
-    dp.add_handler(CommandHandler("help", start))
-    dp.add_handler(CommandHandler("prof", prof))
-    dp.add_handler(CommandHandler("orari", orari))
-    dp.add_handler(CommandHandler("insegnamento", insegnamento))
-    dp.add_handler(CommandHandler("aula", aula))
-    dp.add_handler(CommandHandler("segreteria", segreteria))
-    dp.add_handler(CommandHandler("cus", cus))
-
-
-
-    #dp.add_handler(MessageHandler([Filters.text], echo))
+	##print json.dumps(cds,indent=4)
 
 
-    dp.add_error_handler(error)
 
 
-    updater.start_polling()
+	updater = Updater(TOKEN)
 
-    updater.idle()
+	dp = updater.dispatcher
+
+
+	dp.add_handler(CommandHandler("start", start))
+	dp.add_handler(CommandHandler("help", start))
+	dp.add_handler(CommandHandler("prof", prof))
+	dp.add_handler(CommandHandler("orari", orari))
+	dp.add_handler(CommandHandler("insegnamento", insegnamento))
+	dp.add_handler(CommandHandler("aula", aula))
+	dp.add_handler(CommandHandler("segreteria", segreteria))
+	dp.add_handler(CommandHandler("cus", cus))
+
+
+
+	#dp.add_handler(MessageHandler([Filters.text], echo))
+
+
+	dp.add_error_handler(error)
+
+
+	updater.start_polling()
+
+	updater.idle()
 
 
 if __name__ == '__main__':
-   	main()
+	main()
