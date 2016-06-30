@@ -1,72 +1,117 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 #
-# Simple Bot to reply to Telegram messages
-# This program is dedicated to the public domain under the CC0 license.
-"""
-This Bot uses the Updater class to handle the bot.
-First, a few handler functions are defined. Then, those functions are passed to
-the Dispatcher and registered at their respective places.
-Then, the bot is started and runs until we press Ctrl-C on the command line.
-Usage:
-Basic Echobot example, repeats messages.
-Press Ctrl-C on the command line or send a signal to the process to stop the
-bot.
-"""
+# ING UNI CT Telegram Bot
+
 
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 import logging
 
+
+# loading token from config file
+tokenconf = open('token.conf', 'r').read()
+tokenconf = tokenconf.replace("\n", "")
+TOKEN = tokenconf
+
 # Enable logging
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-                    level=logging.INFO)
+	level=logging.INFO)
 
 logger = logging.getLogger(__name__)
+
+
+
 
 
 # Define a few command handlers. These usually take the two arguments bot and
 # update. Error handlers also receive the raised TelegramError object in error.
 def start(bot, update):
-    bot.sendMessage(update.message.chat_id, text='Hi!')
+
+	newmsg = "Ing UniCT Telegram Bot\nLista Comandi:\n\t/orari <cld> <anno> Orario delle lezioni\n\t/prof <cognome> <nome> Informazioni sul professore\n\t/insegnamento <nome_insegnamento> Informazioni su un insegnamento\n\t/aula <numero> Indicazioni sull'ubicazione di un'aula\n\t/segreteria Informazioni sugli orari della segreteria studenti\n\t/cus Informazioni sul CUS"
+	developmode='\n\n\n Il bot è in via di sviluppo se vuoi contribuire vai su: https://github.com/gabrik/ingunict-bot\nO contatta @Gabrik91 '
+
+
+	bot.sendMessage(update.message.chat_id, text=newmsg+developmode)
 
 
 def help(bot, update):
-    bot.sendMessage(update.message.chat_id, text='Help!')
+	bot.sendMessage(update.message.chat_id, text='Help!')
 
+def prof(bot, update):
+	bot.sendMessage(update.message.chat_id, text='prof')
+
+def orari(bot, update):
+	bot.sendMessage(update.message.chat_id, text='Orari')
+
+
+def insegnamento(bot, update):
+	bot.sendMessage(update.message.chat_id, text='Insegnamento')
+
+def aula(bot, update):
+	bot.sendMessage(update.message.chat_id, text='aula')
+
+def segreteria(bot, update):
+
+	newmsg="Carriera Studenti - Settore tecnico - scientifico\n\nVia S. Sofia, 64 - Edificio 11 C.U. 95135 Catania\n\nTel.:095-738 6104/2051"
+	newmsg+="\n\n Orari\n\n"
+	newmsg+="Lunedì 10.00 - 12.30\n"
+	newmsg+="Martedì 10.00 - 12.30 e 15.00 - 16.30\n"
+	newmsg+="Mercoledì Chiusura\n"
+	newmsg+="Giovedì 10.00 - 12.30 e 15.00 - 16.30\n"
+	newmsg+="Venerdì 10.00 - 12.30\n"
+
+	newmsg+="\n\n Telefonare solo nelle fasce orarie di apertura"
+
+	newmsg+="\n\n Mail: settore.tecnicoscientifico@unict.it"
+
+	newmsg+="\n\n Per ulteriori infomazioni : http://www.unict.it/content/coordinamento-settori-carriere-studenti"
+
+
+
+	bot.sendMessage(update.message.chat_id, text=newmsg)
+
+def cus(bot, update):
+
+	newmsg="CUS CATANIA:\n\nViale A. Doria n° 6  - 95125 Catania\n\ntel. 095336327- fax 095336478\n\nCUS Catania - info@cuscatania.it\n\nSegreteria studenti:\ntel. 095/336327 (int. 0) - segreteriastudenti@cuscatania.it "	
+
+
+	bot.sendMessage(update.message.chat_id, text=newmsg)
 
 def echo(bot, update):
-    bot.sendMessage(update.message.chat_id, text=update.message.text)
-
+	bot.sendMessage(update.message.chat_id, text=update.message.text)
 
 def error(bot, update, error):
-    logger.warn('Update "%s" caused error "%s"' % (update, error))
+	logger.warn('Update "%s" caused error "%s"' % (update, error))
 
 
 def main():
-    # Create the EventHandler and pass it your bot's token.
-    updater = Updater("TOKEN")
 
-    # Get the dispatcher to register handlers
+    updater = Updater(TOKEN)
+
     dp = updater.dispatcher
 
-    # on different commands - answer in Telegram
+
     dp.add_handler(CommandHandler("start", start))
-    dp.add_handler(CommandHandler("help", help))
+    dp.add_handler(CommandHandler("help", start))
+    dp.add_handler(CommandHandler("prof", prof))
+    dp.add_handler(CommandHandler("orari", orari))
+    dp.add_handler(CommandHandler("insegnamento", insegnamento))
+    dp.add_handler(CommandHandler("aula", aula))
+    dp.add_handler(CommandHandler("segreteria", segreteria))
+    dp.add_handler(CommandHandler("cus", cus))
 
-    # on noncommand i.e message - echo the message on Telegram
-    dp.add_handler(MessageHandler([Filters.text], echo))
 
-    # log all errors
+
+    #dp.add_handler(MessageHandler([Filters.text], echo))
+
+
     dp.add_error_handler(error)
 
-    # Start the Bot
+
     updater.start_polling()
 
-    # Run the bot until the you presses Ctrl-C or the process receives SIGINT,
-    # SIGTERM or SIGABRT. This should be used most of the time, since
-    # start_polling() is non-blocking and will stop the bot gracefully.
     updater.idle()
 
 
 if __name__ == '__main__':
-main()
+   	main()
