@@ -1,0 +1,2587 @@
+[
+    {
+        "Dipartimento": "Dipartimento di Ingegneria Industriale", 
+        "Qualifica": "professore ordinario", 
+        "ID": "510", 
+        "Nome": "Domenico Acierno"
+    }, 
+    {
+        "Dipartimento": "Dipartimento di Matematica e Informatica", 
+        "Qualifica": "professore ordinario", 
+        "ID": "512", 
+        "Nome": "S. E. Acquaviva"
+    }, 
+    {
+        "Indirizzo": "Viale Andrea Doria 6, 95125 Catania ", 
+        "Nome": "Giovanni Antonio Aiello", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Sito": "http://wwwelfin.diees.unict.it/", 
+        "Qualifica": "professore associato", 
+        "Email": "giovanni.aiello@diees.unict.it", 
+        "SSD": "ING-IND/31", 
+        "Telefono": "0957382335", 
+        "ID": "9"
+    }, 
+    {
+        "Indirizzo": "Viale A. Doria 6", 
+        "Nome": "Salvatore Alfonzetti", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Sito": "http://www.esg.diees.unict.it/esg/alfonzetti/index.phtml", 
+        "Qualifica": "professore ordinario", 
+        "Email": "alfo@dieei.unict.it", 
+        "SSD": "ING-IND/31", 
+        "Telefono": "0957382320", 
+        "ID": "10"
+    }, 
+    {
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Qualifica": "professore incaricato", 
+        "ID": "603", 
+        "Nome": " Altre attivita"
+    }, 
+    {
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Qualifica": "professore incaricato", 
+        "ID": "604", 
+        "Nome": ". Altre attivita"
+    }, 
+    {
+        "Nome": "Giuseppe Amata", 
+        "Dipartimento": "Dipartimento Ingegneria Civile e Ambientale", 
+        "Qualifica": "professore associato", 
+        "Email": "gamata@dica.unict.it", 
+        "SSD": "ICAR/22", 
+        "Telefono": "095-7382715", 
+        "ID": "11"
+    }, 
+    {
+        "Nome": "Luigi Amico", 
+        "Dipartimento": "Dipartimento di Fisica ed Astronomia", 
+        "Qualifica": "professore associato", 
+        "ID": "12", 
+        "SSD": "FIS/03", 
+        "Email": "lamico@dmfci.unict.it"
+    }, 
+    {
+        "Indirizzo": "V.le A. Doria 6", 
+        "Nome": "Laura Anania", 
+        "Dipartimento": "Dipartimento Ingegneria Civile e Ambientale", 
+        "Qualifica": "ricercatore", 
+        "Email": "lanania@dica.unict.it", 
+        "SSD": "ICAR/09", 
+        "Telefono": "+390957382257", 
+        "ID": "344"
+    }, 
+    {
+        "Indirizzo": "Viale A. Doria, 6 - Blocco 10 - Catania", 
+        "Nome": "Alessandro Ancarani", 
+        "Dipartimento": "Dipartimento Ingegneria Civile e Ambientale", 
+        "Sito": "http://www.dica.unict.it/Personale/Docenti/Docenti.html", 
+        "Qualifica": "professore associato", 
+        "Email": "aancaran@dica.unict.it", 
+        "SSD": "ING-IND/35", 
+        "Telefono": "+390957382715", 
+        "ID": "13"
+    }, 
+    {
+        "Indirizzo": "V.le A. Doria, 6 - 95125 Catania-Italy", 
+        "Nome": "Bruno Ando", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Sito": "http://www2.diees.unict.it/users/bando/index.html", 
+        "Qualifica": "professore associato", 
+        "Email": "bruno.ando@dieei.unict.it", 
+        "SSD": "ING-INF/07", 
+        "Telefono": "+39-0957382601", 
+        "ID": "14"
+    }, 
+    {
+        "Indirizzo": "Viale A. Doria 6 - Ed. Polifunzionale - V piano ", 
+        "Nome": "Paolo Arena", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Sito": "http://www.diees.unict.it/users/parena/index.html", 
+        "Qualifica": "professore associato", 
+        "Email": "parena@dieei.unict.it", 
+        "SSD": "ING-INF/04", 
+        "Telefono": "0957382322", 
+        "ID": "17"
+    }, 
+    {
+        "Indirizzo": "Viale A. Doria, 6 95125 Catania", 
+        "Nome": "Giuseppe Ascia", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Sito": "http://www.dieei.unict.it/users/gascia", 
+        "Qualifica": "professore associato", 
+        "Email": "Giuseppe.Ascia@dieei.unict.it", 
+        "SSD": "ING-INF/05", 
+        "Telefono": "+39-0957382353", 
+        "ID": "18"
+    }, 
+    {
+        "Email": "aatripa@dau.ing.unict.it", 
+        "Dipartimento": "Dipartimento di Architettura", 
+        "Qualifica": "professore associato", 
+        "ID": "19", 
+        "Nome": "Anna Maria Atripaldi"
+    }, 
+    {
+        "Email": "aauteri@dau.ing.unict.it", 
+        "Dipartimento": "Dipartimento di Architettura", 
+        "Qualifica": "professore associato", 
+        "ID": "21", 
+        "Nome": "Aurelio Emanuele Auteri"
+    }, 
+    {
+        "Indirizzo": "viale A. Doria 6 ", 
+        "Nome": "Antonio Badala", 
+        "Dipartimento": "Dipartimento Ingegneria Civile e Ambientale", 
+        "Qualifica": "professore ordinario", 
+        "Email": "abadala@dica.unict.it", 
+        "SSD": "ICAR/09", 
+        "Telefono": "095 738 2257", 
+        "ID": "22"
+    }, 
+    {
+        "Nome": "Salvatore Baglio", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Sito": "http://www2.dees.unict.it/users/baglio/", 
+        "Qualifica": "professore associato", 
+        "Email": "salvatore.baglio@dieei.unict.it", 
+        "SSD": "ING-INF/07", 
+        "Telefono": "0957382325", 
+        "ID": "23"
+    }, 
+    {
+        "Dipartimento": "Dipartimento Ingegneria Civile e Ambientale", 
+        "Qualifica": "contrattista", 
+        "ID": "602", 
+        "Nome": " BANDO"
+    }, 
+    {
+        "Indirizzo": "sebastiano.barbarino@diit.unict.it", 
+        "Nome": "Sebastiano Barbarino", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Sito": "diit.unict.it/users/campi", 
+        "Qualifica": "professore associato", 
+        "Email": "sbarbari@diit.unict.it", 
+        "SSD": "FIS/01", 
+        "Telefono": "0953785312", 
+        "ID": "24"
+    }, 
+    {
+        "Indirizzo": "Via Santa Sofia 64 95123 CATANIA ", 
+        "Nome": "Vincenzo Bellini", 
+        "Dipartimento": "Dipartimento di Fisica ed Astronomia", 
+        "Qualifica": "professore ordinario", 
+        "Email": "vincenzo.bellini@ct.infn.it", 
+        "SSD": "FIS/04", 
+        "Telefono": "095 3785315", 
+        "ID": "534"
+    }, 
+    {
+        "Nome": "Francesco Beritelli", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Qualifica": "ricercatore", 
+        "Email": "francesco.beritelli@dieei.unict.it", 
+        "SSD": "ING-INF/03", 
+        "Telefono": "0957382367", 
+        "ID": "26"
+    }, 
+    {
+        "Indirizzo": "Viale A. Doria, 6 - Edificio 10", 
+        "Nome": "Ignazio Blanco", 
+        "Dipartimento": "Dipartimento di Ingegneria Civile e Architettura", 
+        "Sito": "http://www.dmfci.unict.it/users/iblanco/", 
+        "Qualifica": "professore associato", 
+        "Email": "iblanco@dii.unict.it", 
+        "SSD": "ING-IND/27", 
+        "Telefono": "0957382819", 
+        "ID": "347"
+    }, 
+    {
+        "Indirizzo": "DAU (III blocco), N.41   Dipartimento di Matematica e Informatica Viale A.Doria 6  95125 Catania", 
+        "Nome": "Paola Bonacini", 
+        "Dipartimento": "Dipartimento di Matematica e Informatica", 
+        "Sito": "http://www.dmi.unict.it/~bonacini/DMI/Home.html", 
+        "Qualifica": "ricercatore", 
+        "Email": "bonacini@dmi.unict.it", 
+        "SSD": "MAT/03", 
+        "Telefono": "09573830006", 
+        "ID": "458"
+    }, 
+    {
+        "Nome": "Francesco Agatino Bottino", 
+        "Dipartimento": "Dipartimento di Ingegneria Industriale", 
+        "Qualifica": "professore ordinario", 
+        "Email": "fbottino@dmfci.unict.it", 
+        "SSD": "CHIM/07", 
+        "Telefono": "095 738 2750", 
+        "ID": "27"
+    }, 
+    {
+        "Indirizzo": "Edificio Polifunzionale 5 piano(stanza 49)  - Viale A. doria 6, Catania", 
+        "Nome": "Maide Bucolo", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Sito": "http://www.dees.unict.it/mbucolo", 
+        "Qualifica": "ricercatore", 
+        "Email": "maide.bucolo@dieei.unict.it", 
+        "SSD": "ING-INF/04", 
+        "Telefono": "0039-095-738 2603", 
+        "ID": "206"
+    }, 
+    {
+        "Nome": "Pierina Busacca", 
+        "Dipartimento": "Dipartimento di Architettura", 
+        "Qualifica": "professore ordinario", 
+        "Email": "pbusacca@dau.unict.it", 
+        "SSD": "ICAR/20", 
+        "Telefono": "095.7382513", 
+        "ID": "28"
+    }, 
+    {
+        "Indirizzo": "Viale A. Doria 6", 
+        "Nome": "Arturo Buscarino", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Qualifica": "contrattista", 
+        "Email": "arturo.buscarino@dieei.unict.it", 
+        "SSD": "ING-INF/04", 
+        "Telefono": "0957382307", 
+        "ID": "589"
+    }, 
+    {
+        "Nome": "Mario Cacciato", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Qualifica": "professore associato", 
+        "Email": "mario.cacciato@dieei.unict.it", 
+        "SSD": "ING-IND/32", 
+        "Telefono": "095/7382602", 
+        "ID": "383"
+    }, 
+    {
+        "Indirizzo": "Dipartimento di Ingegneria Civile ed Ambienale, Universit\u00e0 di Catania, Viale Andrea Doria 6, 95125, Catania", 
+        "Nome": "Salvatore Caddemi", 
+        "Dipartimento": "Dipartimento Ingegneria Civile e Ambientale", 
+        "Qualifica": "professore ordinario", 
+        "Email": "scaddemi@dica.unict.it", 
+        "Telefono": "095 7382266", 
+        "ID": "29"
+    }, 
+    {
+        "Indirizzo": "viale A. Doria, 6 - 95125 Catania (Edificio N. 3)", 
+        "Nome": "Salvatore Cafiso", 
+        "Dipartimento": "Dipartimento Ingegneria Civile e Ambientale", 
+        "Sito": "http://www.dica.unict.it/users/dcafiso/", 
+        "Qualifica": "professore associato", 
+        "Email": "dcafiso@dica.unict.it", 
+        "SSD": "ICAR/04", 
+        "Telefono": "095 7382213", 
+        "ID": "30"
+    }, 
+    {
+        "Indirizzo": "Via S.Sofia 64", 
+        "Nome": "Lucia Calcagno", 
+        "Dipartimento": "Dipartimento di Fisica ed Astronomia", 
+        "Qualifica": "professore ordinario", 
+        "Email": "lucia.calcagno@ct.infn.it", 
+        "SSD": "FIS/07", 
+        "Telefono": "095 3785319", 
+        "ID": "31"
+    }, 
+    {
+        "Indirizzo": "viale A. Doria 6, 95125 - Catania", 
+        "Nome": "Ivo Calio", 
+        "Dipartimento": "Dipartimento Ingegneria Civile e Ambientale", 
+        "Qualifica": "professore associato", 
+        "Email": "icalio@dica.unict.it", 
+        "Telefono": "0957382255", 
+        "ID": "33"
+    }, 
+    {
+        "Dipartimento": "Dipartimento di Architettura", 
+        "Qualifica": "contrattista", 
+        "ID": "413", 
+        "Nome": "simona Calvagna"
+    }, 
+    {
+        "Indirizzo": "Diim - Viale A. Doria 6 - 95125 Catania", 
+        "Nome": "Giuliano Cammarata", 
+        "Dipartimento": "Dipartimento di Ingegneria Industriale", 
+        "Sito": "www.diim,unict.it/users/gcamma", 
+        "Qualifica": "professore ordinario", 
+        "Email": "gcamma@diim.unict.it", 
+        "SSD": "ING-IND/10", 
+        "Telefono": "095 7382452", 
+        "ID": "34"
+    }, 
+    {
+        "Email": "lcamma@ift.ing.unict.it", 
+        "Dipartimento": "Dipartimento di Ingegneria Industriale", 
+        "Qualifica": "ricercatore", 
+        "ID": "35", 
+        "Nome": "Luigi Cammarata"
+    }, 
+    {
+        "Indirizzo": "Via A. Doria 6", 
+        "Nome": "A. Cammarata", 
+        "Dipartimento": "Dipartimento di Ingegneria Industriale", 
+        "Qualifica": "ricercatore", 
+        "Email": "acamma@dii.unict.it", 
+        "SSD": "ING-IND/13", 
+        "Telefono": "+390957382403", 
+        "ID": "524"
+    }, 
+    {
+        "Dipartimento": "Dipartimento di Ingegneria Industriale", 
+        "Qualifica": "ricercatore", 
+        "ID": "582", 
+        "Nome": "Alberto Cammarata"
+    }, 
+    {
+        "Dipartimento": "Dipartimento di Ingegneria Industriale", 
+        "Qualifica": "ricercatore", 
+        "ID": "583", 
+        "Nome": "Alessandro Cammarata"
+    }, 
+    {
+        "Indirizzo": "Cittadella Universitaria di Catania, Plesso 10 - Vecchia sede", 
+        "Nome": "Alberto Campisano", 
+        "Dipartimento": "Dipartimento Ingegneria Civile e Ambientale", 
+        "Sito": "http://www.dica.unict.it/users/acampisa/", 
+        "Qualifica": "ricercatore", 
+        "Email": "acampisa@dica.unict.it", 
+        "SSD": "ICAR/02", 
+        "Telefono": "0957382730", 
+        "ID": "36"
+    }, 
+    {
+        "Indirizzo": "Viale Andrea Doria 6 - 95125 Catania", 
+        "Nome": "Sascia Canale", 
+        "Dipartimento": "Dipartimento Ingegneria Civile e Ambientale", 
+        "Sito": "www.stradelandia.it", 
+        "Qualifica": "professore ordinario", 
+        "Email": "scanale@dica.unict.it", 
+        "SSD": "ICAR/04", 
+        "Telefono": "0957382202", 
+        "ID": "38"
+    }, 
+    {
+        "Indirizzo": "Stanza 5, Blocco 10 (vecchia sede), 1\u00b0 piano, Dipartimento di Ingegneria Civile e Ambientale", 
+        "Nome": "Antonino Cancelliere", 
+        "Dipartimento": "Dipartimento Ingegneria Civile e Ambientale", 
+        "Sito": "www.dica.unict.it/users/acance", 
+        "Qualifica": "professore associato", 
+        "Email": "acance@dica.unict.it", 
+        "SSD": "ICAR/02", 
+        "Telefono": "095 7382718", 
+        "ID": "39"
+    }, 
+    {
+        "Dipartimento": "Dipartimento di Ingegneria Civile e Architettura", 
+        "Qualifica": "contrattista", 
+        "ID": "613", 
+        "Nome": "Francesco Cannizzaro"
+    }, 
+    {
+        "Nome": "Giacomo Capizzi", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Qualifica": "ricercatore", 
+        "ID": "40", 
+        "SSD": "ING-IND/31", 
+        "Email": "capizzi@diees.unict.it"
+    }, 
+    {
+        "Nome": "Riccardo Caponetto", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Sito": "http://www.dees.unict.it/users/caponett/", 
+        "Qualifica": "ricercatore", 
+        "Email": "riccardo.caponetto@dieei.unict.it", 
+        "SSD": "ING-INF/04", 
+        "Telefono": "+390957382336", 
+        "ID": "41"
+    }, 
+    {
+        "Nome": "Rosa Caponetto", 
+        "Dipartimento": "Dipartimento di Architettura", 
+        "Qualifica": "professore associato", 
+        "Email": "rcapo@dau.unict.it", 
+        "SSD": "ICAR/11", 
+        "Telefono": "0957382538", 
+        "ID": "207"
+    }, 
+    {
+        "Indirizzo": "viale andrea doria 6", 
+        "Nome": "Vincenza Carchiolo", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Qualifica": "professore ordinario", 
+        "Email": "vincenza.carchiolo@dieei.unict.it", 
+        "SSD": "ING-IND/05", 
+        "Telefono": "0957382359", 
+        "ID": "42"
+    }, 
+    {
+        "Email": "francesco.carrara@dieei.unict.it", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Qualifica": "cultore della materia", 
+        "ID": "296", 
+        "Nome": "Francesco Carrara"
+    }, 
+    {
+        "Indirizzo": "Dipartimento di Matematica e Informatica, Citt\u00e0 Universitaria, V.le A.Doria 6, 95125, Catania, Italy", 
+        "Nome": "Andrea Orazio Caruso", 
+        "Dipartimento": "Dipartimento di Matematica e Informatica", 
+        "Sito": "http://www.dmi.unict.it/~aocaruso/", 
+        "Qualifica": "ricercatore", 
+        "Email": "aocaruso@dmi.unict.it", 
+        "SSD": "MAT/05", 
+        "Telefono": "095 7383022", 
+        "ID": "209"
+    }, 
+    {
+        "Email": "santi.cascone@darc.unict.it", 
+        "Dipartimento": "Dipartimento di Architettura", 
+        "Qualifica": "professore ordinario", 
+        "ID": "44", 
+        "Nome": "Santi Maria Cascone"
+    }, 
+    {
+        "Email": "fcastelli@dica.unict.it", 
+        "Dipartimento": "Dipartimento Ingegneria Civile e Ambientale", 
+        "Qualifica": "ricercatore", 
+        "ID": "45", 
+        "Nome": "Francesco Castelli"
+    }, 
+    {
+        "Nome": "Vincenzo Catania", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Qualifica": "professore ordinario", 
+        "ID": "46", 
+        "SSD": "ING-INF/05", 
+        "Email": "vcatania@diit.unict.it"
+    }, 
+    {
+        "Indirizzo": "Viale A.Doria, 6 95125 Catania", 
+        "Nome": "Salvatore Cavalieri", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Sito": "http://utenti.dieei.unict.it/users/scava/", 
+        "Qualifica": "professore ordinario", 
+        "Email": "salvatore.cavalieri@dieei.unict.it", 
+        "SSD": "ING-INF/05", 
+        "Telefono": "0957382362", 
+        "ID": "47"
+    }, 
+    {
+        "Indirizzo": "viale Andrea Doria,6 Catania", 
+        "Nome": "Calogero Cavallaro", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Qualifica": "professore ordinario", 
+        "Email": "calogero.cavallaro@dieei.unict.it", 
+        "SSD": "ING-IND/32", 
+        "Telefono": "0957382308", 
+        "ID": "48"
+    }, 
+    {
+        "Indirizzo": "Stanza 31, VI piano Facolt\u00e0 di Ingegneria, Viale Andrea Doria 6, 95125 Catania", 
+        "Nome": "Giovanni Celano", 
+        "Dipartimento": "Dipartimento di Ingegneria Industriale", 
+        "Sito": "http://www.diim.unict.it/users/gcelano/", 
+        "Qualifica": "professore associato", 
+        "Email": "gcelano@dii.unict.it", 
+        "SSD": "ING-IND/16", 
+        "Telefono": "0957382423", 
+        "ID": "49"
+    }, 
+    {
+        "Indirizzo": "gcicala@gmail.com", 
+        "Nome": "Gianluca Cicala", 
+        "Dipartimento": "Dipartimento di Ingegneria Industriale", 
+        "Sito": "https://sites.google.com/site/gcicala/ ", 
+        "Qualifica": "professore associato", 
+        "Email": "gcicala@dmfci.unict.it", 
+        "SSD": "ING-IND/22", 
+        "Telefono": "0957382760", 
+        "ID": "280"
+    }, 
+    {
+        "Indirizzo": "viale a:Doria 6 - edificio 5 - I blocco -2 piano- stanza 347", 
+        "Nome": "Raffaella Cilia", 
+        "Dipartimento": "Dipartimento di Matematica e Informatica", 
+        "Sito": "http://web.dmi.unict.it/Pagina/It/Didattica/Docenti_e_corsi/Cilia_Raffaella.aspx", 
+        "Qualifica": "professore associato", 
+        "Email": "cilia@dmi.unict.it", 
+        "SSD": "MAT/05", 
+        "ID": "517"
+    }, 
+    {
+        "Indirizzo": "Viale Andrea Doria, 6. Catania", 
+        "Nome": "Maria Grazia Cinquegrani", 
+        "Dipartimento": "Dipartimento di Ingegneria Industriale", 
+        "Sito": "http://www.dmi.unict.it/~cinquegrani/", 
+        "Qualifica": "professore associato", 
+        "Email": "cinquegrani@dmi.unict.it", 
+        "SSD": "MAT/03", 
+        "Telefono": "0957383006", 
+        "ID": "50"
+    }, 
+    {
+        "Nome": "Rita Cirmi", 
+        "Dipartimento": "Dipartimento di Matematica e Informatica", 
+        "Qualifica": "professore associato", 
+        "Email": "cirmi@dmi.unict.it", 
+        "SSD": "MAT/05", 
+        "Telefono": "0957383009", 
+        "ID": "351"
+    }, 
+    {
+        "Nome": "Salvatore Coco", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Qualifica": "professore ordinario", 
+        "Email": "coco@diees.unict.it", 
+        "SSD": "ING-IND/31", 
+        "Telefono": "095 7382315", 
+        "ID": "51"
+    }, 
+    {
+        "Indirizzo": "edificio 3 - viale Andrea Doria 6 - 95125 Catania - Italia", 
+        "Nome": "Lucio Compagno", 
+        "Dipartimento": "Dipartimento di Ingegneria Industriale", 
+        "Sito": "http://studium.unict.it/dokeos/2015/index.php?category=d97a18b89b90", 
+        "Qualifica": "professore associato", 
+        "Email": "lcompagno@diim.unict.it", 
+        "SSD": "ING-IND/17", 
+        "Telefono": "(+39) 095-738.2410", 
+        "ID": "53"
+    }, 
+    {
+        "Dipartimento": "Dipartimento Ingegneria Civile e Ambientale", 
+        "Qualifica": "professore ordinario", 
+        "ID": "600", 
+        "Nome": "CONCORSO CONCORSO"
+    }, 
+    {
+        "Indirizzo": "V.LE A. DORIA, 6", 
+        "Nome": "Giuseppe Consiglio", 
+        "Dipartimento": "Dipartimento di Ingegneria Industriale", 
+        "Qualifica": "ricercatore", 
+        "Email": "gconsiglio@dii.unict.it", 
+        "SSD": "CHIM/07", 
+        "Telefono": "0957382828", 
+        "ID": "266"
+    }, 
+    {
+        "Indirizzo": "Viale Andrea Doria, 6  95125 Catania", 
+        "Nome": "Alfio Consoli", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Qualifica": "professore ordinario", 
+        "Email": "aconsoli@diees.unict.it", 
+        "SSD": "ING-IND/32", 
+        "Telefono": "0957382319", 
+        "ID": "54"
+    }, 
+    {
+        "Indirizzo": "D.I.E.E.I. - Universit\u00e0 degli studi di Catania, viale Andrea Doria, 6, 95125 Catania (ITALY)", 
+        "Nome": "Stefania Conti", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Sito": "www.diees.unict.it/users/sconti", 
+        "Qualifica": "professore associato", 
+        "Email": "stefania.conti@dieei.unict.it", 
+        "SSD": "ING-IND/33", 
+        "Telefono": "+39 095 738 2604", 
+        "ID": "55"
+    }, 
+    {
+        "Indirizzo": "Edificio Polifunzionale - IV piano - DICA - Sezione di Ingegneria Strutturale", 
+        "Nome": "Loredana Contrafatto", 
+        "Dipartimento": "Dipartimento Ingegneria Civile e Ambientale", 
+        "Sito": "http://www.dica.unict.it/users/lcontra/Ing.L_Contrafatto.htm", 
+        "Qualifica": "professore associato", 
+        "Email": "loredana.contrafatto@dica.unict.it", 
+        "SSD": "ICAR/08", 
+        "Telefono": "095 7382250", 
+        "ID": "56"
+    }, 
+    {
+        "Dipartimento": "Dipartimento Ingegneria Civile e Ambientale", 
+        "Qualifica": "professore ordinario", 
+        "ID": "584", 
+        "Nome": " CORSO DI AGGIORNAMENTO"
+    }, 
+    {
+        "Indirizzo": "V.le a. Doria 6, Ed.3, 6\u00b0 piano - stanza n.38", 
+        "Nome": "Antonio Costa", 
+        "Dipartimento": "Dipartimento di Ingegneria Industriale", 
+        "Sito": "www.dii.unict.it/users/costa", 
+        "Qualifica": "ricercatore", 
+        "Email": "antonio.costa@dii.unict.it", 
+        "SSD": "ING-IND/16", 
+        "Telefono": "+390957382457", 
+        "ID": "291"
+    }, 
+    {
+        "Nome": "Giuseppe Cozzo", 
+        "Dipartimento": "Dipartimento Ingegneria Civile e Ambientale", 
+        "Qualifica": "professore ordinario", 
+        "Email": "gcozzo@dica.unict.it", 
+        "SSD": "ICAR/01", 
+        "Telefono": "095 7382706", 
+        "ID": "2"
+    }, 
+    {
+        "Nome": "Massimo Cuomo", 
+        "Dipartimento": "Dipartimento Ingegneria Civile e Ambientale", 
+        "Qualifica": "professore ordinario", 
+        "Email": "cuomo@dica.unict.it", 
+        "SSD": "ICAR/08", 
+        "Telefono": "095 7382263", 
+        "ID": "57"
+    }, 
+    {
+        "Dipartimento": "Dipartimento di Matematica e Informatica", 
+        "Qualifica": "professore ordinario", 
+        "ID": "513", 
+        "Nome": "F D'Agata"
+    }, 
+    {
+        "Dipartimento": "Dipartimento di Ingegneria Civile e Architettura", 
+        "Qualifica": "contrattista", 
+        "ID": "625", 
+        "Nome": "Giuseppe D'Agata"
+    }, 
+    {
+        "Dipartimento": "Dipartimento di Ingegneria Civile e Architettura", 
+        "Qualifica": "contrattista", 
+        "ID": "610", 
+        "Nome": "Graziana D'Agostino"
+    }, 
+    {
+        "Indirizzo": "Viale A. Doria, 6 - Dipartimento di Matematica e informatica - Studio 367", 
+        "Nome": "Salvatore D'Asero", 
+        "Dipartimento": "Dipartimento di Matematica e Informatica", 
+        "Qualifica": "ricercatore", 
+        "Email": "dasero@dmi.unict.it", 
+        "SSD": "MAT/05", 
+        "Telefono": "0957383088", 
+        "ID": "541"
+    }, 
+    {
+        "Indirizzo": "v.le A. Doria, 6 Catania", 
+        "Nome": "Antonino D'Aveni", 
+        "Dipartimento": "Dipartimento Ingegneria Civile e Ambientale", 
+        "Qualifica": "professore associato", 
+        "Email": "daveni@dica.unict.it", 
+        "SSD": "ICAR/09", 
+        "Telefono": "095 7382252", 
+        "ID": "58"
+    }, 
+    {
+        "Nome": "Riccardo Dell'Osso", 
+        "Dipartimento": "Dipartimento di Architettura", 
+        "Qualifica": "professore associato", 
+        "Email": "r.dellosso@tiscali.it", 
+        "SSD": "ICAR/14", 
+        "Telefono": "095 7382501", 
+        "ID": "59"
+    }, 
+    {
+        "Nome": "Giuseppe Di Cataldo", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Qualifica": "professore ordinario", 
+        "Email": "gdicata@dieei.unict.it", 
+        "SSD": "ING-INF/01", 
+        "Telefono": "3207979282", 
+        "ID": "60"
+    }, 
+    {
+        "Indirizzo": "Viale Andrea Doria n. 6 - Ed. 13 - Studio 4", 
+        "Nome": "Loreto Di Donato", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Qualifica": "ricercatore", 
+        "Email": "loreto.didonato@dieei.unict.it", 
+        "SSD": "ING-INF/02", 
+        "Telefono": "+39 095 738 2383", 
+        "ID": "536"
+    }, 
+    {
+        "Indirizzo": "Dipartimento di Matematica e Informatica ", 
+        "Nome": "Giuseppe Natale Di Fazio", 
+        "Dipartimento": "Dipartimento di Matematica e Informatica", 
+        "Sito": "http://www.dmi.unict.it/~difazio/", 
+        "Qualifica": "professore ordinario", 
+        "Email": "difazio@dmi.unict.it", 
+        "SSD": "MAT/05", 
+        "Telefono": "095 7383016", 
+        "ID": "61"
+    }, 
+    {
+        "Nome": "Giuseppe Di Gregorio", 
+        "Dipartimento": "Dipartimento di Architettura", 
+        "Qualifica": "professore incaricato", 
+        "ID": "62", 
+        "SSD": "ICAR/17", 
+        "Email": "giuseppedigregorio@dau.unict.it"
+    }, 
+    {
+        "Indirizzo": "Viale A. Doria, 6", 
+        "Nome": "Carmela Di Mauro", 
+        "Dipartimento": "Dipartimento Ingegneria Civile e Ambientale", 
+        "Sito": "http://www.dica.unict.it/Personale/Docenti/Docenti.html", 
+        "Qualifica": "professore associato", 
+        "Email": "cdimauro@unict.it", 
+        "SSD": "ING-IND/35", 
+        "Telefono": "095/7382717", 
+        "ID": "497"
+    }, 
+    {
+        "Nome": "Giuseppe Di Modica", 
+        "Dipartimento": "Dipartimento di Ingegneria Civile e Architettura", 
+        "Sito": "http://www.diit.unict.it/users/gdimodica", 
+        "Qualifica": "professore incaricato", 
+        "ID": "609", 
+        "SSD": "ING-INF/05", 
+        "Email": "dimodica@unict.it"
+    }, 
+    {
+        "Indirizzo": "Edificio 10, V.le A.Doria 6, 95125 Catania", 
+        "Nome": "Giovanna Di Pasquale", 
+        "Dipartimento": "Dipartimento di Ingegneria Industriale", 
+        "Qualifica": "professore associato", 
+        "Email": "giovanna.dipasquale@dii.unict.it", 
+        "SSD": "CHIM/07", 
+        "Telefono": "095 7382754", 
+        "ID": "63"
+    }, 
+    {
+        "Nome": "Antonella Di Stefano", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Sito": "ant@diit.unict.it", 
+        "Qualifica": "professore ordinario", 
+        "ID": "64", 
+        "SSD": "ING-INF/05", 
+        "Email": "adistefa@diit.unict.it"
+    }, 
+    {
+        "Email": "adistefano@lex.unict.it", 
+        "Dipartimento": "Dipartimento Ingegneria Civile e Ambientale", 
+        "Qualifica": "assegnista", 
+        "ID": "399", 
+        "Nome": "Adriana Di Stefano"
+    }, 
+    {
+        "Indirizzo": "DMI - Viale A. Doria, 6. - Catania", 
+        "Nome": "Vincenza Di Stefano", 
+        "Dipartimento": "Dipartimento di Architettura", 
+        "Qualifica": "contrattista", 
+        "Email": "vdistefano@dmi.unict.it", 
+        "SSD": "MAT/07", 
+        "Telefono": "0957337219", 
+        "ID": "598"
+    }, 
+    {
+        "Dipartimento": "Dipartimento di Architettura", 
+        "Qualifica": "professore associato", 
+        "ID": "553", 
+        "Nome": "Edoardo Dotto"
+    }, 
+    {
+        "Indirizzo": "Studi C25 - DARC", 
+        "Nome": "Concetta Drago", 
+        "Dipartimento": "Dipartimento di Matematica e Informatica", 
+        "Qualifica": "contrattista", 
+        "Email": "concetta.drago@gmail.com", 
+        "SSD": "MAT/07", 
+        "ID": "587"
+    }, 
+    {
+        "Indirizzo": "Viale Andrea Doria, 6 Catania", 
+        "Nome": "Diego D'Urso", 
+        "Dipartimento": "Dipartimento di Ingegneria Industriale", 
+        "Qualifica": "contrattista", 
+        "Email": "ddurso@diim.unict.it", 
+        "SSD": "ING-IND/17", 
+        "Telefono": "+39 095 7382412", 
+        "ID": "214"
+    }, 
+    {
+        "Nome": "Sebastiano D'Urso", 
+        "Dipartimento": "Dipartimento di Architettura", 
+        "Qualifica": "ricercatore", 
+        "Email": "sdurso@dau.unict.it", 
+        "SSD": "ICAR/14", 
+        "Telefono": "095 7382516", 
+        "ID": "378"
+    }, 
+    {
+        "Nome": "Giovanni Emmanuele", 
+        "Dipartimento": "Dipartimento di Matematica e Informatica", 
+        "Sito": "http://www.dmi.unict.it/~emmanuele/", 
+        "Qualifica": "professore ordinario", 
+        "Email": "emmanuele@dmi.unict.it", 
+        "SSD": "MAT/05", 
+        "Telefono": "0957383055", 
+        "ID": "217"
+    }, 
+    {
+        "Dipartimento": "Dipartimento di Ingegneria Civile e Architettura", 
+        "Qualifica": "contrattista", 
+        "ID": "614", 
+        "Nome": "Gianpiero Evola"
+    }, 
+    {
+        "Indirizzo": "Citta Universitaria", 
+        "Nome": "Salvatore Failla", 
+        "Dipartimento": "Dipartimento di Ingegneria Industriale", 
+        "Qualifica": "professore ordinario", 
+        "Email": "sfailla@dii.unict.it", 
+        "SSD": "CHIM/07", 
+        "Telefono": "095 7382753", 
+        "ID": "65"
+    }, 
+    {
+        "Indirizzo": "Dipartimento Fisica e Astronomia, Citt\u00e0 Universitaria, Edificio 10", 
+        "Nome": "Giuseppe Falci", 
+        "Dipartimento": "Dipartimento di Fisica ed Astronomia", 
+        "Sito": "fisica.ing.unict.it", 
+        "Qualifica": "professore associato", 
+        "Email": "gfalci@dmfci.unict.it", 
+        "SSD": "FIS/03", 
+        "Telefono": "0957382806", 
+        "ID": "66"
+    }, 
+    {
+        "Indirizzo": "Citt\u00e0 Universitaria, vecchia sede Ingegneria (ed. 10) piano II", 
+        "Nome": "Filippo Falciglia", 
+        "Dipartimento": "Dipartimento di Fisica ed Astronomia", 
+        "Sito": "http://www.dmfci.unict.it/users/falciglia/", 
+        "Qualifica": "professore associato", 
+        "Email": "falciglia@dmfci.unict.it", 
+        "SSD": "FIS/01", 
+        "Telefono": "0957382801", 
+        "ID": "3"
+    }, 
+    {
+        "Indirizzo": "DMI - Blocco III - Stanza MII 21", 
+        "Nome": "Paolo Falsaperla ", 
+        "Dipartimento": "Dipartimento di Matematica e Informatica", 
+        "Sito": "http://www.dmi.unict.it/~falsaperla/", 
+        "Qualifica": "ricercatore", 
+        "Email": "falsaperla@dmi.unict.it", 
+        "SSD": "MAT/07", 
+        "Telefono": "095 738 3092", 
+        "ID": "539"
+    }, 
+    {
+        "Indirizzo": "Viale A. Doria 6, 95125 Catania", 
+        "Nome": "Maria Fanciullo", 
+        "Dipartimento": "Dipartimento di Matematica e Informatica", 
+        "Sito": "http://www.dmi.unict.it/~fanciullo/", 
+        "Qualifica": "ricercatore", 
+        "Email": "fanciullo@dmi.unict.it", 
+        "SSD": "MAT/05", 
+        "Telefono": "095 7383013", 
+        "ID": "542"
+    }, 
+    {
+        "Nome": "Francesca Faraci", 
+        "Dipartimento": "Dipartimento di Matematica e Informatica", 
+        "Qualifica": "professore associato", 
+        "Email": "ffaraci@dmi.unict.it", 
+        "SSD": "MAT/05", 
+        "Telefono": "095 7383063", 
+        "ID": "372"
+    }, 
+    {
+        "Indirizzo": "viale A. Doria 6", 
+        "Nome": "Giovanna Fargione", 
+        "Dipartimento": "Dipartimento di Ingegneria Industriale", 
+        "Sito": "sito dal dipartimento", 
+        "Qualifica": "ricercatore", 
+        "Email": "gfargion@diim.unict.it", 
+        "SSD": "ING-IND/14", 
+        "Telefono": "0957382419", 
+        "ID": "67"
+    }, 
+    {
+        "Nome": "Alberto Faro", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Qualifica": "professore ordinario", 
+        "Email": "afaro@diit.unict.it", 
+        "SSD": "ING-INF/05", 
+        "Telefono": "0957382372", 
+        "ID": "68"
+    }, 
+    {
+        "Nome": "Corrado Fianchino", 
+        "Dipartimento": "Dipartimento di Architettura", 
+        "Qualifica": "professore ordinario", 
+        "Email": "cfianchi@dau.unict.it", 
+        "SSD": "ICAR/10", 
+        "Telefono": "095/7382503", 
+        "ID": "69"
+    }, 
+    {
+        "Indirizzo": "viale A. Doria 6 95125 Catania, Edificio 13", 
+        "Nome": "Alberto Alfio Fichera", 
+        "Dipartimento": "Dipartimento di Ingegneria Industriale", 
+        "Qualifica": "professore ordinario", 
+        "Email": "afichera@diim.unict.it", 
+        "SSD": "ING-IND/10", 
+        "Telefono": "0957382450", 
+        "ID": "70"
+    }, 
+    {
+        "Indirizzo": "Viale A. Doria 6, 95125 Catania", 
+        "Nome": "Gabriele Fichera", 
+        "Dipartimento": "Dipartimento di Ingegneria Industriale", 
+        "Sito": "http://www.diim.unict.it/users/gfichera/", 
+        "Qualifica": "ricercatore", 
+        "Email": "gfichera@diim.unict.it", 
+        "SSD": "ING-IND/13", 
+        "Telefono": "0957382427", 
+        "ID": "71"
+    }, 
+    {
+        "Nome": "Sergio Fichera", 
+        "Dipartimento": "Dipartimento di Ingegneria Industriale", 
+        "Sito": "http://www.diim.unict.it/users/sfichera/", 
+        "Qualifica": "professore associato", 
+        "Email": "sfichera@diim.unict.it", 
+        "SSD": "ING-IND/16", 
+        "Telefono": "0957382411", 
+        "ID": "72"
+    }, 
+    {
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Qualifica": "professore ordinario", 
+        "ID": "624", 
+        "Nome": " Fine lezione"
+    }, 
+    {
+        "Indirizzo": "DMI Blocco III", 
+        "Nome": "Giovanni Fiorito", 
+        "Dipartimento": "Dipartimento di Matematica e Informatica", 
+        "Sito": "http://scuolaoggi.blog.kataweb.it", 
+        "Qualifica": "professore associato", 
+        "Email": "fiorito@dmi.unict.it", 
+        "SSD": "MAT/05", 
+        "Telefono": "0957383014", 
+        "ID": "74"
+    }, 
+    {
+        "Indirizzo": "Universit\u00e0 degli Studi di Catania, Facolt\u00e0 di Ingegneria, Viale A. Doria 6, 95125 Catania", 
+        "Nome": "Luigi Fortuna", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Qualifica": "professore ordinario", 
+        "Email": "lfortuna@diees.unict.it", 
+        "SSD": "ING-INF/04", 
+        "Telefono": "00390957382007", 
+        "ID": "4"
+    }, 
+    {
+        "Nome": "Enrico Foti", 
+        "Dipartimento": "Dipartimento Ingegneria Civile e Ambientale", 
+        "Qualifica": "professore ordinario", 
+        "ID": "76", 
+        "SSD": "ICAR/01", 
+        "Email": "efoti@dica.unict.it"
+    }, 
+    {
+        "Indirizzo": "Facolt\u00e0 di Ingegneria, Universit\u00e0 degli Studi di Catania, Polifunzionale (room 29), Viale A. Doria 6, 95125 Catania, Italy", 
+        "Nome": "Mattia Frasca", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Sito": "http://www.dees.unict.it/mfrasca/home.html", 
+        "Qualifica": "ricercatore", 
+        "Email": "mfrasca@diees.unict.it", 
+        "SSD": "ING-INF/04", 
+        "Telefono": "00390957382307", 
+        "ID": "221"
+    }, 
+    {
+        "Indirizzo": "viale andrea doria - 6 edif. 13", 
+        "Nome": "Antonio Gagliano", 
+        "Dipartimento": "Dipartimento di Ingegneria Industriale", 
+        "Qualifica": "ricercatore", 
+        "Email": "AGAGLIANO@DII.UNICT.IT", 
+        "SSD": "ING-IND/11", 
+        "Telefono": "0957382451", 
+        "ID": "78"
+    }, 
+    {
+        "Indirizzo": "V.le A.Doria, 6", 
+        "Nome": "Maria Teresa Galizia", 
+        "Dipartimento": "Dipartimento di Architettura", 
+        "Sito": "http://www.darc.unict.it/index.php/ita/Users/Personale/Docenti-strutturati/Galizia-Mariateresa", 
+        "Qualifica": "ricercatore", 
+        "Email": "mgalizia@dau.unict.it", 
+        "SSD": "ICAR/17", 
+        "Telefono": "0957382522-7382525", 
+        "ID": "223"
+    }, 
+    {
+        "Indirizzo": "viale Andrea Doria n. 6 -  95125 CATANIA", 
+        "Nome": "Antonio Gallo", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Qualifica": "professore ordinario", 
+        "Email": "Antonio.Gallo@dieei.unict.it", 
+        "SSD": "ING-INF/04", 
+        "Telefono": "0957382310", 
+        "ID": "79"
+    }, 
+    {
+        "Indirizzo": "Cittadella Universitaria, Edificio 13, Stanza 1, V.le A. Doria 6, 95125 Catania", 
+        "Nome": "Laura Galluccio", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Sito": "http://www.diit.unict.it/users/lgalluccio", 
+        "Qualifica": "ricercatore", 
+        "Email": "lgalluccio@diit.unict.it", 
+        "SSD": "ING-INF/03", 
+        "Telefono": "+39 095 738 2384", 
+        "ID": "376"
+    }, 
+    {
+        "Nome": "Simona Gatto", 
+        "Dipartimento": "Dipartimento di Architettura", 
+        "Qualifica": "contrattista", 
+        "ID": "599", 
+        "SSD": "ICAR/18", 
+        "Email": "gattosmn@gmail.com"
+    }, 
+    {
+        "Indirizzo": "Viale A. Doria 6 Edificio 3 (Polifunzionale)", 
+        "Nome": "Alberto Geraci", 
+        "Dipartimento": "Dipartimento di Ingegneria Industriale", 
+        "Qualifica": "professore ordinario", 
+        "Email": "ageraci@dii.unict.it", 
+        "SSD": "ING-IND/14", 
+        "Telefono": "095-7382416", 
+        "ID": "80"
+    }, 
+    {
+        "Indirizzo": "Viale A. Doria 6, Edificio Polifunzionale", 
+        "Nome": "Aurelio Ghersi", 
+        "Dipartimento": "Dipartimento Ingegneria Civile e Ambientale", 
+        "Sito": "http://www.dica.unict.it/users/aghersi/index.htm", 
+        "Qualifica": "professore ordinario", 
+        "Email": "aghersi@dica.unict.it", 
+        "SSD": "ICAR/09", 
+        "Telefono": "095-7382267", 
+        "ID": "81"
+    }, 
+    {
+        "Nome": "Gaetano Giaquinta", 
+        "Dipartimento": "Dipartimento di Ingegneria Industriale", 
+        "Qualifica": "professore ordinario", 
+        "ID": "82", 
+        "Telefono": "0957382810", 
+        "Email": "ggiaquin@dmfci.unict.it"
+    }, 
+    {
+        "Nome": "Daniela Giordano", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Qualifica": "professore associato", 
+        "Email": "daniela.giordano@dieei.unict.it", 
+        "SSD": "ING-INF/05", 
+        "Telefono": "095 7382371", 
+        "ID": "83"
+    }, 
+    {
+        "Nome": "Alessandro Giordano", 
+        "Dipartimento": "Dipartimento di Ingegneria Civile e Architettura", 
+        "Sito": "www.cmm.it/autodesk", 
+        "Qualifica": "contrattista", 
+        "ID": "227", 
+        "Telefono": "347 8024300", 
+        "Email": "giordan.alex@gmail.com"
+    }, 
+    {
+        "SSD": "MAT/03", 
+        "Dipartimento": "Dipartimento di Matematica e Informatica", 
+        "Qualifica": "professore ordinario", 
+        "ID": "84", 
+        "Nome": "Salvatore Giuffrida"
+    }, 
+    {
+        "Dipartimento": "Dipartimento di Ingegneria Industriale", 
+        "Qualifica": "contrattista", 
+        "ID": "514", 
+        "Nome": "Antonio Giusa"
+    }, 
+    {
+        "Indirizzo": "DIEEI - Universit\u00e0 di Catania, Viale A. Doria 6, ed. 3, 95125 Catania", 
+        "Nome": "Gianluca Giustolisi", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Qualifica": "professore associato", 
+        "Email": "gianluca.giustolisi@dieei.unict.it", 
+        "SSD": "ING-INF/01", 
+        "Telefono": "0957382300", 
+        "ID": "86"
+    }, 
+    {
+        "Indirizzo": "viale Andrea Doria, 6 - Blocco 10", 
+        "Nome": "Maria Fiorella Granata", 
+        "Dipartimento": "Dipartimento Ingegneria Civile e Ambientale", 
+        "Qualifica": "assegnista", 
+        "Email": "mfgranata@dica.unict.it", 
+        "SSD": "ICAR/22", 
+        "Telefono": "095-7382711", 
+        "ID": "380"
+    }, 
+    {
+        "Indirizzo": "Viale A. Doria, 6 95125 Catania - Italy", 
+        "Nome": "Giovanni Grasso", 
+        "Dipartimento": "Dipartimento di Ingegneria Industriale", 
+        "Qualifica": "ricercatore", 
+        "Email": "ggrasso@diim.unict.it", 
+        "SSD": "ING-IND/14", 
+        "Telefono": "+39 095 7382406", 
+        "ID": "87"
+    }, 
+    {
+        "Indirizzo": "Viale A: Doria 6", 
+        "Nome": "Salvatore Grasso", 
+        "Dipartimento": "Dipartimento di Ingegneria Civile e Architettura", 
+        "Sito": "http://www.dicar.unict.it/Personale/Docenti/Docenti/Grasso.html", 
+        "Qualifica": "ricercatore", 
+        "Email": "sgrasso@dica.unict.it", 
+        "SSD": "ICAR/07", 
+        "Telefono": "+390957382222", 
+        "ID": "339"
+    }, 
+    {
+        "Email": "sograsso@dau.unict.it", 
+        "Dipartimento": "Dipartimento di Architettura", 
+        "Qualifica": "contrattista", 
+        "ID": "405", 
+        "Nome": "Sonia Grasso"
+    }, 
+    {
+        "Indirizzo": "viale A. Doria, 6", 
+        "Nome": "Alfio Dario Grasso", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Sito": "http://www.dieei.unict.it/it/personale/alfio.grasso@dieei.unict.it", 
+        "Qualifica": "professore associato", 
+        "Email": "agrasso@dieei.unict.it", 
+        "SSD": "ING-INF/01", 
+        "Telefono": "+39 095 738 2317", 
+        "ID": "521"
+    }, 
+    {
+        "Indirizzo": "Via S SOFIA 64  Catania", 
+        "Nome": "Filippo Gravagno", 
+        "Dipartimento": "Dipartimento di Ingegneria Civile e Architettura", 
+        "Qualifica": "professore associato", 
+        "Email": "filippogravagno@virgilio.it", 
+        "SSD": "ICAR/20", 
+        "Telefono": "0957382512", 
+        "ID": "229"
+    }, 
+    {
+        "Indirizzo": "viale andrea doria 6 95125 Catania", 
+        "Nome": "Salvatore Graziani", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Qualifica": "professore associato", 
+        "Email": "salvatore.graziani@dieei.unict.it", 
+        "SSD": "ING-INF/07", 
+        "Telefono": "+390957382327", 
+        "ID": "88"
+    }, 
+    {
+        "Indirizzo": "V.le Andrea Doria 6 95125 Catania", 
+        "Nome": "Annalisa Maria Greco", 
+        "Dipartimento": "Dipartimento Ingegneria Civile e Ambientale", 
+        "Sito": "http://www.dica.unict.it/users/agreco/agreco.htm", 
+        "Qualifica": "professore associato", 
+        "Email": "agreco@dica.unict.it", 
+        "SSD": "ICAR/08", 
+        "Telefono": "0039-0957382251", 
+        "ID": "89"
+    }, 
+    {
+        "Dipartimento": "Dipartimento di Ingegneria Industriale", 
+        "Qualifica": "contrattista", 
+        "ID": "605", 
+        "Nome": "Leopoldo Greco"
+    }, 
+    {
+        "Indirizzo": "Dip. di Mat e Inf. Viale A. Doria 6, 95100, Catania", 
+        "Nome": "Elena Guardo", 
+        "Dipartimento": "Dipartimento di Matematica e Informatica", 
+        "Sito": "http://www.dmi.unict.it/~guardo", 
+        "Qualifica": "professore associato", 
+        "Email": "guardo@dmi.unict.it", 
+        "SSD": "MAT/03", 
+        "Telefono": "0957383068", 
+        "ID": "90"
+    }, 
+    {
+        "Indirizzo": "Dipartimento di Matematica e Informatica, Viale Andrea Doria 6", 
+        "Nome": "Antonio Iannizzotto", 
+        "Dipartimento": "Dipartimento di Matematica e Informatica", 
+        "Sito": "http://www.dmi.unict.it/~iannizzotto/Home.html.html", 
+        "Qualifica": "contrattista", 
+        "Email": "iannizzotto@dmi.unict.it", 
+        "SSD": "MAT/05", 
+        "Telefono": "+390957383093", 
+        "ID": "530"
+    }, 
+    {
+        "Indirizzo": "viale a doria 6 - citt\u00e0 universitaria -", 
+        "Nome": "Matteo Ignaccolo", 
+        "Dipartimento": "Dipartimento Ingegneria Civile e Ambientale", 
+        "Qualifica": "professore associato", 
+        "Email": "ignaccol@dica.unict.it", 
+        "SSD": "ICAR/05", 
+        "Telefono": "095 7382216", 
+        "ID": "91"
+    }, 
+    {
+        "Nome": "Giuseppe Inturri", 
+        "Dipartimento": "Dipartimento Ingegneria Civile e Ambientale", 
+        "Qualifica": "ricercatore", 
+        "Email": "ginturri@dica.unict.it", 
+        "SSD": "ICAR/05", 
+        "Telefono": "095 7382220", 
+        "ID": "93"
+    }, 
+    {
+        "Nome": "Monica La Barbiera", 
+        "Dipartimento": "Dipartimento di Ingegneria Industriale", 
+        "Sito": "http://algebralineare-geometria.webnode.it/", 
+        "Qualifica": "contrattista", 
+        "ID": "608", 
+        "SSD": "MAT/03", 
+        "Email": "monicalb@unime.it"
+    }, 
+    {
+        "Indirizzo": "V.le A. Doria 6 - Edificio polifunzionale - Piano 6\u00b0 - Stanza 24", 
+        "Nome": "Michele Lacagnina", 
+        "Dipartimento": "Dipartimento di Ingegneria Industriale", 
+        "Sito": "http://www.dii.unict.it/users/mlacagni/", 
+        "Qualifica": "professore associato", 
+        "Email": "mlacagnina@dii.unict.it", 
+        "SSD": "ING-IND/13", 
+        "Telefono": "0957382425", 
+        "ID": "97"
+    }, 
+    {
+        "Nome": "Aurelio La Corte", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Qualifica": "professore associato", 
+        "Email": "aurelio.lacorte@dieei.unict.it", 
+        "SSD": "ING-INF/03", 
+        "Telefono": "0957382356", 
+        "ID": "94"
+    }, 
+    {
+        "Indirizzo": "Dipartimento di Architettura - Edificio 4 - Via Santa Sofia, 64 - 95123 Catania", 
+        "Nome": "Paolo La Greca", 
+        "Dipartimento": "Dipartimento di Architettura", 
+        "Qualifica": "professore ordinario", 
+        "Email": "paolo.lagreca@darc.unict.it", 
+        "SSD": "ICAR/20", 
+        "Telefono": "0957382511", 
+        "ID": "95"
+    }, 
+    {
+        "Indirizzo": "Viale A. Doria, 6 - 95125 Catania", 
+        "Nome": "Rosario Lanzafame", 
+        "Dipartimento": "Dipartimento di Ingegneria Industriale", 
+        "Sito": "http://www.diim.unict.it/users/rlanzafa", 
+        "Qualifica": "professore ordinario", 
+        "Email": "rlanzafa@diim.unict.it", 
+        "SSD": "ING-IND/09", 
+        "Telefono": "+390957382414", 
+        "ID": "98"
+    }, 
+    {
+        "Nome": "Guido La Rosa", 
+        "Dipartimento": "Dipartimento di Ingegneria Industriale", 
+        "Qualifica": "professore ordinario", 
+        "Email": "glarosa@diim.unict.it", 
+        "SSD": "ING-IND/14", 
+        "Telefono": "09507382413", 
+        "ID": "96"
+    }, 
+    {
+        "Nome": "Santi Daniele La Rosa", 
+        "Dipartimento": "Dipartimento di Ingegneria Civile e Architettura", 
+        "Sito": "http://www.unict.academia.edu/DanieleLaRosa", 
+        "Qualifica": "ricercatore", 
+        "Email": "dlarosa@darc.unict.it", 
+        "SSD": "ICAR/20", 
+        "Telefono": "0957382523", 
+        "ID": "559"
+    }, 
+    {
+        "Qualifica": "professore ordinario", 
+        "ID": "581", 
+        "Nome": " Lavori in corso"
+    }, 
+    {
+        "Dipartimento": "Dipartimento Ingegneria Civile e Ambientale", 
+        "Qualifica": "professore ordinario", 
+        "ID": "595", 
+        "Nome": " Lavori Manutenzioni"
+    }, 
+    {
+        "Indirizzo": "Viale Andrea Doria 6 - 95125 Catania", 
+        "Nome": "Salvatore Leonardi", 
+        "Dipartimento": "Dipartimento di Ingegneria Civile e Architettura", 
+        "Sito": "http://www.stradelandia.it", 
+        "Qualifica": "professore associato", 
+        "Email": "sleona@dica.unict.it", 
+        "SSD": "ICAR/04", 
+        "Telefono": "0957382202", 
+        "ID": "99"
+    }, 
+    {
+        "Indirizzo": "Edificio 5 (III Blocco -  Ufficio 52), Universit\u00e0 degli Studi di Catania, Viale A. Doria 6 - 95125 Catania - Italy ", 
+        "Nome": "Salvatore Leonardi", 
+        "Dipartimento": "Dipartimento di Matematica e Informatica", 
+        "Sito": "http://www.dmi.unict.it/~leonardi/CV.doc", 
+        "Qualifica": "professore associato", 
+        "Email": "leonardi@dmi.unict.it", 
+        "SSD": "MAT/05", 
+        "Telefono": "0957383021", 
+        "ID": "302"
+    }, 
+    {
+        "Nome": "Alessandro Leonardi", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Sito": "http://www.diit.unict.it/users/aleonardi/index.html", 
+        "Qualifica": "assegnista", 
+        "ID": "504", 
+        "SSD": "ING-INF/03", 
+        "Email": "aleonardi@dieei.unict.it"
+    }, 
+    {
+        "Nome": "Lorenzo Leone", 
+        "Dipartimento": "Dipartimento Ingegneria Civile e Ambientale", 
+        "Qualifica": "professore associato", 
+        "Email": "lleone@dica.unict.it", 
+        "SSD": "ICAR/06", 
+        "Telefono": "0957382218", 
+        "ID": "100"
+    }, 
+    {
+        "Indirizzo": "Viale A. Doria, 6 - 95125 Catania, Italy", 
+        "Nome": "Lucia Lo Bello", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Sito": "http://lobello.dieei.unict.it", 
+        "Qualifica": "professore associato", 
+        "Email": "lobello@unict.it", 
+        "SSD": "ING-INF/05", 
+        "Telefono": "+390957382386", 
+        "ID": "103"
+    }, 
+    {
+        "Indirizzo": "V piano Polifunzionale, v.le A Doria 6 Catania ", 
+        "Nome": "Alfio Lombardo", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Qualifica": "professore ordinario", 
+        "Email": "alfio.lombardo@dieei.unict.it", 
+        "SSD": "ING-INF/03", 
+        "Telefono": "+39 095 7382376", 
+        "ID": "106"
+    }, 
+    {
+        "Indirizzo": "viale A. Doria n.6, Catania", 
+        "Nome": "Grazia Lombardo", 
+        "Dipartimento": "Dipartimento di Architettura", 
+        "Qualifica": "professore associato", 
+        "Email": "glombardo@dau.unict.it", 
+        "SSD": "ICAR/10", 
+        "Telefono": "0957382505", 
+        "ID": "107"
+    }, 
+    {
+        "Dipartimento": "Dipartimento di Matematica e Informatica", 
+        "Qualifica": "ricercatore", 
+        "ID": "538", 
+        "Nome": "Sebastiano Lombardo"
+    }, 
+    {
+        "Email": "lomonaco@ct.infn.it", 
+        "Dipartimento": "Dipartimento di Fisica ed Astronomia", 
+        "Qualifica": "professore associato", 
+        "ID": "519", 
+        "Nome": "Luigi Lo Monaco "
+    }, 
+    {
+        "Email": "alongheu@diit.unict.it", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Qualifica": "contrattista", 
+        "ID": "265", 
+        "Nome": "Alessandro Longheu"
+    }, 
+    {
+        "Indirizzo": "Viale Andrea Doria, n. 6", 
+        "Nome": "Antonino Longo", 
+        "Dipartimento": "Dipartimento di Architettura", 
+        "Qualifica": "professore associato", 
+        "Email": "alongo@dau.unict.it", 
+        "Telefono": "095/7382530", 
+        "ID": "435"
+    }, 
+    {
+        "Indirizzo": "Viale Andrea Doria, 6 - Catania", 
+        "Nome": "Fabio Lo Savio", 
+        "Dipartimento": "Dipartimento di Ingegneria Industriale", 
+        "Qualifica": "ricercatore", 
+        "Email": "flosavio@dii.unict.it", 
+        "SSD": "ING-IND/12", 
+        "Telefono": "0957382406", 
+        "ID": "104"
+    }, 
+    {
+        "Nome": "Armando Majorana", 
+        "Dipartimento": "Dipartimento di Ingegneria Industriale", 
+        "Sito": "http://www.dii.unict.it/users/majorana/", 
+        "Qualifica": "professore ordinario", 
+        "Email": "majorana@dii.unict.it", 
+        "SSD": "MAT/07", 
+        "Telefono": "095 738 2415", 
+        "ID": "527"
+    }, 
+    {
+        "Indirizzo": "Fac. Ingegneria - viale Andrea Doria, 6", 
+        "Nome": "Michele Malgeri", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Sito": "https://giove.diit.unict.it/michele", 
+        "Qualifica": "professore associato", 
+        "Email": "michele.malgeri@diit.unict.it", 
+        "Telefono": "+39 095 738 2360", 
+        "ID": "108"
+    }, 
+    {
+        "Indirizzo": "Viale Andrea Doria 6, edificio 10", 
+        "Nome": "Antonino Mamo", 
+        "Dipartimento": "Dipartimento di Ingegneria Industriale", 
+        "Qualifica": "professore ordinario", 
+        "Email": "mamo@dii.unict.it", 
+        "SSD": "ING-IND/27", 
+        "Telefono": "095-7382756", 
+        "ID": "109"
+    }, 
+    {
+        "Indirizzo": "Cittadella Universitaria viale A.Doria 6 95125 CT edificio 10 piano terra", 
+        "Nome": "Giuseppe Mancini", 
+        "Dipartimento": "Dipartimento di Ingegneria Industriale", 
+        "Sito": "http://www.diim.unict.it/users/gmancini/", 
+        "Qualifica": "ricercatore", 
+        "Email": "gmancini@dii.unict.it", 
+        "SSD": "ICAR/03", 
+        "Telefono": "095 7382755", 
+        "ID": "110"
+    }, 
+    {
+        "Indirizzo": "DIEEI - Ed. 13, Viale A. Doria, 6. I95125, Catania, Italy", 
+        "Nome": "Giuseppe Mangioni", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Sito": "http://www.dieei.unict.it/users/gmangioni", 
+        "Qualifica": "ricercatore", 
+        "Email": "giuseppe.mangioni@dieei.unict.it", 
+        "SSD": "ING-INF/05", 
+        "Telefono": "+39 095 7382380", 
+        "ID": "263"
+    }, 
+    {
+        "Indirizzo": "DFA, Universit\u00e0 di Catania, via Santa Sofia 64, 95123 Catania", 
+        "Nome": "Giulio Manico", 
+        "Dipartimento": "Dipartimento di Fisica ed Astronomia", 
+        "Sito": "http://www.dmfci.unict.it/users/gmanico/didattica.html", 
+        "Qualifica": "ricercatore", 
+        "Email": "gmanico@dmfci.unict.it", 
+        "SSD": "FIS/01", 
+        "Telefono": "0957382821", 
+        "ID": "111"
+    }, 
+    {
+        "Indirizzo": "DMI, Viale A. Doria 6, 95125 Catania", 
+        "Nome": "Salvatore Angelo Marano", 
+        "Dipartimento": "Dipartimento di Matematica e Informatica", 
+        "Sito": "http://web.dmi.unict.it/~marano/", 
+        "Qualifica": "professore ordinario", 
+        "Email": "marano@dmi.unict.it", 
+        "SSD": "MAT/05", 
+        "Telefono": "0957383049", 
+        "ID": "430"
+    }, 
+    {
+        "Nome": "Davide Marano", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Qualifica": "ricercatore", 
+        "ID": "618", 
+        "SSD": "ING-INF/01", 
+        "Email": "dmarano@diees.unict.it"
+    }, 
+    {
+        "Indirizzo": "Via Santa Sofia, 64 - 95123 Catania", 
+        "Nome": "Giuseppe Margani", 
+        "Dipartimento": "Dipartimento di Architettura", 
+        "Qualifica": "professore associato", 
+        "Email": "margani@unict.it", 
+        "SSD": "ICAR/10", 
+        "Telefono": "0957382509", 
+        "ID": "330"
+    }, 
+    {
+        "Email": "amarine@dica.unict.it", 
+        "Dipartimento": "Dipartimento Ingegneria Civile e Ambientale", 
+        "Qualifica": "professore associato", 
+        "ID": "113", 
+        "Nome": "Agesilao Marinetti"
+    }, 
+    {
+        "Indirizzo": "Viale Andrea Doria 6 Catania ", 
+        "Nome": "Lucia Marino", 
+        "Dipartimento": "Dipartimento di Matematica e Informatica", 
+        "Sito": "http://www.dmi.unict.it/~lmarino/", 
+        "Qualifica": "ricercatore", 
+        "Email": "lmarino@dmi.unict.it", 
+        "SSD": "MAT/03", 
+        "Telefono": "0957383006", 
+        "ID": "272"
+    }, 
+    {
+        "Indirizzo": "V. le A. Doria, 6 - Edificio polifunzionale, 4\u00b0 piano", 
+        "Nome": "Edoardo Marino", 
+        "Dipartimento": "Dipartimento Ingegneria Civile e Ambientale", 
+        "Sito": "http://www.dica.unict.it/users/emarino/Marino.htm", 
+        "Qualifica": "ricercatore", 
+        "Email": "emarino@dica.unict.it", 
+        "SSD": "ICAR/09", 
+        "Telefono": "+39 095 7382274", 
+        "ID": "313"
+    }, 
+    {
+        "Indirizzo": "Viale A. Doria 6, 95125 Catania - Italy", 
+        "Nome": "Luigi Marletta", 
+        "Dipartimento": "Dipartimento di Ingegneria Industriale", 
+        "Qualifica": "professore ordinario", 
+        "Email": "luigi.marletta@dii.unict.it", 
+        "SSD": "ING-IND/11", 
+        "Telefono": "0957382454", 
+        "ID": "114"
+    }, 
+    {
+        "Email": "fmartinico@dau.unict.it", 
+        "Dipartimento": "Dipartimento di Architettura", 
+        "Qualifica": "professore associato", 
+        "ID": "115", 
+        "Nome": "Francesco Martinico"
+    }, 
+    {
+        "Nome": "Francesco Mascali", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Qualifica": "contrattista", 
+        "Email": "fmascali@dica.unict.it", 
+        "SSD": "ING-IND/35", 
+        "Telefono": "3289423665", 
+        "ID": "611"
+    }, 
+    {
+        "Indirizzo": "viale A. Doria, 6 Catania", 
+        "Nome": "Maria Massimino", 
+        "Dipartimento": "Dipartimento di Ingegneria Civile e Architettura", 
+        "Qualifica": "professore associato", 
+        "Email": "mmassimi@dica.unict.it", 
+        "SSD": "ICAR/07", 
+        "Telefono": "00390957382209", 
+        "ID": "239"
+    }, 
+    {
+        "Indirizzo": "Viale A. Doria 6 - 95125 - Catania", 
+        "Nome": "Michele Maugeri", 
+        "Dipartimento": "Dipartimento Ingegneria Civile e Ambientale", 
+        "Qualifica": "professore ordinario", 
+        "Email": "mmaugeri@dica.unict.it", 
+        "SSD": "ICAR/07", 
+        "Telefono": "095-7382205  ", 
+        "ID": "116"
+    }, 
+    {
+        "Dipartimento": "Dipartimento di Ingegneria Industriale", 
+        "Qualifica": "cultore della materia", 
+        "ID": "612", 
+        "Nome": "Stefano Mauro"
+    }, 
+    {
+        "Email": "gaetano.messina@dieei.unict.it", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Qualifica": "professore associato", 
+        "ID": "117", 
+        "Nome": "Gaetano Messina"
+    }, 
+    {
+        "Indirizzo": "Viale A. Doria, 6 - 95125 Catania", 
+        "Nome": "Michele Messina", 
+        "Dipartimento": "Dipartimento di Ingegneria Industriale", 
+        "Sito": "http://www.diim.unict.it/users/mmessina", 
+        "Qualifica": "professore associato", 
+        "Email": "mmessina@diim.unict.it", 
+        "SSD": "ING-IND/08", 
+        "Telefono": "+39 095 7382426", 
+        "ID": "322"
+    }, 
+    {
+        "Indirizzo": "Viale A. Doria, 6 - 95125 Catania", 
+        "Nome": "Lorenzo Maria Milazzo", 
+        "Dipartimento": "Dipartimento di Matematica e Informatica", 
+        "Sito": "http://www.dmi.unict.it/~milazzo/", 
+        "Qualifica": "professore associato", 
+        "Email": "milazzo@dmi.unict.it", 
+        "SSD": "MAT/03", 
+        "Telefono": "095-7383072", 
+        "ID": "119"
+    }, 
+    {
+        "Dipartimento": "Dipartimento di Matematica e Informatica", 
+        "Qualifica": "professore ordinario", 
+        "ID": "593", 
+        "Nome": "Salvatore Milici"
+    }, 
+    {
+        "Email": "mgmilitello@lex.unict.it", 
+        "Dipartimento": "Dipartimento Ingegneria Civile e Ambientale", 
+        "Qualifica": "ricercatore", 
+        "ID": "446", 
+        "Nome": "Mariagrazia Militello"
+    }, 
+    {
+        "Indirizzo": "viale A.Doria 6, 95125 Catania, Italy", 
+        "Nome": "Orazio Mirabella", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Sito": "http://netlab.diit.unict.it", 
+        "Qualifica": "professore ordinario", 
+        "Email": "omirabel@diit.unict.it", 
+        "SSD": "ING-INF/05", 
+        "Telefono": "0957382361", 
+        "ID": "120"
+    }, 
+    {
+        "Indirizzo": "Viale A. Doria 6, 95125 Catania - Italy", 
+        "Nome": "Giuseppe Mirone", 
+        "Dipartimento": "Dipartimento di Ingegneria Industriale", 
+        "Sito": "http://www.diim.unict.it/users/gmirone/index.html", 
+        "Qualifica": "professore associato", 
+        "Email": "gmirone@diim.unict.it", 
+        "SSD": "ING-IND/14", 
+        "Telefono": "+390957382418", 
+        "ID": "385"
+    }, 
+    {
+        "Indirizzo": "Vialee A. Doria 6, 95125 CATANIA", 
+        "Nome": "Carlo Modica", 
+        "Dipartimento": "Dipartimento Ingegneria Civile e Ambientale", 
+        "Qualifica": "professore ordinario", 
+        "Email": "cmodica@dica.unict.it", 
+        "SSD": "ICAR/02", 
+        "Telefono": "095 7382709", 
+        "ID": "121"
+    }, 
+    {
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Qualifica": "contrattista", 
+        "ID": "616", 
+        "Nome": "Salvatore Monteleone"
+    }, 
+    {
+        "Indirizzo": "DIEEI - V.le A. Doria, 6 - 95125, Catania", 
+        "Nome": "Giacomo Morabito", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Sito": "http://www.diit.unict.it/users/gmorabi/", 
+        "Qualifica": "professore associato", 
+        "Email": "giacomo.morabito@diit.unict.it", 
+        "SSD": "ING-INF/03", 
+        "Telefono": "095 7382355", 
+        "ID": "122"
+    }, 
+    {
+        "Nome": "Angela Moschella", 
+        "Dipartimento": "Dipartimento di Architettura", 
+        "Qualifica": "ricercatore", 
+        "Email": "moschel@dau.unict.it", 
+        "SSD": "ICAR/11", 
+        "Telefono": "0957382532", 
+        "ID": "349"
+    }, 
+    {
+        "Nome": "G. Moschetti", 
+        "Dipartimento": "Dipartimento di Matematica e Informatica", 
+        "Sito": "www.dmi.unict.it/~moschetti/mapli1", 
+        "Qualifica": "ricercatore", 
+        "ID": "522", 
+        "SSD": "MAT/07", 
+        "Email": "moschetti@dmi.unict.it"
+    }, 
+    {
+        "Nome": "Sunra Mosconi", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Qualifica": "contrattista", 
+        "ID": "615", 
+        "SSD": "MAT/05", 
+        "Email": "mosconi@dmi.unict.it"
+    }, 
+    {
+        "Nome": "Ernesto Motta", 
+        "Dipartimento": "Dipartimento Ingegneria Civile e Ambientale", 
+        "Qualifica": "professore associato", 
+        "ID": "123", 
+        "Telefono": "0957382214", 
+        "Email": "emotta@dica.unict.it"
+    }, 
+    {
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Qualifica": "contrattista", 
+        "ID": "620", 
+        "Nome": "Mariolina Munda"
+    }, 
+    {
+        "Indirizzo": "viale A. Doria 6", 
+        "Nome": "Giovanni Muscato", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Sito": "www.muscato.eu", 
+        "Qualifica": "professore ordinario", 
+        "Email": "gmuscato@dieei.unict.it", 
+        "SSD": "ING-INF/04", 
+        "Telefono": "095-7382321", 
+        "ID": "125"
+    }, 
+    {
+        "Indirizzo": "Viale A. Doria 6, 95125 Catania", 
+        "Nome": "Orazio Muscato", 
+        "Dipartimento": "Dipartimento di Matematica e Informatica", 
+        "Sito": "http://www.dmi.unict.it/~muscato/", 
+        "Qualifica": "professore associato", 
+        "Email": "muscato at dmi unict.it", 
+        "SSD": "MAT/07", 
+        "ID": "523"
+    }, 
+    {
+        "Indirizzo": "Viale Andrea Doria n.6, Edificio 3, piano 4, Studio 10", 
+        "Nome": "Giuseppe Mussumeci", 
+        "Dipartimento": "Dipartimento Ingegneria Civile e Ambientale", 
+        "Sito": "http://www.dica.unict.it/Personale/Docenti/Docenti.html", 
+        "Qualifica": "professore associato", 
+        "Email": "g.mussumeci@dica.unict.it", 
+        "SSD": "ICAR/06", 
+        "Telefono": "0957382212-25", 
+        "ID": "126"
+    }, 
+    {
+        "Nome": "Agatino Musumarra", 
+        "Dipartimento": "Dipartimento di Fisica ed Astronomia", 
+        "Sito": "http://www.lns.infn.it/~musumarra/", 
+        "Qualifica": "professore associato", 
+        "Email": "musumarra@lns.infn.it", 
+        "SSD": "FIS/01", 
+        "Telefono": "095542352", 
+        "ID": "127"
+    }, 
+    {
+        "Indirizzo": "Edificio DFA stanza 339", 
+        "Nome": "Francesco Musumeci", 
+        "Dipartimento": "Dipartimento di Fisica ed Astronomia", 
+        "Sito": "http://www.dmfci.unict.it/users/demone/", 
+        "Qualifica": "professore ordinario", 
+        "Email": "fmusumeci@dmfci.unict.it", 
+        "SSD": "FIS/07", 
+        "Telefono": "095542464-0953785330", 
+        "ID": "128"
+    }, 
+    {
+        "Nome": "Rosaria Musumeci", 
+        "Dipartimento": "Dipartimento Ingegneria Civile e Ambientale", 
+        "Qualifica": "ricercatore", 
+        "ID": "303", 
+        "SSD": "ICAR/01", 
+        "Email": "rmusume@dica.unict.it"
+    }, 
+    {
+        "Email": "fneri@dica.unict.it", 
+        "Dipartimento": "Dipartimento Ingegneria Civile e Ambientale", 
+        "Qualifica": "contrattista", 
+        "ID": "317", 
+        "Nome": "Fabio Neri"
+    }, 
+    {
+        "Indirizzo": "Viale A. Doria, 6 - 95125 Catania", 
+        "Nome": "Giuseppe Nunnari", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Sito": "http://www.dees.unict.it/gnunnari/", 
+        "Qualifica": "professore ordinario", 
+        "Email": "gnunnari@diees.unict.it", 
+        "SSD": "ING-INF/04", 
+        "Telefono": "0957382306", 
+        "ID": "129"
+    }, 
+    {
+        "Indirizzo": "Viale Andrea Doria, 6 (Polifunzionale)   95125 Catania", 
+        "Nome": "Salvatore Massimo Oliveri", 
+        "Dipartimento": "Dipartimento di Ingegneria Industriale", 
+        "Sito": "http://www.diim.unict.it/users/moliveri/", 
+        "Qualifica": "professore ordinario", 
+        "Email": "moliveri@diim.unict.it", 
+        "SSD": "ING-IND/15", 
+        "Telefono": "095/7382404", 
+        "ID": "131"
+    }, 
+    {
+        "Nome": "Giuseppe Oliveto", 
+        "Dipartimento": "Dipartimento Ingegneria Civile e Ambientale", 
+        "Qualifica": "professore ordinario", 
+        "ID": "132", 
+        "Telefono": "0957382258", 
+        "Email": "goliveto@dica.unict.it"
+    }, 
+    {
+        "Indirizzo": "apagano@dii.unict.it", 
+        "Nome": "Arturo Pagano", 
+        "Dipartimento": "Dipartimento di Ingegneria Industriale", 
+        "Qualifica": "ricercatore", 
+        "Email": "apagano@diim.unict.it", 
+        "SSD": "ING-IND/10", 
+        "Telefono": "095 7382421", 
+        "ID": "267"
+    }, 
+    {
+        "Indirizzo": "Viale Andrea Doria 6, C/O Ed. 10, 95128 Catania", 
+        "Nome": "Elisabetta Paladino", 
+        "Dipartimento": "Dipartimento di Fisica ed Astronomia", 
+        "Sito": "http://www.matis.imm.cnr.it/index.php?option=com_jresearch&view=member&task=show&id=78&Itemid=61", 
+        "Qualifica": "professore associato", 
+        "Email": "epaladino@dmfci.unict.it", 
+        "SSD": "FIS/03", 
+        "Telefono": "0957382803", 
+        "ID": "335"
+    }, 
+    {
+        "Indirizzo": "V.le A. Doria 6 - 95125 Catania", 
+        "Nome": "Sergio Palazzo", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Sito": "http://www.diit.unict.it/users/spalazzo/", 
+        "Qualifica": "professore ordinario", 
+        "Email": "palazzo@diit.unict.it", 
+        "SSD": "ING-INF/03", 
+        "Telefono": "+390957382370", 
+        "ID": "133"
+    }, 
+    {
+        "Indirizzo": "V.le A. Doria, 6, 95125 Catania, Italy", 
+        "Nome": "Giuseppe Palmisano", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Qualifica": "professore ordinario", 
+        "Email": "giuseppe.palmisano@dieei.unict.it", 
+        "SSD": "ING-INF/01", 
+        "Telefono": "+390957382305", 
+        "ID": "134"
+    }, 
+    {
+        "Indirizzo": "viale andrea Doria 6", 
+        "Nome": "Gaetano Palumbo", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Sito": "micro.diees.unict.it/palumbo", 
+        "Qualifica": "professore ordinario", 
+        "Email": "gaetano.palumbo@dieei.unict.it", 
+        "SSD": "ING-INF/01", 
+        "Telefono": "095-7382313", 
+        "ID": "136"
+    }, 
+    {
+        "Email": "cpana@dieei.unict.it", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Qualifica": "assegnista", 
+        "ID": "503", 
+        "Nome": "Carla Panarello"
+    }, 
+    {
+        "Nome": "Daniela Panno", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Sito": "http://www.diit.unict.it/index.php?pageRef=4&idr=10", 
+        "Qualifica": "professore associato", 
+        "Email": "dpanno@diit.unict.it", 
+        "SSD": "ING-INF/03", 
+        "Telefono": "0957392369", 
+        "ID": "137"
+    }, 
+    {
+        "Indirizzo": "viale A- Doria 27, 95125 Catania", 
+        "Nome": "Bartolomeo Panto", 
+        "Dipartimento": "Dipartimento di Ingegneria Civile e Architettura", 
+        "Qualifica": "contrattista", 
+        "Email": "bpanto@dica.unict.it", 
+        "Telefono": "+390957382275", 
+        "ID": "619"
+    }, 
+    {
+        "Indirizzo": "viale Andrea Doria 6, Catania", 
+        "Nome": "Giovanni Patane", 
+        "Dipartimento": "Dipartimento di Ingegneria Industriale", 
+        "Qualifica": "ricercatore", 
+        "Email": "gpatane@diim.unict.it", 
+        "SSD": "ING-IND/21", 
+        "Telefono": "0957382402", 
+        "ID": "138"
+    }, 
+    {
+        "Indirizzo": "viale andrea doria, 6", 
+        "Nome": "Francesco Patania", 
+        "Dipartimento": "Dipartimento di Ingegneria Industriale", 
+        "Qualifica": "professore ordinario", 
+        "Email": "fpatania@diim.unict.it", 
+        "SSD": "ING-IND/11", 
+        "Telefono": "0957382424", 
+        "ID": "139"
+    }, 
+    {
+        "Indirizzo": "Viale A. Doria 6,  Ed. 3, V Piano, stanza 34", 
+        "Nome": "Salvatore Pennisi", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Sito": "http://micro.dieei.unict.it", 
+        "Qualifica": "professore associato", 
+        "Email": "spennisi@dieei.unict.it", 
+        "SSD": "ING-INF/01", 
+        "Telefono": "+39 095 738 2318", 
+        "ID": "141"
+    }, 
+    {
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Qualifica": "contrattista", 
+        "ID": "594", 
+        "Nome": "Melita Pennisi"
+    }, 
+    {
+        "Nome": "Francesco Petrone", 
+        "Dipartimento": "Dipartimento di Ingegneria Industriale", 
+        "Qualifica": "professore ordinario", 
+        "Email": "fpetrone@diim.unict.it", 
+        "SSD": "ING-IND/13", 
+        "Telefono": "095 7382408", 
+        "ID": "142"
+    }, 
+    {
+        "Indirizzo": "Via Santa Sofia 64", 
+        "Nome": "Giuseppe Pezzinga", 
+        "Dipartimento": "Dipartimento di Ingegneria Civile e Architettura", 
+        "Sito": "http://www.dicar.unict.it/Personale/Docenti/Docenti/Pezzinga.html", 
+        "Qualifica": "professore ordinario", 
+        "Email": "gpezzing@dica.unict.it", 
+        "SSD": "ICAR/01", 
+        "Telefono": "0957382708", 
+        "ID": "143"
+    }, 
+    {
+        "Indirizzo": "Edificio 10 (vecchia sede ingegneria) piano (-1)", 
+        "Nome": "Antonino Giovanni Pollicino", 
+        "Dipartimento": "Dipartimento di Ingegneria Civile e Architettura", 
+        "Qualifica": "professore ordinario", 
+        "Email": "apollicino@dii.unict.it", 
+        "SSD": "ING-IND/22", 
+        "Telefono": "0957382797", 
+        "ID": "146"
+    }, 
+    {
+        "Dipartimento": "Dipartimento Ingegneria Civile e Ambientale", 
+        "Qualifica": "contrattista", 
+        "ID": "148", 
+        "Nome": "Anna Maria Privitera"
+    }, 
+    {
+        "Dipartimento": "Dipartimento di Ingegneria Industriale", 
+        "Qualifica": "professore ordinario", 
+        "ID": "525", 
+        "Nome": "Concetto Puglisi"
+    }, 
+    {
+        "Indirizzo": "Viale Andrea Doria, 6,   I-95125 Catania CT ", 
+        "Nome": "Daniele Puglisi", 
+        "Dipartimento": "Dipartimento di Matematica e Informatica", 
+        "Sito": "http://www.dmi.unict.it/~dpuglisi/index.html", 
+        "Qualifica": "ricercatore", 
+        "Email": "dpuglisi@dmi.unict.it", 
+        "SSD": "MAT/05", 
+        "Telefono": "0957383055", 
+        "ID": "588"
+    }, 
+    {
+        "Indirizzo": "Viale Andrea Doria, n. 6", 
+        "Nome": "Angelo Raciti", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Sito": "www.dieei.unict.it/it/personale/angelo.raciti@dieei.unict.it", 
+        "Qualifica": "professore ordinario", 
+        "Email": "araciti@dieei.unict.it", 
+        "SSD": "ING-IND/32", 
+        "Telefono": "0957382323", 
+        "ID": "150"
+    }, 
+    {
+        "Indirizzo": "Dip. Matematica e Informatica, V.le A.Doria,6- 95125, CT", 
+        "Nome": "Fabio Raciti", 
+        "Dipartimento": "Dipartimento di Matematica e Informatica", 
+        "Sito": "http://www.dmi.unict.it/~fraciti/", 
+        "Qualifica": "ricercatore", 
+        "Email": "fraciti@dmi.unict.it", 
+        "SSD": "MAT/05", 
+        "Telefono": "095-7383013", 
+        "ID": "151"
+    }, 
+    {
+        "Dipartimento": "Dipartimento Ingegneria Civile e Ambientale", 
+        "Qualifica": "cultore della materia", 
+        "ID": "591", 
+        "Nome": "Erminia Raciti"
+    }, 
+    {
+        "Email": "egidio.ragonese@dieei.unict.it", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Qualifica": "cultore della materia", 
+        "ID": "297", 
+        "Nome": "Egidio Ragonese"
+    }, 
+    {
+        "Indirizzo": "Via Leonardo da Vinci, 566 - 90135 Palermo", 
+        "Nome": "Francesco Rando", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Qualifica": "professore incaricato", 
+        "Email": "francesco.rando@unipa.it", 
+        "SSD": "ING-INF/04", 
+        "Telefono": "TF/Fax: 091- 6735542", 
+        "ID": "152"
+    }, 
+    {
+        "Dipartimento": "Dipartimento di Architettura", 
+        "Qualifica": "professore ordinario", 
+        "ID": "585", 
+        "Nome": " RAPPRESENTANZA STUDENTI"
+    }, 
+    {
+        "Indirizzo": "Viale A. Doria 6, catania", 
+        "Nome": "Riccardo Re", 
+        "Dipartimento": "Dipartimento di Matematica e Informatica", 
+        "Sito": "http://www.dmi.unict.it/re/Riccardo_Re/home.html", 
+        "Qualifica": "ricercatore", 
+        "Email": "riccardo@dmi.unict.it", 
+        "SSD": "MAT/03", 
+        "Telefono": "0957383075", 
+        "ID": "529"
+    }, 
+    {
+        "Indirizzo": "Piano 6 - Edificio 3 Viale A. Doria 6 Catania", 
+        "Nome": "Antonino Recca", 
+        "Dipartimento": "Dipartimento di Ingegneria Industriale", 
+        "Sito": "www.recca.eu", 
+        "Qualifica": "professore ordinario", 
+        "Email": "arecca@dii.unict.it", 
+        "SSD": "ING-IND/22", 
+        "Telefono": "095 738 2408", 
+        "ID": "153"
+    }, 
+    {
+        "Indirizzo": "Viale Andrea Doria 6  -  95125 Catania", 
+        "Nome": "Bartolomeo Rejtano", 
+        "Dipartimento": "Dipartimento di Ingegneria Civile e Architettura", 
+        "Qualifica": "professore ordinario", 
+        "Email": "breitano@dica.unict.it", 
+        "SSD": "ICAR/02", 
+        "Telefono": "095-7382703", 
+        "ID": "154"
+    }, 
+    {
+        "Nome": "Maria Adriana Rigano", 
+        "Dipartimento": "Dipartimento di Matematica e Informatica", 
+        "Qualifica": "professore incaricato", 
+        "ID": "156", 
+        "Telefono": "3403814843", 
+        "Email": "marigano@dmi.unict.it"
+    }, 
+    {
+        "Email": "arisitan@im.ing.unict.it", 
+        "Dipartimento": "Dipartimento di Ingegneria Industriale", 
+        "Qualifica": "professore ordinario", 
+        "ID": "6", 
+        "Nome": "Antonino Risitano"
+    }, 
+    {
+        "Indirizzo": "Viale Andrea Doria, 6, blocco 10", 
+        "Nome": "Francesco Rizzo", 
+        "Dipartimento": "Dipartimento Ingegneria Civile e Ambientale", 
+        "Qualifica": "professore ordinario", 
+        "Email": "frizzo@dica.unict.it", 
+        "SSD": "ICAR/22", 
+        "Telefono": "095-7382720", 
+        "ID": "157"
+    }, 
+    {
+        "Indirizzo": "Viale A. Doria 6 Edificio 10 Piano 1", 
+        "Nome": "Paolo Roccaro", 
+        "Dipartimento": "Dipartimento di Ingegneria Civile e Architettura", 
+        "Sito": "http://www.dicar.unict.it/Personale/Docenti/Docenti/Roccaro.html", 
+        "Qualifica": "professore associato", 
+        "Email": "proccaro@dica.unict.it", 
+        "SSD": "ICAR/03", 
+        "Telefono": "0957382716", 
+        "ID": "426"
+    }, 
+    {
+        "Indirizzo": "Laboratori Nazionali del Sud", 
+        "Nome": "Stefano Romano", 
+        "Dipartimento": "Dipartimento di Fisica ed Astronomia", 
+        "Qualifica": "professore associato", 
+        "Email": "romano@lns.infn.it", 
+        "SSD": "FIS/01", 
+        "Telefono": "095 542380", 
+        "ID": "159"
+    }, 
+    {
+        "Indirizzo": "viale A. Doria 6, 95125 Catania, Italy", 
+        "Nome": "Vittorio Romano", 
+        "Dipartimento": "Dipartimento di Matematica e Informatica", 
+        "Sito": "http://www.dmi.unict.it/~romano/", 
+        "Qualifica": "professore ordinario", 
+        "Email": "romano@dmi.unict.it", 
+        "SSD": "MAT/07", 
+        "Telefono": "095 7383035", 
+        "ID": "160"
+    }, 
+    {
+        "Indirizzo": "Studio 43, Terzo Blocco, Dipartimento di Matematica e Informatica", 
+        "Nome": "Francesco Russo", 
+        "Dipartimento": "Dipartimento di Matematica e Informatica", 
+        "Sito": "http://www.dmi.unict.it/~frusso", 
+        "Qualifica": "professore associato", 
+        "Email": "frusso@dmi.unict.it", 
+        "SSD": "MAT/03", 
+        "Telefono": "0957383004", 
+        "ID": "456"
+    }, 
+    {
+        "Indirizzo": "Viale Andrea Doria 6, Catania, I", 
+        "Nome": "Angelo Salemi", 
+        "Dipartimento": "Dipartimento di Architettura", 
+        "Qualifica": "professore ordinario", 
+        "Email": "asalemi@dau.ing.unict.it", 
+        "SSD": "ICAR/10", 
+        "Telefono": "00390957382502", 
+        "ID": "163"
+    }, 
+    {
+        "Nome": "Nunzio Salerno", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Sito": "http://pc1esg.diees.unict.it/esg/nsalerno/index.htm", 
+        "Qualifica": "professore associato", 
+        "Email": "nunzio.salerno@dieei.unict.it", 
+        "SSD": "ING-IND/31", 
+        "Telefono": "0957382304", 
+        "ID": "164"
+    }, 
+    {
+        "Indirizzo": "Viale Andrea Doria, 6", 
+        "Nome": "Giulia Sanfilippo", 
+        "Dipartimento": "Dipartimento di Architettura", 
+        "Qualifica": "ricercatore", 
+        "Email": "gsanfi@dau.unict.it", 
+        "SSD": "ICAR/19", 
+        "Telefono": "095/7382527-21", 
+        "ID": "251"
+    }, 
+    {
+        "Dipartimento": "Dipartimento di Architettura", 
+        "Qualifica": "ricercatore", 
+        "ID": "531", 
+        "Nome": "Giulia Sanfilippo"
+    }, 
+    {
+        "Nome": "Cettina Santagati", 
+        "Dipartimento": "Dipartimento di Ingegneria Civile e Architettura", 
+        "Sito": "http://www.dicar.unict.it/Personale/Docenti/Docenti/Santagati.html", 
+        "Qualifica": "ricercatore", 
+        "Email": "cettina.santagati@dau.unict.it", 
+        "SSD": "ICAR/17", 
+        "Telefono": "0957382525", 
+        "ID": "252"
+    }, 
+    {
+        "Indirizzo": "Cittadella Universitaria - Vecchia sede della Facolt\u00e0 di Ingegneria - stanza 12", 
+        "Nome": "Vincenza Santoro", 
+        "Dipartimento": "Dipartimento Ingegneria Civile e Ambientale", 
+        "Qualifica": "professore associato", 
+        "Email": "csantoro@dica.unict.it", 
+        "SSD": "ICAR/01", 
+        "Telefono": "095 7382707", 
+        "ID": "165"
+    }, 
+    {
+        "Nome": "Vincenzo Sapienza", 
+        "Dipartimento": "Dipartimento di Architettura", 
+        "Sito": "http://www.dicar.unict.it/Personale/Docenti/Docenti/Sapienza.html", 
+        "Qualifica": "professore associato", 
+        "Email": "vsapienza@unict.it", 
+        "SSD": "ICAR/10", 
+        "Telefono": "095.7382531", 
+        "ID": "166"
+    }, 
+    {
+        "Indirizzo": "Dipartimento di Matematica e Informatica, Viale A. Doria n. 6, 95125 Catania", 
+        "Nome": "Antonio Scalia", 
+        "Dipartimento": "Dipartimento di Matematica e Informatica", 
+        "Qualifica": "professore ordinario", 
+        "Email": "scalia@dmi.unict.it", 
+        "SSD": "MAT/07", 
+        "Telefono": "0957383010", 
+        "ID": "167"
+    }, 
+    {
+        "Indirizzo": "email: pscandura@dica.unict.it", 
+        "Nome": "Pietro Scandura", 
+        "Dipartimento": "Dipartimento Ingegneria Civile e Ambientale", 
+        "Qualifica": "ricercatore", 
+        "Email": "pscandu@dica.unict.it", 
+        "SSD": "ICAR/01", 
+        "Telefono": "0957382726", 
+        "ID": "168"
+    }, 
+    {
+        "Dipartimento": "Dipartimento di Ingegneria Industriale", 
+        "Qualifica": "cultore della materia", 
+        "ID": "586", 
+        "Nome": "Pierfrancesco Scandura"
+    }, 
+    {
+        "Indirizzo": "Viale A. Doria 6, 95125 Catania ITALY", 
+        "Nome": "Giuseppe Scarcella", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Sito": "http://empeg.diees.unict.it", 
+        "Qualifica": "professore associato", 
+        "Email": "giuseppe.scarcella@dieei.unict.it", 
+        "SSD": "ING-IND/32", 
+        "Telefono": "+39 095 738 2600", 
+        "ID": "169"
+    }, 
+    {
+        "Email": "cscavo@dica.unict.it", 
+        "Dipartimento": "Dipartimento Ingegneria Civile e Ambientale", 
+        "Qualifica": "ricercatore", 
+        "ID": "170", 
+        "Nome": "Concetta Claudia Scavo"
+    }, 
+    {
+        "Indirizzo": "viale Andrea doria n\u00b06", 
+        "Nome": "Giacomo Scelba", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Qualifica": "ricercatore", 
+        "Email": "gscelba@diees.unict.it", 
+        "SSD": "ING-IND/32", 
+        "Telefono": "0957557063", 
+        "ID": "502"
+    }, 
+    {
+        "Dipartimento": "Dipartimento di Ingegneria Industriale", 
+        "Qualifica": "contrattista", 
+        "ID": "606", 
+        "Nome": "Giovanni Scelba"
+    }, 
+    {
+        "Indirizzo": "Viale A.Doria 6, 95125 Catania - Edificio 13", 
+        "Nome": "Giovanni Schembra", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Sito": "www.dieei.unict.it/users/schembra", 
+        "Qualifica": "professore associato", 
+        "Email": "schembra@dieei.unict.it", 
+        "SSD": "ING-INF/03", 
+        "Telefono": "0957382375", 
+        "ID": "171"
+    }, 
+    {
+        "Indirizzo": "Viale Andrea Doria, 6 - Catania", 
+        "Nome": "Gaetano Sciuto", 
+        "Dipartimento": "Dipartimento di Architettura", 
+        "Qualifica": "professore associato", 
+        "Email": "gsciuto@dau.unict.it", 
+        "SSD": "ICAR/10", 
+        "Telefono": "095-7382540", 
+        "ID": "255"
+    }, 
+    {
+        "Indirizzo": "V.le A. Doria,6 - 95125 Catania", 
+        "Nome": "Agata Scordino", 
+        "Dipartimento": "Dipartimento di Fisica ed Astronomia", 
+        "Qualifica": "professore associato", 
+        "Email": "ascordin@dmfci.unict.it", 
+        "SSD": "FIS/01", 
+        "Telefono": "+39 0957382804", 
+        "ID": "172"
+    }, 
+    {
+        "Indirizzo": "Via Santa Sofia 98", 
+        "Nome": "Alessandro Scuderi", 
+        "Dipartimento": "Dipartimento Ingegneria Civile e Ambientale", 
+        "Qualifica": "professore incaricato", 
+        "Email": "alessandro.scuderi@unict.it", 
+        "SSD": "AGR/01", 
+        "Telefono": "095/7580306", 
+        "ID": "596"
+    }, 
+    {
+        "Nome": "Maria Letizia Sergi", 
+        "Dipartimento": "Dipartimento di Ingegneria Industriale", 
+        "Sito": "http://letiziasergi.weebly.com/", 
+        "Qualifica": "contrattista", 
+        "Email": "sergi@lns.infn.it", 
+        "SSD": "FIS/01", 
+        "Telefono": "095542385", 
+        "ID": "607"
+    }, 
+    {
+        "Email": "sergio@dmi.unict.it", 
+        "Dipartimento": "Dipartimento di Matematica e Informatica", 
+        "Qualifica": "ricercatore", 
+        "ID": "173", 
+        "Nome": "Irene Giovanna Sergio"
+    }, 
+    {
+        "Indirizzo": "Viale A. Doria 6, 95125 Catania, Italy", 
+        "Nome": "Rosario Giovanni Sinatra", 
+        "Dipartimento": "Dipartimento di Ingegneria Industriale", 
+        "Sito": "http://www.diim.unict.it/users/rsinatra/", 
+        "Qualifica": "professore ordinario", 
+        "Email": "rsinatra@diim.unict.it", 
+        "SSD": "ING-IND/13", 
+        "Telefono": "095 7382401", 
+        "ID": "174"
+    }, 
+    {
+        "Indirizzo": "Viale A. Doria 6, Edificio 10", 
+        "Nome": "Valentina Siracusa", 
+        "Dipartimento": "Dipartimento di Ingegneria Industriale", 
+        "Qualifica": "professore associato", 
+        "Email": "vsiracus@dmfci.unict.it", 
+        "SSD": "CHIM/07", 
+        "Telefono": "0957382755", 
+        "ID": "412"
+    }, 
+    {
+        "Indirizzo": "viale A. Doria, 6 - 95125 Catania - ITALY", 
+        "Nome": "Gino Sorbello", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Sito": "http://www.diit.unict.it/users/sorbello/", 
+        "Qualifica": "professore associato", 
+        "Email": "gino.sorbello@dieei.unict.it", 
+        "SSD": "ING-INF/02", 
+        "Telefono": "0957382351", 
+        "ID": "176"
+    }, 
+    {
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Qualifica": "contrattista", 
+        "ID": "457", 
+        "Nome": "Concetto Spampinato"
+    }, 
+    {
+        "Indirizzo": "Via Santa Sofia 64", 
+        "Nome": "Maurizio Spina", 
+        "Dipartimento": "Dipartimento di Architettura", 
+        "Sito": "http://www.darc.unict.it/index.php/ita/Users/Personale/Docenti-strutturati/Spina-Maurizio", 
+        "Qualifica": "ricercatore", 
+        "Email": "mspina@dau.unict.it", 
+        "SSD": "ICAR/20", 
+        "Telefono": "095 7382535", 
+        "ID": "332"
+    }, 
+    {
+        "Nome": "Rosangela Spina", 
+        "Dipartimento": "Dipartimento di Architettura", 
+        "Qualifica": "contrattista", 
+        "ID": "532", 
+        "SSD": "ICAR/18", 
+        "Email": "ra.spina@fastwebnet.it"
+    }, 
+    {
+        "Indirizzo": "via S.Sofia n.64", 
+        "Nome": "Claudio Spitaleri", 
+        "Dipartimento": "Dipartimento di Fisica ed Astronomia", 
+        "Qualifica": "professore ordinario", 
+        "Email": "spitaleri@lns.infn.it", 
+        "SSD": "FIS/04", 
+        "Telefono": "095542335", 
+        "ID": "177"
+    }, 
+    {
+        "Email": "mstrano@dmi.unict.it", 
+        "Dipartimento": "Dipartimento di Matematica e Informatica", 
+        "Qualifica": "ricercatore", 
+        "ID": "178", 
+        "Nome": "Mario Vincenzo Strano"
+    }, 
+    {
+        "Indirizzo": "Viale Andrea Doria, 6 Edificio n. 10 - 95025 CATANIA", 
+        "Nome": "Luisa Sturiale", 
+        "Dipartimento": "Dipartimento Ingegneria Civile e Ambientale", 
+        "Qualifica": "professore ordinario", 
+        "Email": "luisa.sturiale@dica.unict.it", 
+        "SSD": "ICAR/22", 
+        "Telefono": "0957382717", 
+        "ID": "464"
+    }, 
+    {
+        "Indirizzo": "Via Santa Sofia 64 95123 CATANIA ", 
+        "Nome": "Concetta Sutera", 
+        "Dipartimento": "Dipartimento di Fisica ed Astronomia", 
+        "Qualifica": "contrattista", 
+        "Email": "concetta.sutera@ct.infn.it", 
+        "SSD": "FIS/01", 
+        "Telefono": "0953785430", 
+        "ID": "533"
+    }, 
+    {
+        "Dipartimento": "Dipartimento Ingegneria Civile e Ambientale", 
+        "Qualifica": "professore ordinario", 
+        "ID": "535", 
+        "Nome": " TFA"
+    }, 
+    {
+        "Nome": "Giuseppe Tina", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Sito": "idrilab.diees.unict.it/new", 
+        "Qualifica": "professore associato", 
+        "Email": "giuseppe.tina@dieei.unict.it", 
+        "SSD": "ING-IND/33", 
+        "Telefono": "095 7382337", 
+        "ID": "180"
+    }, 
+    {
+        "Indirizzo": "V.le Andra Doria 6 - Edificio 13", 
+        "Nome": "Orazio Tomarchio", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Sito": "http://www.dieei.unict.it/users/otomarch/", 
+        "Qualifica": "professore associato", 
+        "Email": "Orazio.Tomarchio@dieei.unict.it", 
+        "SSD": "ING-INF/05", 
+        "Telefono": "095 738 2357", 
+        "ID": "181"
+    }, 
+    {
+        "Indirizzo": "Dipartimento di Matematica e Informatca, Viale  A. Doria, 6      95125   Catania", 
+        "Nome": "Mariano Torrisi", 
+        "Dipartimento": "Dipartimento di Matematica e Informatica", 
+        "Sito": "http://www.dmi.unict.it/~torrisi/", 
+        "Qualifica": "professore ordinario", 
+        "Email": "torrisi@dmi.unict.it", 
+        "SSD": "MAT/07", 
+        "Telefono": "095 7383009", 
+        "ID": "182"
+    }, 
+    {
+        "Indirizzo": "Viale A. Doria 6, Catania", 
+        "Nome": "Rita Tracina", 
+        "Dipartimento": "Dipartimento di Matematica e Informatica", 
+        "Qualifica": "ricercatore", 
+        "Email": "tracina@dmi.unict.it", 
+        "SSD": "MAT/07", 
+        "Telefono": "095 738 3036", 
+        "ID": "258"
+    }, 
+    {
+        "Indirizzo": "viale Andrea Doria 6", 
+        "Nome": "Natalia Trapani", 
+        "Dipartimento": "Dipartimento di Ingegneria Industriale", 
+        "Sito": "www.diim.unict.it/users/ntrapani", 
+        "Qualifica": "ricercatore", 
+        "Email": "ntrapani@dii.unict.it", 
+        "SSD": "ING-IND/17", 
+        "Telefono": "+390957382465", 
+        "ID": "259"
+    }, 
+    {
+        "Indirizzo": "Viale Andrea Doria, 6, 95125 Catania (blocco 10)", 
+        "Nome": "Maria Rosa Trovato", 
+        "Dipartimento": "Dipartimento Ingegneria Civile e Ambientale", 
+        "Qualifica": "contrattista", 
+        "Email": "mrtrovato@dica.unict.it", 
+        "SSD": "ICAR/22", 
+        "Telefono": "0957382722", 
+        "ID": "499"
+    }, 
+    {
+        "Indirizzo": "Citt\u00e0 Universitaria, viale Andrea Doria n\u00b0 6", 
+        "Nome": "Massimo Trovato", 
+        "Dipartimento": "Dipartimento di Matematica e Informatica", 
+        "Sito": "http://www.dmi.unict.it/~trovato/", 
+        "Qualifica": "professore ordinario", 
+        "Email": "trovato@dmi.unict.it", 
+        "SSD": "MAT/07", 
+        "Telefono": "0957383037", 
+        "ID": "526"
+    }, 
+    {
+        "Indirizzo": "via S. Sofia 62 Catania", 
+        "Nome": "Salvatore Tudisco", 
+        "Dipartimento": "Dipartimento di Ingegneria Industriale", 
+        "Sito": "http://www.lns.infn.it/~tudisco", 
+        "Qualifica": "professore incaricato", 
+        "Email": "tudisco@lns.infn.it", 
+        "SSD": "FIS/01", 
+        "Telefono": "095 542 263", 
+        "ID": "356"
+    }, 
+    {
+        "Nome": "Daniele Vadala", 
+        "Dipartimento": "Dipartimento di Ingegneria Civile e Architettura", 
+        "Qualifica": "contrattista", 
+        "Email": "zoodama@tin.it", 
+        "SSD": "ICAR/18", 
+        "Telefono": "349-2250114", 
+        "ID": "590"
+    }, 
+    {
+        "Indirizzo": "DARC Edificio 10", 
+        "Nome": "Federico Vagliasindi", 
+        "Dipartimento": "Dipartimento Ingegneria Civile e Ambientale", 
+        "Qualifica": "professore ordinario", 
+        "Email": "fvaglias@dica.unict.it", 
+        "SSD": "ICAR/03", 
+        "Telefono": "095 7382704", 
+        "ID": "186"
+    }, 
+    {
+        "Email": "uvaglia@diees.unict.it", 
+        "Dipartimento": "Dipartimento di Ingegneria Elettrica, Elettronica e Informatica", 
+        "Qualifica": "professore associato", 
+        "ID": "187", 
+        "Nome": "Umberto Vagliasindi"
+    }, 
+    {
+        "Indirizzo": "Viale A. Doria, 6 95125 Catania", 
+        "Nome": "Antonino Valenti", 
+        "Dipartimento": "Dipartimento di Matematica e Informatica", 
+        "Qualifica": "professore ordinario", 
+        "Email": "valenti@dmi.unict.it", 
+        "SSD": "MAT/07", 
+        "Telefono": "0957383012", 
+        "ID": "188"
+    }, 
+    {
+        "Nome": "Alfonso Villani", 
+        "Dipartimento": "Dipartimento di Matematica e Informatica", 
+        "Qualifica": "professore ordinario", 
+        "Email": "villani@dmi.unict.it", 
+        "SSD": "MAT/05", 
+        "Telefono": "0957383061", 
+        "ID": "509"
+    }, 
+    {
+        "Nome": "Pietro Zamboni", 
+        "Dipartimento": "Dipartimento di Matematica e Informatica", 
+        "Sito": "http://www.dmi.unict.it/~zamboni/", 
+        "Qualifica": "professore associato", 
+        "Email": "zamboni@dmi.unict.it", 
+        "SSD": "MAT/05", 
+        "Telefono": "0957383046", 
+        "ID": "189"
+    }, 
+    {
+        "Nome": "Giuseppe Zappala", 
+        "Dipartimento": "Dipartimento di Matematica e Informatica", 
+        "Qualifica": "ricercatore", 
+        "ID": "190", 
+        "SSD": "MAT/03", 
+        "Email": "zappalag@dmi.unict.it"
+    }
+]
