@@ -2,6 +2,12 @@
 
 import json
 import datetime
+import re
+
+
+def remove_comments(text):
+	cregex='<!--.*?-->'
+	return re.sub(cregex,"",text,flags=re.DOTALL)
 
 
 def load_aule(filename):

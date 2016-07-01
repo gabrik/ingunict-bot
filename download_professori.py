@@ -1,23 +1,13 @@
 # -*- coding: utf-8 -*-
-
-
-
-#http://www.ing.unict.it/didattica/docenti
-#http://www.ing.unict.it/it/didattica/docenti?view=docente&id=510
 import re
 import urllib2
 import sys
 import os.path as path
 import json
 from unidecode import unidecode
-
-#pip install unidecode
-
-
-#http://www.ing.unict.it/it/didattica/insegnamenti
+from utility import *
 
 
-cregex='<!--.*?-->'
 PROF_FILE='professori.json'
 
 URL_PROF='http://www.ing.unict.it/didattica/docenti'
@@ -101,26 +91,8 @@ def download_prof(url):
 	
 
 
-	
 
-
-
-
-
-
-def remove_comments(text):
-	return re.sub(cregex,"",text,flags=re.DOTALL)
-
-
-def main():
-
-
-
-
-
-	
-
-		
+def main():	
 
 	resp = urllib2.urlopen(URL_PROF)
 
@@ -128,11 +100,10 @@ def main():
 	content = resp.read()
 
 	#remove comments
-	content=re.sub(cregex,"",content,flags=re.DOTALL)
+	content=remove_comments(content)
 
 
 	matches=re.findall('<a.+?href=".+?docente&amp;id=(.+?)".+?>',content)
-	#re.findall('<a.+?href=['"](.*?)["'].+?>',content)
 
 
 
@@ -163,11 +134,6 @@ def main():
 		f.write(data)
 
 	print '[  OK  ] Saved on: ' + PROF_FILE
-
-
-
-
-
 
 
 if __name__=='__main__':

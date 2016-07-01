@@ -1,0 +1,3362 @@
+[
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Altre abilita informatiche e telematiche", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria informatica", 
+        "Anno": "1", 
+        "Docenti": [
+            " "
+        ], 
+        "CFU": "3", 
+        "ID": "12958"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Ingegneria del software", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria informatica", 
+        "Anno": "1", 
+        "Docenti": [
+            "Orazio Tomarchio"
+        ], 
+        "SSD": "ING-INF/05", 
+        "CFU": "9", 
+        "ID": "12955"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Sicurezza dei sistemi informativi", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria informatica", 
+        "Anno": "1", 
+        "Docenti": [
+            "Michele Malgeri"
+        ], 
+        "SSD": "ING-INF/05", 
+        "CFU": "6", 
+        "ID": "12956"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Tecnologie dei sistemi di controllo", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria informatica", 
+        "Anno": "1", 
+        "Docenti": [
+            "Antonio Gallo"
+        ], 
+        "SSD": "ING-INF/04", 
+        "CFU": "6", 
+        "ID": "12957"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Architettura e tecnologie dei sistemi di telecomunicazioni", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria informatica", 
+        "Anno": "1", 
+        "Docenti": [
+            "Giacomo Morabito"
+        ], 
+        "SSD": "ING-INF/04", 
+        "CFU": "9", 
+        "ID": "12959"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Reti per l'automazione industriale", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria informatica", 
+        "Anno": "1", 
+        "Docenti": [
+            "Orazio Mirabella"
+        ], 
+        "SSD": "ING-INF/05", 
+        "CFU": "9", 
+        "ID": "12960"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Sistemi cognitivi e interazione persona calcolatore", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria informatica", 
+        "Anno": "1", 
+        "Docenti": [
+            "Daniela Giordano"
+        ], 
+        "SSD": "ING-INF/05", 
+        "CFU": "6", 
+        "ID": "12961"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Informatica per applicazioni industriali", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria informatica", 
+        "Anno": "2", 
+        "Docenti": [
+            "Salvatore Cavalieri"
+        ], 
+        "SSD": "ING-INF/05", 
+        "CFU": "9", 
+        "ID": "12963"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Linguaggi e traduttori", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria informatica", 
+        "Anno": "2", 
+        "Docenti": [
+            "Vincenza Carchiolo"
+        ], 
+        "SSD": "ING-INF/05", 
+        "CFU": "9", 
+        "ID": "12964"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Progettazione di sistemi distribuiti", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria informatica", 
+        "Anno": "2", 
+        "Docenti": [
+            "Antonella Di Stefano"
+        ], 
+        "SSD": "ING-INF/05", 
+        "CFU": "9", 
+        "ID": "12962"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Intelligenza artificiale", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria informatica", 
+        "Anno": "2", 
+        "Docenti": [
+            "Alberto Faro"
+        ], 
+        "SSD": "ING-INF/05", 
+        "CFU": "9", 
+        "ID": "12966"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Sistemi embedded", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria informatica", 
+        "Anno": "2", 
+        "Docenti": [
+            "Giuseppe Ascia"
+        ], 
+        "SSD": "ING-INF/05", 
+        "CFU": "9", 
+        "ID": "12965"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Dynamics of Structures with Applications to Earthquake Engineering (mod. A)", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria civile strutturale e geotecnica", 
+        "Anno": "1", 
+        "Docenti": [
+            "Giuseppe Oliveto"
+        ], 
+        "SSD": "ICAR/08", 
+        "CFU": "6", 
+        "ID": "12898"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Fondazioni", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria civile strutturale e geotecnica", 
+        "Anno": "1", 
+        "Docenti": [
+            "Maria Massimino"
+        ], 
+        "SSD": "ICAR/07", 
+        "CFU": "9", 
+        "ID": "12895"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Metodi probabilistici, statistici e numerici", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria civile strutturale e geotecnica", 
+        "Anno": "1", 
+        "Docenti": [
+            "Vittorio Romano"
+        ], 
+        "SSD": "MAT/07", 
+        "CFU": "6", 
+        "ID": "12896"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Tecnica delle costruzioni", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria civile strutturale e geotecnica", 
+        "Anno": "1", 
+        "Docenti": [
+            "Laura Anania"
+        ], 
+        "SSD": "ICAR/09", 
+        "CFU": "9", 
+        "ID": "12897"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Analisi anelastica delle strutture", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria civile strutturale e geotecnica", 
+        "Anno": "1", 
+        "Docenti": [
+            "Ivo Calio"
+        ], 
+        "SSD": "ICAR/08", 
+        "CFU": "6", 
+        "ID": "12900"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Dynamics of Structures with Applications to Earthquake Engineering (mod. B)", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria civile strutturale e geotecnica", 
+        "Anno": "1", 
+        "Docenti": [
+            "Giuseppe Oliveto"
+        ], 
+        "SSD": "ICAR/08", 
+        "CFU": "6", 
+        "ID": "12899"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Elettrotecnica", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria civile strutturale e geotecnica", 
+        "Anno": "1", 
+        "Docenti": [
+            "Salvatore Coco"
+        ], 
+        "SSD": "ING-IND/31", 
+        "CFU": "6", 
+        "ID": "12901"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Opere di sostegno e stabilita dei pendii", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria civile strutturale e geotecnica", 
+        "Anno": "1", 
+        "Docenti": [
+            "Ernesto Motta"
+        ], 
+        "SSD": "ICAR/07", 
+        "CFU": "9", 
+        "ID": "12902"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Meccanica computazionale delle strutture", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria civile strutturale e geotecnica", 
+        "Anno": "2", 
+        "Docenti": [
+            "Massimo Cuomo"
+        ], 
+        "SSD": "ICAR/08", 
+        "CFU": "9", 
+        "ID": "12906"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Meccanica delle strutture murarie", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria civile strutturale e geotecnica", 
+        "Anno": "2", 
+        "Docenti": [
+            "Loredana Contrafatto"
+        ], 
+        "SSD": "ICAR/08", 
+        "CFU": "9", 
+        "ID": "12905"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Progetto di Strutture in Zona Sismica (mod.A)", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria civile strutturale e geotecnica", 
+        "Anno": "2", 
+        "Docenti": [
+            "Edoardo Marino"
+        ], 
+        "SSD": "ICAR/09", 
+        "CFU": "6", 
+        "ID": "12903"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Altre conoscenze utili per l'inserimento nel mondo del lavoro", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria civile strutturale e geotecnica", 
+        "Anno": "2", 
+        "Docenti": [
+            " "
+        ], 
+        "CFU": "3", 
+        "ID": "12907"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Meccanica e dinamica delle terre", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria civile strutturale e geotecnica", 
+        "Anno": "2", 
+        "Docenti": [
+            "Maria Massimino"
+        ], 
+        "SSD": "ICAR/07", 
+        "CFU": "6", 
+        "ID": "12909"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Ponti e Grandi Strutture", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria civile strutturale e geotecnica", 
+        "Anno": "2", 
+        "Docenti": [
+            " "
+        ], 
+        "SSD": "ICAR/09", 
+        "CFU": "6", 
+        "ID": "12908"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Progetto di Strutture in Zona Sismica (mod.B)", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria civile strutturale e geotecnica", 
+        "Anno": "2", 
+        "Docenti": [
+            "Fabio Neri"
+        ], 
+        "SSD": "ICAR/09", 
+        "CFU": "6", 
+        "ID": "12904"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Electrical and electronics measurements", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria elettrica", 
+        "Anno": "1", 
+        "Docenti": [
+            "Salvatore Baglio"
+        ], 
+        "SSD": "ING-INF/07", 
+        "CFU": "9", 
+        "ID": "12922"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Electrical machines", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria elettrica", 
+        "Anno": "1", 
+        "Docenti": [
+            "Mario Cacciato"
+        ], 
+        "SSD": "ING-IND/32", 
+        "CFU": "9", 
+        "ID": "12923"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Numerical Methods for Electromagnetic Fields and Circuits", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria elettrica", 
+        "Anno": "1", 
+        "Docenti": [
+            "Salvatore Alfonzetti"
+        ], 
+        "SSD": "ING-IND/31", 
+        "CFU": "9", 
+        "ID": "12924"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Altre attivita", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria elettrica", 
+        "Anno": "1", 
+        "Docenti": [
+            " "
+        ], 
+        "CFU": "3", 
+        "ID": "12928"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Electrical energy systems", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria elettrica", 
+        "Anno": "1", 
+        "Docenti": [
+            "Giuseppe Tina"
+        ], 
+        "SSD": "ING-IND/33", 
+        "CFU": "9", 
+        "ID": "12925"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Electronics", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria elettrica", 
+        "Anno": "1", 
+        "Docenti": [
+            "Davide Marano"
+        ], 
+        "SSD": "ING-INF/01", 
+        "CFU": "6", 
+        "ID": "12926"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Industrial automation", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria elettrica", 
+        "Anno": "1", 
+        "Docenti": [
+            "Giuseppe Nunnari"
+        ], 
+        "SSD": "ING-INF/04", 
+        "CFU": "6", 
+        "ID": "12854"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Industrial Electromagnetic Compatibility", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria elettrica", 
+        "Anno": "2", 
+        "Docenti": [
+            "Nunzio Salerno"
+        ], 
+        "SSD": "ING-IND/31", 
+        "CFU": "6", 
+        "ID": "12929"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Measurements for Automation Industrial Production", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria elettrica", 
+        "Anno": "2", 
+        "Docenti": [
+            "Salvatore Graziani"
+        ], 
+        "SSD": "ING-INF/07", 
+        "CFU": "9", 
+        "ID": "12930"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Power Electronics", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria elettrica", 
+        "Anno": "2", 
+        "Docenti": [
+            "Angelo Raciti"
+        ], 
+        "SSD": "ING-IND/32", 
+        "CFU": "9", 
+        "ID": "12931"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Dynamics and Control of Electrical Systems", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria elettrica", 
+        "Anno": "2", 
+        "Docenti": [
+            "Stefania Conti"
+        ], 
+        "SSD": "ING-IND/32", 
+        "CFU": "9", 
+        "ID": "12933"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Electrical Drives", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria elettrica", 
+        "Anno": "2", 
+        "Docenti": [
+            "Giuseppe Scarcella"
+        ], 
+        "SSD": "ING-IND/32", 
+        "CFU": "9", 
+        "ID": "12932"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Altre abilita informatiche e telematiche", 
+        "Corso di Laurea": "Laurea Magistrale in Automation Engineering and Control of Complex Systems", 
+        "Anno": "1", 
+        "Docenti": [
+            " "
+        ], 
+        "CFU": "3", 
+        "ID": "12847"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Microelectronics", 
+        "Corso di Laurea": "Laurea Magistrale in Automation Engineering and Control of Complex Systems", 
+        "Anno": "1", 
+        "Docenti": [
+            "Salvatore Pennisi"
+        ], 
+        "SSD": "ING-INF/01", 
+        "CFU": "6", 
+        "ID": "12842"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Modeling and Simulation of Mechanical Systems", 
+        "Corso di Laurea": "Laurea Magistrale in Automation Engineering and Control of Complex Systems", 
+        "Anno": "1", 
+        "Docenti": [
+            "Rosario Giovanni Sinatra"
+        ], 
+        "SSD": "ING-IND/13", 
+        "CFU": "9", 
+        "ID": "12843"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Biomedical systems and control", 
+        "Corso di Laurea": "Laurea Magistrale in Automation Engineering and Control of Complex Systems", 
+        "Anno": "1", 
+        "Docenti": [
+            "Maide Bucolo"
+        ], 
+        "SSD": "ING-INF/04", 
+        "CFU": "9", 
+        "ID": "12848"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Modeling and control of electromechanical systems", 
+        "Corso di Laurea": "Laurea Magistrale in Automation Engineering and Control of Complex Systems", 
+        "Anno": "1", 
+        "Docenti": [
+            "Giuseppe Scarcella"
+        ], 
+        "SSD": "ING-IND/32", 
+        "CFU": "9", 
+        "ID": "12849"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Robust Control", 
+        "Corso di Laurea": "Laurea Magistrale in Automation Engineering and Control of Complex Systems", 
+        "Anno": "1", 
+        "Docenti": [
+            "Luigi Fortuna"
+        ], 
+        "SSD": "ING-INF/04", 
+        "CFU": "9", 
+        "ID": "12850"
+    }, 
+    {
+        "Semestre": "Ann.", 
+        "Nome": "Sensors and advanced measurement systems", 
+        "Corso di Laurea": "Laurea Magistrale in Automation Engineering and Control of Complex Systems", 
+        "Anno": "1", 
+        "Docenti": [
+            "Bruno Ando"
+        ], 
+        "SSD": "ING-INF/07", 
+        "CFU": "12", 
+        "ID": "12846"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Complex adaptive systems (mod. Biorobotics)", 
+        "Corso di Laurea": "Laurea Magistrale in Automation Engineering and Control of Complex Systems", 
+        "Anno": "2", 
+        "Docenti": [
+            "Paolo Arena"
+        ], 
+        "SSD": "ING-INF/04", 
+        "CFU": "6", 
+        "ID": "12851"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Complex adaptive systems (mod. Compl. adpt. syst.)", 
+        "Corso di Laurea": "Laurea Magistrale in Automation Engineering and Control of Complex Systems", 
+        "Anno": "2", 
+        "Docenti": [
+            "Luigi Fortuna"
+        ], 
+        "SSD": "ING-INF/04", 
+        "CFU": "6", 
+        "ID": "12852"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Process modeling and control", 
+        "Corso di Laurea": "Laurea Magistrale in Automation Engineering and Control of Complex Systems", 
+        "Anno": "2", 
+        "Docenti": [
+            "Riccardo Caponetto"
+        ], 
+        "SSD": "ING-INF/04", 
+        "CFU": "9", 
+        "ID": "12853"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Industrial automation", 
+        "Corso di Laurea": "Laurea Magistrale in Automation Engineering and Control of Complex Systems", 
+        "Anno": "2", 
+        "Docenti": [
+            "Giuseppe Nunnari"
+        ], 
+        "SSD": "ING-INF/04", 
+        "CFU": "6", 
+        "ID": "12855"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Robotics", 
+        "Corso di Laurea": "Laurea Magistrale in Automation Engineering and Control of Complex Systems", 
+        "Anno": "2", 
+        "Docenti": [
+            "Giovanni Muscato"
+        ], 
+        "SSD": "ING-INF/04", 
+        "CFU": "9", 
+        "ID": "12856"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Altre abilita informatiche e telematiche", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria delle telecomunicazioni", 
+        "Anno": "1", 
+        "Docenti": [
+            "Francesco Beritelli"
+        ], 
+        "CFU": "3", 
+        "ID": "12913"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Campi Elettromagnetici e Propagazione", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria delle telecomunicazioni", 
+        "Anno": "1", 
+        "Docenti": [
+            "Loreto Di Donato"
+        ], 
+        "SSD": "ING-INF/02", 
+        "CFU": "9", 
+        "ID": "12910"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Elaborazione di Segnali per Applicazioni Multimediali", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria delle telecomunicazioni", 
+        "Anno": "1", 
+        "Docenti": [
+            "Giovanni Schembra"
+        ], 
+        "SSD": "ING-INF/03", 
+        "CFU": "9", 
+        "ID": "12912"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Aula disponibile", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria delle telecomunicazioni", 
+        "Anno": "1", 
+        "Docenti": [
+            " "
+        ], 
+        "CFU": "0", 
+        "ID": "13083"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Elettronica per la radiofrequenza", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria delle telecomunicazioni", 
+        "Anno": "1", 
+        "Docenti": [
+            "Giuseppe Palmisano"
+        ], 
+        "SSD": "ING-INF/01", 
+        "CFU": "9", 
+        "ID": "12915"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Reti di telecomunicazioni", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria delle telecomunicazioni", 
+        "Anno": "1", 
+        "Docenti": [
+            "Sergio Palazzo"
+        ], 
+        "SSD": "ING-INF/03", 
+        "CFU": "9", 
+        "ID": "12914"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Sistemi di telecomunicazioni", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria delle telecomunicazioni", 
+        "Anno": "1", 
+        "Docenti": [
+            "Laura Galluccio"
+        ], 
+        "SSD": "ING-INF/03", 
+        "CFU": "9", 
+        "ID": "12911"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Tecniche di programmazione per i sistemi distribuiti", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria delle telecomunicazioni", 
+        "Anno": "1", 
+        "Docenti": [
+            "Orazio Tomarchio"
+        ], 
+        "SSD": "ING-INF/05", 
+        "CFU": "9", 
+        "ID": "12916"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Ingegneria delle microonde", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria delle telecomunicazioni", 
+        "Anno": "2", 
+        "Docenti": [
+            "Gino Sorbello"
+        ], 
+        "SSD": "ING-INF/02", 
+        "CFU": "9", 
+        "ID": "12919"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Internet", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria delle telecomunicazioni", 
+        "Anno": "2", 
+        "Docenti": [
+            "Alfio Lombardo"
+        ], 
+        "SSD": "ING-INF/03", 
+        "CFU": "9", 
+        "ID": "12917"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Reti e servizi mobili", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria delle telecomunicazioni", 
+        "Anno": "2", 
+        "Docenti": [
+            "Daniela Panno"
+        ], 
+        "SSD": "ING-INF/03", 
+        "CFU": "9", 
+        "ID": "12918"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Progettazione di sistemi e apparati di telecomunicazioni", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria delle telecomunicazioni", 
+        "Anno": "2", 
+        "Docenti": [
+            "Aurelio La Corte"
+        ], 
+        "SSD": "ING-INF/03", 
+        "CFU": "9", 
+        "ID": "12920"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Campi Elettromagnetici e Propagazione", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria elettronica", 
+        "Anno": "1", 
+        "Docenti": [
+            "Loreto Di Donato"
+        ], 
+        "SSD": "ING-INF/02", 
+        "CFU": "9", 
+        "ID": "12934"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Dispositivi elettronici", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria elettronica", 
+        "Anno": "1", 
+        "Docenti": [
+            "Gianluca Giustolisi"
+        ], 
+        "SSD": "ING-INF/01", 
+        "CFU": "9", 
+        "ID": "12935"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Altre attivita", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria elettronica", 
+        "Anno": "1", 
+        "CFU": "3", 
+        "ID": "12938"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Elettronica digitale", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria elettronica", 
+        "Anno": "1", 
+        "Docenti": [
+            "Gaetano Palumbo"
+        ], 
+        "SSD": "ING-INF/01", 
+        "CFU": "9", 
+        "ID": "12936"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Elettronica per la radiofrequenza", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria elettronica", 
+        "Anno": "1", 
+        "Docenti": [
+            "Giuseppe Palmisano"
+        ], 
+        "SSD": "ING-INF/01", 
+        "CFU": "9", 
+        "ID": "12921"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Teoria dei Circuiti", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria elettronica", 
+        "Anno": "1", 
+        "Docenti": [
+            "Giacomo Capizzi"
+        ], 
+        "SSD": "ING-IND/31", 
+        "CFU": "9", 
+        "ID": "12937"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Fisica dei nanosistemi", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria elettronica", 
+        "Anno": "2", 
+        "Docenti": [
+            "Giuseppe Falci"
+        ], 
+        "SSD": "FIS/03", 
+        "CFU": "9", 
+        "ID": "12939"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Microelectronics (mod. A)", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria elettronica", 
+        "Anno": "2", 
+        "Docenti": [
+            "Salvatore Pennisi"
+        ], 
+        "SSD": "ING-INF/01", 
+        "CFU": "6", 
+        "ID": "12844"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Microelectronics (mod. B)", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria elettronica", 
+        "Anno": "2", 
+        "Docenti": [
+            "Alfio Dario Grasso"
+        ], 
+        "SSD": "ING-INF/01", 
+        "CFU": "6", 
+        "ID": "12845"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Sistemi Elettronici", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria elettronica", 
+        "Anno": "2", 
+        "Docenti": [
+            "Alfio Dario Grasso"
+        ], 
+        "SSD": "ING-INF/01", 
+        "CFU": "6", 
+        "ID": "12940"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Elettronica di potenza", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria elettronica", 
+        "Anno": "2", 
+        "Docenti": [
+            "Angelo Raciti"
+        ], 
+        "SSD": "ING-IND/32", 
+        "CFU": "9", 
+        "ID": "12941"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Micro e nano sensori", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria elettronica", 
+        "Anno": "2", 
+        "Docenti": [
+            "Salvatore Baglio"
+        ], 
+        "SSD": "ING-INF/07", 
+        "CFU": "9", 
+        "ID": "12942"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Gestione dell'energia e fonti rinnovabili", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria gestionale", 
+        "Anno": "1", 
+        "Docenti": [
+            "Alberto Alfio Fichera"
+        ], 
+        "SSD": "ING-IND/10", 
+        "CFU": "6", 
+        "ID": "12944"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Gestione e organizzazione aziendale", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria gestionale", 
+        "Anno": "1", 
+        "Docenti": [
+            "Alessandro Ancarani"
+        ], 
+        "SSD": "ING-IND/35", 
+        "CFU": "6", 
+        "ID": "12943"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Modellistica e ottimizzazione", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria gestionale", 
+        "Anno": "1", 
+        "Docenti": [
+            "Arturo Buscarino"
+        ], 
+        "SSD": "ING-INF/04", 
+        "CFU": "9", 
+        "ID": "12945"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Affidabilita e sicurezza dei sistemi produttivi", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria gestionale", 
+        "Anno": "1", 
+        "Docenti": [
+            "Natalia Trapani"
+        ], 
+        "SSD": "ING-IND/17", 
+        "CFU": "9", 
+        "ID": "12946"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Progettazione integrata di prodotto", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria gestionale", 
+        "Anno": "1", 
+        "Docenti": [
+            "Giovanna Fargione"
+        ], 
+        "SSD": "ING-IND/14", 
+        "CFU": "9", 
+        "ID": "12948"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Programmazione e controllo della produzione", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria gestionale", 
+        "Anno": "1", 
+        "Docenti": [
+            "Antonio Costa"
+        ], 
+        "SSD": "ING-IND/16", 
+        "CFU": "9", 
+        "ID": "12947"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Logistica", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria gestionale", 
+        "Anno": "2", 
+        "Docenti": [
+            "Diego D'Urso"
+        ], 
+        "SSD": "ING-IND/17", 
+        "CFU": "9", 
+        "ID": "12951"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Sistemi di produzione di beni e servizi", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria gestionale", 
+        "Anno": "2", 
+        "Docenti": [
+            "Sergio Fichera"
+        ], 
+        "SSD": "ING-IND/16", 
+        "CFU": "9", 
+        "ID": "12949"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Strategia e innovazione", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria gestionale", 
+        "Anno": "2", 
+        "Docenti": [
+            "Carmela Di Mauro"
+        ], 
+        "SSD": "ING-IND/35", 
+        "CFU": "9", 
+        "ID": "12950"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Altre attivita", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria gestionale", 
+        "Anno": "2", 
+        "Docenti": [
+            " "
+        ], 
+        "SSD": "-1", 
+        "CFU": "3", 
+        "ID": "12952"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Gestione della qualita'", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria gestionale", 
+        "Anno": "2", 
+        "Docenti": [
+            "Giovanni Celano"
+        ], 
+        "SSD": "ING-IND/16", 
+        "CFU": "9", 
+        "ID": "12953"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Marketing e risorse umane", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria gestionale", 
+        "Anno": "2", 
+        "Docenti": [
+            "Alessandro Ancarani"
+        ], 
+        "SSD": "ING-IND/35", 
+        "CFU": "9", 
+        "ID": "12954"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Meccanica dei fluidi", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria meccanica", 
+        "Anno": "1", 
+        "Docenti": [
+            "Pietro Scandura"
+        ], 
+        "SSD": "ICAR/01", 
+        "CFU": "6", 
+        "ID": "12967"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Modellistica e simulazione dei sistemi meccanici", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria meccanica", 
+        "Anno": "1", 
+        "Docenti": [
+            "Gabriele Fichera"
+        ], 
+        "SSD": "ING-IND/13", 
+        "CFU": "9", 
+        "ID": "12970"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Sc. e Tecnol. Mat.li (mod. Chimica macromolecolare)", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria meccanica", 
+        "Anno": "1", 
+        "Docenti": [
+            "Antonino Recca"
+        ], 
+        "SSD": "ING-IND/22", 
+        "CFU": "3", 
+        "ID": "12968"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Sc. e Tecnol. Mat.li (mod. Sc. e tecnol. mat.li)", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria meccanica", 
+        "Anno": "1", 
+        "Docenti": [
+            "Gianluca Cicala"
+        ], 
+        "SSD": "ING-IND/22", 
+        "CFU": "6", 
+        "ID": "12969"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Costruzioni di macchine I", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria meccanica", 
+        "Anno": "1", 
+        "Docenti": [
+            "Guido La Rosa"
+        ], 
+        "SSD": "ING-IND/14", 
+        "CFU": "9", 
+        "ID": "12973"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Misure meccaniche e termiche", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria meccanica", 
+        "Anno": "1", 
+        "Docenti": [
+            "Fabio Lo Savio"
+        ], 
+        "SSD": "ING-IND/12", 
+        "CFU": "6", 
+        "ID": "12971"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Tecnologia meccanica", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria meccanica", 
+        "Anno": "1", 
+        "Docenti": [
+            "Sergio Fichera"
+        ], 
+        "SSD": "ING-IND/16", 
+        "CFU": "9", 
+        "ID": "12972"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Costruzioni di macchine II", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria meccanica", 
+        "Anno": "2", 
+        "Docenti": [
+            "Giuseppe Mirone"
+        ], 
+        "SSD": "ING-IND/14", 
+        "CFU": "9", 
+        "ID": "12974"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Impianti termotecnici", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria meccanica", 
+        "Anno": "2", 
+        "Docenti": [
+            "Giuliano Cammarata"
+        ], 
+        "SSD": "ING-IND/10", 
+        "CFU": "9", 
+        "ID": "12975"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Meccatronica", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria meccanica", 
+        "Anno": "2", 
+        "Docenti": [
+            "Rosario Giovanni Sinatra"
+        ], 
+        "SSD": "ING-IND/13", 
+        "CFU": "6", 
+        "ID": "12976"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Costruzioni biomeccaniche", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria meccanica", 
+        "Anno": "2", 
+        "Docenti": [
+            "Guido La Rosa"
+        ], 
+        "SSD": "ING-IND/34", 
+        "CFU": "9", 
+        "ID": "12977"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Progetto di macchine", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria meccanica", 
+        "Anno": "2", 
+        "Docenti": [
+            "Michele Messina"
+        ], 
+        "SSD": "ING-IND/08", 
+        "CFU": "9", 
+        "ID": "12978"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Altre attivita", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria per l'ambiente e il territorio", 
+        "Anno": "1", 
+        "Docenti": [
+            " "
+        ], 
+        "SSD": "-1", 
+        "CFU": "3", 
+        "ID": "12982"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Geotecnica nella difesa del territorio", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria per l'ambiente e il territorio", 
+        "Anno": "1", 
+        "Docenti": [
+            "Salvatore Grasso"
+        ], 
+        "SSD": "ICAR/07", 
+        "CFU": "9", 
+        "ID": "12979"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Tecnica del controllo ambientale", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria per l'ambiente e il territorio", 
+        "Anno": "1", 
+        "Docenti": [
+            "Antonio Gagliano"
+        ], 
+        "SSD": "ING-IND/11", 
+        "CFU": "6", 
+        "ID": "12980"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Tecnica delle costruzioni", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria per l'ambiente e il territorio", 
+        "Anno": "1", 
+        "Docenti": [
+            "Antonino D'Aveni"
+        ], 
+        "SSD": "ICAR/09", 
+        "CFU": "9", 
+        "ID": "12981"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Telerilevamento e GIS", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria per l'ambiente e il territorio", 
+        "Anno": "1", 
+        "Docenti": [
+            "Giuseppe Mussumeci"
+        ], 
+        "SSD": "ICAR/06", 
+        "CFU": "6", 
+        "ID": "12983"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Idraulica dei sistemi naturali", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria per l'ambiente e il territorio", 
+        "Anno": "1", 
+        "Docenti": [
+            "Vincenza Santoro"
+        ], 
+        "SSD": "ICAR/01", 
+        "CFU": "9", 
+        "ID": "12984"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Idrologia", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria per l'ambiente e il territorio", 
+        "Anno": "1", 
+        "Docenti": [
+            "Antonino Cancelliere"
+        ], 
+        "SSD": "ICAR/02", 
+        "CFU": "9", 
+        "ID": "12986"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Sistemi di trasporto", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria per l'ambiente e il territorio", 
+        "Anno": "1", 
+        "Docenti": [
+            "Matteo Ignaccolo"
+        ], 
+        "SSD": "ICAR/05", 
+        "CFU": "9", 
+        "ID": "12987"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Tecnol. e chim. appl. alla tutela ambiente", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria per l'ambiente e il territorio", 
+        "Anno": "1", 
+        "Docenti": [
+            "Antonino Mamo"
+        ], 
+        "SSD": "ING-IND/22", 
+        "CFU": "6", 
+        "ID": "12985"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Dinamica degli inquinanti e bonifica dei siti contaminati", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria per l'ambiente e il territorio", 
+        "Anno": "2", 
+        "Docenti": [
+            "Federico Vagliasindi"
+        ], 
+        "SSD": "ICAR/03", 
+        "CFU": "9", 
+        "ID": "12989"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Impianti di trattamento sanitario-ambientale", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria per l'ambiente e il territorio", 
+        "Anno": "2", 
+        "Docenti": [
+            "Paolo Roccaro"
+        ], 
+        "SSD": "ICAR/03", 
+        "CFU": "6", 
+        "ID": "12988"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Watershed Hydraulic Protection", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria per l'ambiente e il territorio", 
+        "Anno": "2", 
+        "Docenti": [
+            "Alberto Campisano"
+        ], 
+        "SSD": "ICAR/02", 
+        "CFU": "9", 
+        "ID": "12990"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Chimica", 
+        "Corso di Laurea": "Laurea in Ingegneria Elettronica", 
+        "Anno": "1", 
+        "Docenti": [
+            "Valentina Siracusa", 
+            "Ignazio Blanco", 
+            "Valentina Siracusa"
+        ], 
+        "SSD": "CHIM/07", 
+        "CFU": "9", 
+        "ID": "12781"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Economia applicata all'ingegneria", 
+        "Corso di Laurea": "Laurea in Ingegneria Elettronica", 
+        "Anno": "1", 
+        "Docenti": [
+            "Carmela Di Mauro", 
+            "Alessandro Ancarani", 
+            "Francesco Mascali"
+        ], 
+        "SSD": "ING-IND/35", 
+        "CFU": "6", 
+        "ID": "12782"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Algebra lineare e geometria", 
+        "Corso di Laurea": "Laurea in Ingegneria Elettronica", 
+        "Anno": "1", 
+        "Docenti": [
+            "Lucia Marino", 
+            "Mariolina Munda", 
+            "Paola Bonacini"
+        ], 
+        "SSD": "MAT/03", 
+        "CFU": "9", 
+        "ID": "12783"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Fisica I", 
+        "Corso di Laurea": "Laurea in Ingegneria Elettronica", 
+        "Anno": "1", 
+        "Docenti": [
+            "Filippo Falciglia", 
+            "Agata Scordino", 
+            "Luigi Lo Monaco "
+        ], 
+        "SSD": "FIS/01", 
+        "CFU": "9", 
+        "ID": "12784"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Fondamenti di informatica", 
+        "Corso di Laurea": "Laurea in Ingegneria Elettronica", 
+        "Anno": "1", 
+        "Docenti": [
+            "Vincenza Carchiolo", 
+            "Salvatore Cavalieri", 
+            "Michele Malgeri"
+        ], 
+        "SSD": "ING-INF/05", 
+        "CFU": "9", 
+        "ID": "12785"
+    }, 
+    {
+        "Semestre": "Ann.", 
+        "Nome": "Analisi matematica I", 
+        "Corso di Laurea": "Laurea in Ingegneria Elettronica", 
+        "Anno": "1", 
+        "Docenti": [
+            "Pietro Zamboni", 
+            "Maria Fanciullo", 
+            "Sunra Mosconi"
+        ], 
+        "SSD": "MAT/05", 
+        "CFU": "9", 
+        "ID": "12780"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Analisi matematica II", 
+        "Corso di Laurea": "Laurea in Ingegneria Elettronica", 
+        "Anno": "2", 
+        "Docenti": [
+            "Daniele Puglisi"
+        ], 
+        "SSD": "MAT/05", 
+        "CFU": "9", 
+        "ID": "12786"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Elettrotecnica", 
+        "Corso di Laurea": "Laurea in Ingegneria Elettronica", 
+        "Anno": "2", 
+        "Docenti": [
+            "Salvatore Coco"
+        ], 
+        "SSD": "ING-IND/31", 
+        "CFU": "9", 
+        "ID": "12788"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Fisica II", 
+        "Corso di Laurea": "Laurea in Ingegneria Elettronica", 
+        "Anno": "2", 
+        "Docenti": [
+            "Elisabetta Paladino"
+        ], 
+        "SSD": "FIS/03", 
+        "CFU": "9", 
+        "ID": "12787"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Elettronica I", 
+        "Corso di Laurea": "Laurea in Ingegneria Elettronica", 
+        "Anno": "2", 
+        "Docenti": [
+            "Salvatore Pennisi"
+        ], 
+        "SSD": "ING-INF/01", 
+        "CFU": "9", 
+        "ID": "12789"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Teoria dei segnali", 
+        "Corso di Laurea": "Laurea in Ingegneria Elettronica", 
+        "Anno": "2", 
+        "Docenti": [
+            "Giacomo Morabito"
+        ], 
+        "SSD": "ING-INF/03", 
+        "CFU": "9", 
+        "ID": "12790"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Teoria dei Sistemi", 
+        "Corso di Laurea": "Laurea in Ingegneria Elettronica", 
+        "Anno": "2", 
+        "Docenti": [
+            "Maide Bucolo"
+        ], 
+        "SSD": "ING-INF/04", 
+        "CFU": "9", 
+        "ID": "12792"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Altre attivita", 
+        "Corso di Laurea": "Laurea in Ingegneria Elettronica", 
+        "Anno": "3", 
+        "CFU": "3", 
+        "ID": "12857"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Analisi matematica III", 
+        "Corso di Laurea": "Laurea in Ingegneria Elettronica", 
+        "Anno": "3", 
+        "Docenti": [
+            "Pietro Zamboni"
+        ], 
+        "SSD": "MAT/05", 
+        "CFU": "6", 
+        "ID": "12793"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Controlli automatici", 
+        "Corso di Laurea": "Laurea in Ingegneria Elettronica", 
+        "Anno": "3", 
+        "Docenti": [
+            "Giovanni Muscato"
+        ], 
+        "SSD": "ING-INF/04", 
+        "CFU": "9", 
+        "ID": "12795"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Elettronica II", 
+        "Corso di Laurea": "Laurea in Ingegneria Elettronica", 
+        "Anno": "3", 
+        "Docenti": [
+            "Gianluca Giustolisi"
+        ], 
+        "SSD": "ING-INF/01", 
+        "CFU": "9", 
+        "ID": "12794"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Misure elettroniche (mod. A)", 
+        "Corso di Laurea": "Laurea in Ingegneria Elettronica", 
+        "Anno": "3", 
+        "Docenti": [
+            "Salvatore Graziani"
+        ], 
+        "SSD": "ING-INF/07", 
+        "CFU": "6", 
+        "ID": "12799"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Calcolatori elettronici", 
+        "Corso di Laurea": "Laurea in Ingegneria Elettronica", 
+        "Anno": "3", 
+        "Docenti": [
+            "Salvatore Monteleone"
+        ], 
+        "SSD": "ING-INF/05", 
+        "CFU": "9", 
+        "ID": "12796"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Fondamenti di telecomunicazioni", 
+        "Corso di Laurea": "Laurea in Ingegneria Elettronica", 
+        "Anno": "3", 
+        "Docenti": [
+            "Francesco Beritelli"
+        ], 
+        "SSD": "ING-INF/03", 
+        "CFU": "9", 
+        "ID": "12801"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Misure elettroniche (mod. B)", 
+        "Corso di Laurea": "Laurea in Ingegneria Elettronica", 
+        "Anno": "3", 
+        "Docenti": [
+            "Bruno Ando"
+        ], 
+        "SSD": "ING-INF/07", 
+        "CFU": "6", 
+        "ID": "12800"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Analisi matematica I", 
+        "Corso di Laurea": "Laurea in Ingegneria Civile e ambientale", 
+        "Anno": "1", 
+        "Docenti": [
+            "Salvatore D'Asero", 
+            "Rita Cirmi"
+        ], 
+        "SSD": "MAT/05", 
+        "CFU": "9", 
+        "ID": "12760"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Chimica", 
+        "Corso di Laurea": "Laurea in Ingegneria Civile e ambientale", 
+        "Anno": "1", 
+        "Docenti": [
+            "Salvatore Failla", 
+            "Salvatore Failla"
+        ], 
+        "SSD": "CHIM/07", 
+        "CFU": "9", 
+        "ID": "12761"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Economia applicata all'ingegneria", 
+        "Corso di Laurea": "Laurea in Ingegneria Civile e ambientale", 
+        "Anno": "1", 
+        "Docenti": [
+            "Luisa Sturiale", 
+            "Alessandro Scuderi"
+        ], 
+        "SSD": "ICAR/22", 
+        "CFU": "6", 
+        "ID": "12762"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Algebra lineare e geometria", 
+        "Corso di Laurea": "Laurea in Ingegneria Civile e ambientale", 
+        "Anno": "1", 
+        "Docenti": [
+            "Giuseppe Zappala", 
+            "Riccardo Re"
+        ], 
+        "SSD": "MAT/03", 
+        "CFU": "9", 
+        "ID": "12763"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Fisica I", 
+        "Corso di Laurea": "Laurea in Ingegneria Civile e ambientale", 
+        "Anno": "1", 
+        "Docenti": [
+            "Stefano Romano", 
+            "Lucia Calcagno"
+        ], 
+        "SSD": "FIS/01", 
+        "CFU": "9", 
+        "ID": "12764"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Fondamenti di informatica", 
+        "Corso di Laurea": "Laurea in Ingegneria Civile e ambientale", 
+        "Anno": "1", 
+        "Docenti": [
+            "Orazio Mirabella", 
+            "Giuseppe Di Modica"
+        ], 
+        "SSD": "ING-INF/05", 
+        "CFU": "9", 
+        "ID": "12765"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Analisi matematica II", 
+        "Corso di Laurea": "Laurea in Ingegneria Civile e ambientale", 
+        "Anno": "2", 
+        "Docenti": [
+            "Salvatore Leonardi"
+        ], 
+        "SSD": "MAT/05", 
+        "CFU": "9", 
+        "ID": "12768"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Disegno", 
+        "Corso di Laurea": "Laurea in Ingegneria Civile e ambientale", 
+        "Anno": "2", 
+        "Docenti": [
+            "Cettina Santagati"
+        ], 
+        "SSD": "ICAR/17", 
+        "CFU": "6", 
+        "ID": "12766"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Fisica II", 
+        "Corso di Laurea": "Laurea in Ingegneria Civile e ambientale", 
+        "Anno": "2", 
+        "Docenti": [
+            "Concetta Sutera"
+        ], 
+        "SSD": "FIS/01", 
+        "CFU": "9", 
+        "ID": "12767"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Tecnologia dei materiali e chimica appl.", 
+        "Corso di Laurea": "Laurea in Ingegneria Civile e ambientale", 
+        "Anno": "2", 
+        "Docenti": [
+            "Antonino Giovanni Pollicino"
+        ], 
+        "SSD": "ING-IND/22", 
+        "CFU": "6", 
+        "ID": "12769"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Altre abilita informatiche e telematiche", 
+        "Corso di Laurea": "Laurea in Ingegneria Civile e ambientale", 
+        "Anno": "2", 
+        "CFU": "3", 
+        "ID": "12773"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Ingegneria sanitaria ambientale", 
+        "Corso di Laurea": "Laurea in Ingegneria Civile e ambientale", 
+        "Anno": "2", 
+        "Docenti": [
+            "Federico Vagliasindi"
+        ], 
+        "SSD": "ICAR/03", 
+        "CFU": "9", 
+        "ID": "12770"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Lab. informatico di Topografia e Cartografia", 
+        "Corso di Laurea": "Laurea in Ingegneria Civile e ambientale", 
+        "Anno": "2", 
+        "Docenti": [
+            "Giuseppe Mussumeci"
+        ], 
+        "SSD": "-1", 
+        "CFU": "3", 
+        "ID": "13085"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Meccanica razionale", 
+        "Corso di Laurea": "Laurea in Ingegneria Civile e ambientale", 
+        "Anno": "2", 
+        "Docenti": [
+            "Orazio Muscato"
+        ], 
+        "SSD": "MAT/07", 
+        "CFU": "9", 
+        "ID": "12771"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Topografia e Cartografia", 
+        "Corso di Laurea": "Laurea in Ingegneria Civile e ambientale", 
+        "Anno": "2", 
+        "Docenti": [
+            "Giuseppe Mussumeci"
+        ], 
+        "SSD": "ICAR/06", 
+        "CFU": "6", 
+        "ID": "12772"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Architettura tecnica", 
+        "Corso di Laurea": "Laurea in Ingegneria Civile e ambientale", 
+        "Anno": "3", 
+        "Docenti": [
+            "Giuseppe Margani", 
+            "Gaetano Sciuto"
+        ], 
+        "SSD": "ICAR/10", 
+        "CFU": "6", 
+        "ID": "12777"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Fondamenti di Trasporti", 
+        "Corso di Laurea": "Laurea in Ingegneria Civile e ambientale", 
+        "Anno": "3", 
+        "Docenti": [
+            "Giuseppe Inturri"
+        ], 
+        "SSD": "ICAR/05", 
+        "CFU": "6", 
+        "ID": "12776"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Idraulica", 
+        "Corso di Laurea": "Laurea in Ingegneria Civile e ambientale", 
+        "Anno": "3", 
+        "Docenti": [
+            "Enrico Foti"
+        ], 
+        "SSD": "ICAR/01", 
+        "CFU": "9", 
+        "ID": "12774"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Fisica tecnica e impianti", 
+        "Corso di Laurea": "Laurea in Ingegneria Civile e ambientale", 
+        "Anno": "3", 
+        "Docenti": [
+            "Francesco Patania"
+        ], 
+        "SSD": "ING-IND/11", 
+        "CFU": "9", 
+        "ID": "12779"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Geotecnica", 
+        "Corso di Laurea": "Laurea in Ingegneria Civile e ambientale", 
+        "Anno": "3", 
+        "Docenti": [
+            "Ernesto Motta"
+        ], 
+        "SSD": "ICAR/09", 
+        "CFU": "9", 
+        "ID": "12778"
+    }, 
+    {
+        "Semestre": "Ann.", 
+        "Nome": "Esercitazioni", 
+        "Corso di Laurea": "Laurea in Ingegneria Civile e ambientale", 
+        "Anno": "3", 
+        "Docenti": [
+            " "
+        ], 
+        "CFU": "0", 
+        "ID": "13081"
+    }, 
+    {
+        "Semestre": "Ann.", 
+        "Nome": "Scienza delle costruzioni", 
+        "Corso di Laurea": "Laurea in Ingegneria Civile e ambientale", 
+        "Anno": "3", 
+        "Docenti": [
+            "Annalisa Maria Greco"
+        ], 
+        "SSD": "ICAR/08", 
+        "CFU": "12", 
+        "ID": "12775"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Analisi matematica I", 
+        "Corso di Laurea": "Laurea in Ingegneria Industriale", 
+        "Anno": "1", 
+        "Docenti": [
+            "Alfonso Villani", 
+            "Francesca Faraci", 
+            "Francesca Faraci"
+        ], 
+        "SSD": "MAT/05", 
+        "CFU": "9", 
+        "ID": "12823"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Chimica", 
+        "Corso di Laurea": "Laurea in Ingegneria Industriale", 
+        "Anno": "1", 
+        "Docenti": [
+            "Giovanna Di Pasquale", 
+            "Giovanna Di Pasquale", 
+            "Francesco Agatino Bottino"
+        ], 
+        "SSD": "CHIM/07", 
+        "CFU": "9", 
+        "ID": "12824"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Economia applicata all'ingegneria", 
+        "Corso di Laurea": "Laurea in Ingegneria Industriale", 
+        "Anno": "1", 
+        "Docenti": [
+            " ", 
+            "Maria Rosa Trovato", 
+            "Maria Rosa Trovato"
+        ], 
+        "SSD": "ICAR/22", 
+        "CFU": "6", 
+        "ID": "12825"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Tutor Analisi mat. I", 
+        "Corso di Laurea": "Laurea in Ingegneria Industriale", 
+        "Anno": "1", 
+        "Docenti": [
+            "Alfonso Villani", 
+            "Alfonso Villani", 
+            "Alfonso Villani"
+        ], 
+        "CFU": "0", 
+        "ID": "13078"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Algebra lineare e geometria", 
+        "Corso di Laurea": "Laurea in Ingegneria Industriale", 
+        "Anno": "1", 
+        "Docenti": [
+            "Maria Grazia Cinquegrani", 
+            "Maria Grazia Cinquegrani", 
+            "Monica La Barbiera"
+        ], 
+        "SSD": "MAT/03", 
+        "CFU": "9", 
+        "ID": "12827"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Fisica I", 
+        "Corso di Laurea": "Laurea in Ingegneria Industriale", 
+        "Anno": "1", 
+        "Docenti": [
+            "Maria Letizia Sergi", 
+            " ", 
+            "Giulio Manico"
+        ], 
+        "SSD": "FIS/01", 
+        "CFU": "9", 
+        "ID": "12826"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Fondamenti di informatica", 
+        "Corso di Laurea": "Laurea in Ingegneria Industriale", 
+        "Anno": "1", 
+        "Docenti": [
+            "Daniela Giordano", 
+            "Concetto Spampinato", 
+            "Lucia Lo Bello"
+        ], 
+        "SSD": "ING-INF/05", 
+        "CFU": "9", 
+        "ID": "12828"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Analisi matematica II", 
+        "Corso di Laurea": "Laurea in Ingegneria Industriale", 
+        "Anno": "2", 
+        "Docenti": [
+            "Andrea Orazio Caruso", 
+            "Rita Cirmi"
+        ], 
+        "SSD": "MAT/02", 
+        "CFU": "9", 
+        "ID": "12829"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Disegno Tecnico Industriale", 
+        "Corso di Laurea": "Laurea in Ingegneria Industriale", 
+        "Anno": "2", 
+        "Docenti": [
+            "Salvatore Massimo Oliveri", 
+            " "
+        ], 
+        "SSD": "ING-IND/15", 
+        "CFU": "9", 
+        "ID": "12831"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Fisica II", 
+        "Corso di Laurea": "Laurea in Ingegneria Industriale", 
+        "Anno": "2", 
+        "Docenti": [
+            "Luigi Amico", 
+            "Salvatore Tudisco"
+        ], 
+        "SSD": "FIS/01", 
+        "CFU": "9", 
+        "ID": "12830"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Elettrotecnica", 
+        "Corso di Laurea": "Laurea in Ingegneria Industriale", 
+        "Anno": "2", 
+        "Docenti": [
+            "Salvatore Alfonzetti", 
+            "Giovanni Antonio Aiello"
+        ], 
+        "SSD": "ING-IND/31", 
+        "CFU": "9", 
+        "ID": "12833"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Fisica matematica", 
+        "Corso di Laurea": "Laurea in Ingegneria Industriale", 
+        "Anno": "2", 
+        "Docenti": [
+            "Armando Majorana", 
+            "Vittorio Romano"
+        ], 
+        "SSD": "MAT/07", 
+        "CFU": "9", 
+        "ID": "12832"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Fisica tecnica", 
+        "Corso di Laurea": "Laurea in Ingegneria Industriale", 
+        "Anno": "2", 
+        "Docenti": [
+            "Arturo Pagano", 
+            "Luigi Cammarata"
+        ], 
+        "SSD": "ING-IND/10", 
+        "CFU": "9", 
+        "ID": "12834"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Meccanica applicata alle macchine", 
+        "Corso di Laurea": "Laurea in Ingegneria Industriale", 
+        "Anno": "3", 
+        "Docenti": [
+            "Michele Lacagnina", 
+            "Michele Lacagnina"
+        ], 
+        "SSD": "ING-IND/13", 
+        "CFU": "9", 
+        "ID": "12836"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Progettazione e gestione degli impianti industriali", 
+        "Corso di Laurea": "Laurea in Ingegneria Industriale", 
+        "Anno": "3", 
+        "Docenti": [
+            "Lucio Compagno", 
+            "Lucio Compagno"
+        ], 
+        "SSD": "ING-IND/17", 
+        "CFU": "9", 
+        "ID": "12835"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Scienza delle costruzioni", 
+        "Corso di Laurea": "Laurea in Ingegneria Industriale", 
+        "Anno": "3", 
+        "Docenti": [
+            "Massimo Cuomo", 
+            "Leopoldo Greco"
+        ], 
+        "SSD": "ICAR/08", 
+        "CFU": "9", 
+        "ID": "12837"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Altre conoscenze utili per l'inserimento nel mondo del lavoro", 
+        "Corso di Laurea": "Laurea in Ingegneria Industriale", 
+        "Anno": "3", 
+        "Docenti": [
+            "Salvatore Tudisco", 
+            "Salvatore Tudisco"
+        ], 
+        "SSD": "-1", 
+        "CFU": "3", 
+        "ID": "12838"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Controlli automatici", 
+        "Corso di Laurea": "Laurea in Ingegneria Industriale", 
+        "Anno": "3", 
+        "Docenti": [
+            "Antonio Gallo", 
+            "Giuseppe Nunnari"
+        ], 
+        "SSD": "ING-INF/04", 
+        "CFU": "9", 
+        "ID": "12841"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Macchine a fluido", 
+        "Corso di Laurea": "Laurea in Ingegneria Industriale", 
+        "Anno": "3", 
+        "Docenti": [
+            "Rosario Lanzafame", 
+            "Rosario Lanzafame"
+        ], 
+        "SSD": "ING-IND/08", 
+        "CFU": "9", 
+        "ID": "12839"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Macchine e impianti elettrici", 
+        "Corso di Laurea": "Laurea in Ingegneria Industriale", 
+        "Anno": "3", 
+        "Docenti": [
+            "Calogero Cavallaro", 
+            "Giacomo Scelba"
+        ], 
+        "SSD": "ING-IND/32", 
+        "CFU": "9", 
+        "ID": "12840"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Chimica", 
+        "Corso di Laurea": "Laurea in Ingegneria Informatica", 
+        "Anno": "1", 
+        "Docenti": [
+            "Valentina Siracusa", 
+            "Ignazio Blanco", 
+            "Valentina Siracusa"
+        ], 
+        "SSD": "CHIM/07", 
+        "CFU": "9", 
+        "ID": "12803"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Economia applicata all'ingegneria", 
+        "Corso di Laurea": "Laurea in Ingegneria Informatica", 
+        "Anno": "1", 
+        "Docenti": [
+            "Carmela Di Mauro", 
+            "Alessandro Ancarani", 
+            "Francesco Mascali"
+        ], 
+        "SSD": "ING-IND/35", 
+        "CFU": "6", 
+        "ID": "12804"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Algebra lineare e geometria", 
+        "Corso di Laurea": "Laurea in Ingegneria Informatica", 
+        "Anno": "1", 
+        "Docenti": [
+            "Lucia Marino", 
+            "Mariolina Munda", 
+            "Paola Bonacini"
+        ], 
+        "SSD": "MAT/03", 
+        "CFU": "9", 
+        "ID": "12805"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Fisica I", 
+        "Corso di Laurea": "Laurea in Ingegneria Informatica", 
+        "Anno": "1", 
+        "Docenti": [
+            "Filippo Falciglia", 
+            "Agata Scordino", 
+            "Luigi Lo Monaco "
+        ], 
+        "SSD": "FIS/01", 
+        "CFU": "9", 
+        "ID": "12806"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Fondamenti di informatica", 
+        "Corso di Laurea": "Laurea in Ingegneria Informatica", 
+        "Anno": "1", 
+        "Docenti": [
+            "Vincenza Carchiolo", 
+            "Salvatore Cavalieri", 
+            "Michele Malgeri"
+        ], 
+        "SSD": "ING-INF/05", 
+        "CFU": "9", 
+        "ID": "12807"
+    }, 
+    {
+        "Semestre": "Ann.", 
+        "Nome": "Analisi matematica I", 
+        "Corso di Laurea": "Laurea in Ingegneria Informatica", 
+        "Anno": "1", 
+        "Docenti": [
+            "Pietro Zamboni", 
+            "Maria Fanciullo", 
+            "Sunra Mosconi"
+        ], 
+        "SSD": "MAT/05", 
+        "CFU": "9", 
+        "ID": "12802"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Analisi matematica II", 
+        "Corso di Laurea": "Laurea in Ingegneria Informatica", 
+        "Anno": "2", 
+        "Docenti": [
+            "Pietro Zamboni"
+        ], 
+        "SSD": "MAT/05", 
+        "CFU": "9", 
+        "ID": "12808"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Automatica (mod. Teoria dei sistemi)", 
+        "Corso di Laurea": "Laurea in Ingegneria Informatica", 
+        "Anno": "2", 
+        "Docenti": [
+            "Paolo Arena"
+        ], 
+        "SSD": "ING-INF/04", 
+        "CFU": "6", 
+        "ID": "12811"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Fisica II", 
+        "Corso di Laurea": "Laurea in Ingegneria Informatica", 
+        "Anno": "2", 
+        "Docenti": [
+            "Agatino Musumarra"
+        ], 
+        "SSD": "FIS/01", 
+        "CFU": "9", 
+        "ID": "12809"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Sistemi operativi", 
+        "Corso di Laurea": "Laurea in Ingegneria Informatica", 
+        "Anno": "2", 
+        "Docenti": [
+            "Lucia Lo Bello"
+        ], 
+        "SSD": "ING-INF/05", 
+        "CFU": "6", 
+        "ID": "12810"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Automatica (mod. Controlli Automatici)", 
+        "Corso di Laurea": "Laurea in Ingegneria Informatica", 
+        "Anno": "2", 
+        "Docenti": [
+            "Paolo Arena"
+        ], 
+        "SSD": "ING-INF/04", 
+        "CFU": "6", 
+        "ID": "12812"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Elettrotecnica", 
+        "Corso di Laurea": "Laurea in Ingegneria Informatica", 
+        "Anno": "2", 
+        "Docenti": [
+            "Nunzio Salerno"
+        ], 
+        "SSD": "ING-IND/31", 
+        "CFU": "9", 
+        "ID": "12814"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Programmazione orientata agli oggetti", 
+        "Corso di Laurea": "Laurea in Ingegneria Informatica", 
+        "Anno": "2", 
+        "Docenti": [
+            "Antonella Di Stefano"
+        ], 
+        "SSD": "ING-INF/05", 
+        "CFU": "6", 
+        "ID": "12813"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Teoria dei segnali", 
+        "Corso di Laurea": "Laurea in Ingegneria Informatica", 
+        "Anno": "2", 
+        "Docenti": [
+            "Alfio Lombardo"
+        ], 
+        "SSD": "ING-INF/03", 
+        "CFU": "9", 
+        "ID": "12815"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Altre attivita", 
+        "Corso di Laurea": "Laurea in Ingegneria Informatica", 
+        "Anno": "3", 
+        "CFU": "3", 
+        "ID": "12858"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Architettura Internet e Programmazione Web", 
+        "Corso di Laurea": "Laurea in Ingegneria Informatica", 
+        "Anno": "3", 
+        "Docenti": [
+            "Giuseppe Mangioni"
+        ], 
+        "SSD": "ING-INF/05", 
+        "CFU": "9", 
+        "ID": "12819"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Calcolatori elettronici", 
+        "Corso di Laurea": "Laurea in Ingegneria Informatica", 
+        "Anno": "3", 
+        "Docenti": [
+            "Giuseppe Ascia"
+        ], 
+        "SSD": "ING-INF/05", 
+        "CFU": "9", 
+        "ID": "12816"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Elettronica", 
+        "Corso di Laurea": "Laurea in Ingegneria Informatica", 
+        "Anno": "3", 
+        "Docenti": [
+            "Giuseppe Di Cataldo"
+        ], 
+        "SSD": "ING-INF/01", 
+        "CFU": "9", 
+        "ID": "12818"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Basi di dati e sistemi informativi", 
+        "Corso di Laurea": "Laurea in Ingegneria Informatica", 
+        "Anno": "3", 
+        "Docenti": [
+            "Alberto Faro"
+        ], 
+        "SSD": "ING-INF/05", 
+        "CFU": "9", 
+        "ID": "12821"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Comunicazioni elettriche", 
+        "Corso di Laurea": "Laurea in Ingegneria Informatica", 
+        "Anno": "3", 
+        "Docenti": [
+            "Giovanni Schembra"
+        ], 
+        "SSD": "ING-INF/03", 
+        "CFU": "6", 
+        "ID": "12822"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Laboratorio di architetture di sistemi fissi e mobili", 
+        "Corso di Laurea": "Laurea in Ingegneria Informatica", 
+        "Anno": "3", 
+        "Docenti": [
+            "Vincenzo Catania"
+        ], 
+        "SSD": "ING-INF/05", 
+        "CFU": "6", 
+        "ID": "12820"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Diritto Urbanistico - Geografia e Sociologia Urbana", 
+        "Corso di Laurea": "Laurea Magistrale a c.u. in Ingegneria Edile Architettura", 
+        "Anno": "1", 
+        "Docenti": [
+            "Antonino Longo", 
+            "Antonino Longo"
+        ], 
+        "CFU": "9", 
+        "ID": "12995"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Geometria", 
+        "Corso di Laurea": "Laurea Magistrale a c.u. in Ingegneria Edile Architettura", 
+        "Anno": "1", 
+        "Docenti": [
+            "Elena Guardo"
+        ], 
+        "SSD": "MAT/03", 
+        "CFU": "6", 
+        "ID": "12993"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Metodi analitici per l'ingegneria I", 
+        "Corso di Laurea": "Laurea Magistrale a c.u. in Ingegneria Edile Architettura", 
+        "Anno": "1", 
+        "Docenti": [
+            "Paolo Falsaperla "
+        ], 
+        "SSD": "MAT/03", 
+        "CFU": "6", 
+        "ID": "12992"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Storia dell' architettura i", 
+        "Corso di Laurea": "Laurea Magistrale a c.u. in Ingegneria Edile Architettura", 
+        "Anno": "1", 
+        "Docenti": [
+            "Simona Gatto"
+        ], 
+        "SSD": "ICAR/18", 
+        "CFU": "8", 
+        "ID": "12994"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Chimica", 
+        "Corso di Laurea": "Laurea Magistrale a c.u. in Ingegneria Edile Architettura", 
+        "Anno": "1", 
+        "Docenti": [
+            "Francesco Agatino Bottino"
+        ], 
+        "SSD": "CHIM/07", 
+        "CFU": "6", 
+        "ID": "12997"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Disegno dell'Architettura I e Lab. Disegno dell'Architettura I", 
+        "Corso di Laurea": "Laurea Magistrale a c.u. in Ingegneria Edile Architettura", 
+        "Anno": "1", 
+        "Docenti": [
+            "Maria Teresa Galizia", 
+            "Maria Teresa Galizia"
+        ], 
+        "SSD": "ICAR/17", 
+        "CFU": "12", 
+        "ID": "12998"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Fisica generale", 
+        "Corso di Laurea": "Laurea Magistrale a c.u. in Ingegneria Edile Architettura", 
+        "Anno": "1", 
+        "Docenti": [
+            "Claudio Spitaleri"
+        ], 
+        "SSD": "FIS/01", 
+        "CFU": "9", 
+        "ID": "12996"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Economia ed estimo ambientale", 
+        "Corso di Laurea": "Laurea Magistrale a c.u. in Ingegneria Edile Architettura", 
+        "Anno": "2", 
+        "Docenti": [
+            "Luisa Sturiale"
+        ], 
+        "SSD": "ICAR/22", 
+        "CFU": "9", 
+        "ID": "13012"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Metodi analitici per l'ingegneria II", 
+        "Corso di Laurea": "Laurea Magistrale a c.u. in Ingegneria Edile Architettura", 
+        "Anno": "2", 
+        "Docenti": [
+            "Concetta Drago"
+        ], 
+        "SSD": "MAT/07", 
+        "CFU": "6", 
+        "ID": "13011"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Op.I 1(mod.Dis.Arch II)", 
+        "Corso di Laurea": "Laurea Magistrale a c.u. in Ingegneria Edile Architettura", 
+        "Anno": "2", 
+        "Docenti": [
+            "Giuseppe Di Gregorio"
+        ], 
+        "SSD": "ICAR/17", 
+        "CFU": "9", 
+        "ID": "13054"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Op.I 2(mod.Dis.Aut)", 
+        "Corso di Laurea": "Laurea Magistrale a c.u. in Ingegneria Edile Architettura", 
+        "Anno": "2", 
+        "Docenti": [
+            "Graziana D'Agostino"
+        ], 
+        "SSD": "ICAR/17", 
+        "CFU": "6", 
+        "ID": "13056"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Storia Arch. II e Lab (mod. Storia Arch. II)", 
+        "Corso di Laurea": "Laurea Magistrale a c.u. in Ingegneria Edile Architettura", 
+        "Anno": "2", 
+        "Docenti": [
+            "Daniele Vadala"
+        ], 
+        "SSD": "ICAR/18", 
+        "CFU": "9", 
+        "ID": "13024"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Meccanica razionale", 
+        "Corso di Laurea": "Laurea Magistrale a c.u. in Ingegneria Edile Architettura", 
+        "Anno": "2", 
+        "Docenti": [
+            "Rita Tracina"
+        ], 
+        "SSD": "MAT/07", 
+        "CFU": "6", 
+        "ID": "13005"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Op.I 1(mod. Lab.Dis.Arch II)", 
+        "Corso di Laurea": "Laurea Magistrale a c.u. in Ingegneria Edile Architettura", 
+        "Anno": "2", 
+        "Docenti": [
+            "Giuseppe Di Gregorio"
+        ], 
+        "SSD": "ICAR/17", 
+        "CFU": "3", 
+        "ID": "13055"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Op.I 2(mod.Ril. Dig)", 
+        "Corso di Laurea": "Laurea Magistrale a c.u. in Ingegneria Edile Architettura", 
+        "Anno": "2", 
+        "Docenti": [
+            "Cettina Santagati"
+        ], 
+        "SSD": "ICAR/17", 
+        "CFU": "6", 
+        "ID": "13057"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Storia Arch. II e Lab (mod. Lab. Storia Arch. II)", 
+        "Corso di Laurea": "Laurea Magistrale a c.u. in Ingegneria Edile Architettura", 
+        "Anno": "2", 
+        "Docenti": [
+            "Rosangela Spina"
+        ], 
+        "SSD": "ICAR/18", 
+        "CFU": "3", 
+        "ID": "13025"
+    }, 
+    {
+        "Semestre": "Ann.", 
+        "Nome": "Architettura tecnica I e Lab. Arch. tec. I", 
+        "Corso di Laurea": "Laurea Magistrale a c.u. in Ingegneria Edile Architettura", 
+        "Anno": "2", 
+        "Docenti": [
+            "Grazia Lombardo", 
+            "Vincenzo Sapienza"
+        ], 
+        "SSD": "ICAR/10", 
+        "CFU": "12", 
+        "ID": "13003"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Architett. e composiz. architetton. I e lab. arch. e comp. arch. I", 
+        "Corso di Laurea": "Laurea Magistrale a c.u. in Ingegneria Edile Architettura", 
+        "Anno": "3", 
+        "Docenti": [
+            "Anna Maria Atripaldi"
+        ], 
+        "SSD": "ICAR/14", 
+        "CFU": "12", 
+        "ID": "13015"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Pianificazione Territoriale e Lab. Pianificazione Territoriale", 
+        "Corso di Laurea": "Laurea Magistrale a c.u. in Ingegneria Edile Architettura", 
+        "Anno": "3", 
+        "Docenti": [
+            "Paolo La Greca", 
+            "Santi Daniele La Rosa"
+        ], 
+        "SSD": "ICAR/20", 
+        "CFU": "12", 
+        "ID": "13017"
+    }, 
+    {
+        "Semestre": "Ann.", 
+        "Nome": "Fisica tecnica", 
+        "Corso di Laurea": "Laurea Magistrale a c.u. in Ingegneria Edile Architettura", 
+        "Anno": "3", 
+        "Docenti": [
+            "Luigi Marletta"
+        ], 
+        "SSD": "ING-IND/11", 
+        "CFU": "9", 
+        "ID": "13013"
+    }, 
+    {
+        "Semestre": "Ann.", 
+        "Nome": "Organizzazione del cantiere e Lab. org.ne del cantiere", 
+        "Corso di Laurea": "Laurea Magistrale a c.u. in Ingegneria Edile Architettura", 
+        "Anno": "3", 
+        "Docenti": [
+            "Rosa Caponetto", 
+            "Rosa Caponetto"
+        ], 
+        "SSD": "ICAR/11", 
+        "CFU": "9", 
+        "ID": "13016"
+    }, 
+    {
+        "Semestre": "Ann.", 
+        "Nome": "Scienza delle costruzioni", 
+        "Corso di Laurea": "Laurea Magistrale a c.u. in Ingegneria Edile Architettura", 
+        "Anno": "3", 
+        "Docenti": [
+            "Salvatore Caddemi"
+        ], 
+        "SSD": "ICAR/08", 
+        "CFU": "9", 
+        "ID": "13014"
+    }, 
+    {
+        "Semestre": "1deg Per.", 
+        "Nome": "Dipartimenti", 
+        "Corso di Laurea": "Laurea Magistrale a c.u. in Ingegneria Edile Architettura", 
+        "Anno": "4", 
+        "Docenti": [
+            " "
+        ], 
+        "CFU": "3", 
+        "ID": "13063"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Op.II 1(mod.Tec.Urb)", 
+        "Corso di Laurea": "Laurea Magistrale a c.u. in Ingegneria Edile Architettura", 
+        "Anno": "4", 
+        "Docenti": [
+            "Filippo Gravagno"
+        ], 
+        "SSD": "ICAR/20", 
+        "CFU": "9", 
+        "ID": "13058"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Op.II 2(mod.Pr.Urb)", 
+        "Corso di Laurea": "Laurea Magistrale a c.u. in Ingegneria Edile Architettura", 
+        "Anno": "4", 
+        "Docenti": [
+            "Paolo La Greca"
+        ], 
+        "SSD": "ICAR/20", 
+        "CFU": "6", 
+        "ID": "13060"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Op. III 1 (mod.Tec.Costr)", 
+        "Corso di Laurea": "Laurea Magistrale a c.u. in Ingegneria Edile Architettura", 
+        "Anno": "4", 
+        "Docenti": [
+            "Aurelio Ghersi"
+        ], 
+        "SSD": "ICAR/09", 
+        "CFU": "11", 
+        "ID": "13062"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Op.III 2 (mod.Din.Str.)", 
+        "Corso di Laurea": "Laurea Magistrale a c.u. in Ingegneria Edile Architettura", 
+        "Anno": "4", 
+        "Docenti": [
+            "Francesco Cannizzaro"
+        ], 
+        "SSD": "ICAR/09", 
+        "CFU": "7", 
+        "ID": "13065"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Architett. e composiz. architetton. II e lab. arch. e comp. arch. II", 
+        "Corso di Laurea": "Laurea Magistrale a c.u. in Ingegneria Edile Architettura", 
+        "Anno": "4", 
+        "Docenti": [
+            "Sebastiano D'Urso"
+        ], 
+        "SSD": "ICAR/14", 
+        "CFU": "12", 
+        "ID": "13018"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Idraulica e costruzioni idrauliche", 
+        "Corso di Laurea": "Laurea Magistrale a c.u. in Ingegneria Edile Architettura", 
+        "Anno": "4", 
+        "Docenti": [
+            "Pietro Scandura"
+        ], 
+        "SSD": "ICAR/01", 
+        "CFU": "6", 
+        "ID": "13019"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Op.II 1(mod.Lab.Tec.Urb)", 
+        "Corso di Laurea": "Laurea Magistrale a c.u. in Ingegneria Edile Architettura", 
+        "Anno": "4", 
+        "Docenti": [
+            "Filippo Gravagno"
+        ], 
+        "SSD": "ICAR/20", 
+        "CFU": "3", 
+        "ID": "13059"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Op.II 2(mod.Pr.Ter)", 
+        "Corso di Laurea": "Laurea Magistrale a c.u. in Ingegneria Edile Architettura", 
+        "Anno": "4", 
+        "Docenti": [
+            "Francesco Martinico"
+        ], 
+        "SSD": "ICAR/20", 
+        "CFU": "6", 
+        "ID": "13061"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Op. III 1 (mod.Lab.Tec.Costr)", 
+        "Corso di Laurea": "Laurea Magistrale a c.u. in Ingegneria Edile Architettura", 
+        "Anno": "4", 
+        "Docenti": [
+            "Edoardo Marino"
+        ], 
+        "SSD": "ICAR/09", 
+        "CFU": "3", 
+        "ID": "13064"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Op.III 2 (mod. Pr.Cos.Z.Sism)", 
+        "Corso di Laurea": "Laurea Magistrale a c.u. in Ingegneria Edile Architettura", 
+        "Anno": "4", 
+        "Docenti": [
+            "Bartolomeo Panto"
+        ], 
+        "SSD": "ICAR/09", 
+        "CFU": "7", 
+        "ID": "13066"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Op. IV 2(mod.A.T.T.E.Eff.En)", 
+        "Corso di Laurea": "Laurea Magistrale a c.u. in Ingegneria Edile Architettura", 
+        "Anno": "4", 
+        "Docenti": [
+            "Gaetano Sciuto"
+        ], 
+        "SSD": "ICAR/10", 
+        "CFU": "6", 
+        "ID": "13076"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Op. IV 2(mod.Tec.Pr.Sost.)", 
+        "Corso di Laurea": "Laurea Magistrale a c.u. in Ingegneria Edile Architettura", 
+        "Anno": "4", 
+        "Docenti": [
+            "Giuseppe Margani"
+        ], 
+        "SSD": "ICAR/10", 
+        "CFU": "6", 
+        "ID": "13077"
+    }, 
+    {
+        "Semestre": "Ann.", 
+        "Nome": "Op. IV 1(mod.Arch.Tec. II)", 
+        "Corso di Laurea": "Laurea Magistrale a c.u. in Ingegneria Edile Architettura", 
+        "Anno": "4", 
+        "Docenti": [
+            "Corrado Fianchino", 
+            "Santi Maria Cascone"
+        ], 
+        "SSD": "ICAR/10", 
+        "CFU": "9", 
+        "ID": "13067"
+    }, 
+    {
+        "Semestre": "Ann.", 
+        "Nome": "Op. IV 1(mod.Lab.Arch.Tec. II)", 
+        "Corso di Laurea": "Laurea Magistrale a c.u. in Ingegneria Edile Architettura", 
+        "Anno": "4", 
+        "Docenti": [
+            "Gaetano Sciuto", 
+            "Giuseppe Margani"
+        ], 
+        "SSD": "ICAR/10", 
+        "CFU": "3", 
+        "ID": "13068"
+    }, 
+    {
+        "Semestre": "Ann.", 
+        "Nome": "Op. IV 3 Sicurezza Cantieri", 
+        "Corso di Laurea": "Laurea Magistrale a c.u. in Ingegneria Edile Architettura", 
+        "Anno": "4", 
+        "Docenti": [
+            "Santi Maria Cascone"
+        ], 
+        "SSD": "ICAR/11", 
+        "CFU": "12", 
+        "ID": "13070"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Geotecnica", 
+        "Corso di Laurea": "Laurea Magistrale a c.u. in Ingegneria Edile Architettura", 
+        "Anno": "5", 
+        "Docenti": [
+            "Salvatore Grasso"
+        ], 
+        "SSD": "ICAR/10", 
+        "CFU": "6", 
+        "ID": "13021"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Mod. Lab. Restauro Archit.", 
+        "Corso di Laurea": "Laurea Magistrale a c.u. in Ingegneria Edile Architettura", 
+        "Anno": "5", 
+        "Docenti": [
+            "Giulia Sanfilippo"
+        ], 
+        "SSD": "ICAR/19", 
+        "CFU": "3", 
+        "ID": "13080"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Op.V 1 Recup. Conserv. Ed.", 
+        "Corso di Laurea": "Laurea Magistrale a c.u. in Ingegneria Edile Architettura", 
+        "Anno": "5", 
+        "Docenti": [
+            "Angela Moschella"
+        ], 
+        "SSD": "ICAR/10", 
+        "CFU": "6", 
+        "ID": "13071"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Op.V 2 Pr.Qual.Energ.Ed.", 
+        "Corso di Laurea": "Laurea Magistrale a c.u. in Ingegneria Edile Architettura", 
+        "Anno": "5", 
+        "Docenti": [
+            " "
+        ], 
+        "SSD": "ICAR/10", 
+        "CFU": "6", 
+        "ID": "13072"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Op.VI 1Arch.Comp. Arc.III e Lab", 
+        "Corso di Laurea": "Laurea Magistrale a c.u. in Ingegneria Edile Architettura", 
+        "Anno": "5", 
+        "Docenti": [
+            "Riccardo Dell'Osso"
+        ], 
+        "SSD": "ICAR/14", 
+        "CFU": "12", 
+        "ID": "13073"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Restauro Architettonico e Lab. di Restauro Arch.", 
+        "Corso di Laurea": "Laurea Magistrale a c.u. in Ingegneria Edile Architettura", 
+        "Anno": "5", 
+        "Docenti": [
+            "Angelo Salemi", 
+            "Giulia Sanfilippo"
+        ], 
+        "SSD": "ICAR/19", 
+        "CFU": "12", 
+        "ID": "13020"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Op.VI 2(mod. T.Prat.Pr.Paes)", 
+        "Corso di Laurea": "Laurea Magistrale a c.u. in Ingegneria Edile Architettura", 
+        "Anno": "5", 
+        "Docenti": [
+            "simona Calvagna"
+        ], 
+        "SSD": "ICAR/14", 
+        "CFU": "6", 
+        "ID": "13075"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Op.VI 2(mod. T.Prog.Arch)", 
+        "Corso di Laurea": "Laurea Magistrale a c.u. in Ingegneria Edile Architettura", 
+        "Anno": "5", 
+        "Docenti": [
+            "Sebastiano D'Urso"
+        ], 
+        "SSD": "ICAR/14", 
+        "CFU": "6", 
+        "ID": "13074"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Elements of sustainable green chemistry", 
+        "Corso di Laurea": "Laurea Magistrale in Chemical Engineering for Industrial Sustainability", 
+        "Anno": "1", 
+        "Docenti": [
+            "Ignazio Blanco"
+        ], 
+        "SSD": "CHIM/07", 
+        "CFU": "6", 
+        "ID": "12861"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Industrial chemistry and technology", 
+        "Corso di Laurea": "Laurea Magistrale in Chemical Engineering for Industrial Sustainability", 
+        "Anno": "1", 
+        "Docenti": [
+            "Antonino Mamo"
+        ], 
+        "SSD": "ING-IND/17", 
+        "CFU": "9", 
+        "ID": "12859"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Science and technology of materials", 
+        "Corso di Laurea": "Laurea Magistrale in Chemical Engineering for Industrial Sustainability", 
+        "Anno": "1", 
+        "Docenti": [
+            "Gianluca Cicala"
+        ], 
+        "SSD": "ING-IND/22", 
+        "CFU": "9", 
+        "ID": "12860"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Sustainable energy and conversion thecniques", 
+        "Corso di Laurea": "Laurea Magistrale in Chemical Engineering for Industrial Sustainability", 
+        "Anno": "1", 
+        "Docenti": [
+            "Francesco Patania"
+        ], 
+        "SSD": "ING-IND/11", 
+        "CFU": "6", 
+        "ID": "12862"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Mechanical engineering", 
+        "Corso di Laurea": "Laurea Magistrale in Chemical Engineering for Industrial Sustainability", 
+        "Anno": "1", 
+        "Docenti": [
+            "Alessandro Cammarata"
+        ], 
+        "SSD": "ING-IND/13", 
+        "CFU": "6", 
+        "ID": "12864"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Principles of chemical engineering", 
+        "Corso di Laurea": "Laurea Magistrale in Chemical Engineering for Industrial Sustainability", 
+        "Anno": "1", 
+        "Docenti": [
+            "Domenico Acierno"
+        ], 
+        "SSD": "ING-IND/24", 
+        "CFU": "9", 
+        "ID": "12863"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Chemical Plants", 
+        "Corso di Laurea": "Laurea Magistrale in Chemical Engineering for Industrial Sustainability", 
+        "Anno": "2", 
+        "Docenti": [
+            "Giuseppe Mancini"
+        ], 
+        "SSD": "ING-IND/25", 
+        "CFU": "9", 
+        "ID": "12866"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Control of Chemical Processes", 
+        "Corso di Laurea": "Laurea Magistrale in Chemical Engineering for Industrial Sustainability", 
+        "Anno": "2", 
+        "Docenti": [
+            "Mattia Frasca"
+        ], 
+        "SSD": "ING-INF/04", 
+        "CFU": "9", 
+        "ID": "12867"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Equipment Design for Chemical Industry", 
+        "Corso di Laurea": "Laurea Magistrale in Chemical Engineering for Industrial Sustainability", 
+        "Anno": "2", 
+        "Docenti": [
+            "Giuseppe Mirone"
+        ], 
+        "SSD": "ING-IND/14", 
+        "CFU": "9", 
+        "ID": "12865"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Metallurgy", 
+        "Corso di Laurea": "Laurea Magistrale in Chemical Engineering for Industrial Sustainability", 
+        "Anno": "2", 
+        "Docenti": [
+            "Giovanni Patane"
+        ], 
+        "SSD": "ING-IND/21", 
+        "CFU": "9", 
+        "ID": "12868"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Altre attivita", 
+        "Corso di Laurea": "Laurea Magistrale in Chemical Engineering for Industrial Sustainability", 
+        "Anno": "2", 
+        "CFU": "3", 
+        "ID": "12869"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Laboratory of Calculation Methods applied to Chemical Engineering", 
+        "Corso di Laurea": "Laurea Magistrale in Chemical Engineering for Industrial Sustainability", 
+        "Anno": "2", 
+        "Docenti": [
+            " "
+        ], 
+        "SSD": "-1", 
+        "CFU": "3", 
+        "ID": "13084"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Systems Eco-Friendly Design for Innovative Processes", 
+        "Corso di Laurea": "Laurea Magistrale in Chemical Engineering for Industrial Sustainability", 
+        "Anno": "2", 
+        "Docenti": [
+            "Giovanni Grasso"
+        ], 
+        "SSD": "ING-IND/14", 
+        "CFU": "9", 
+        "ID": "12870"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Hydrology", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria civile delle acque e dei trasporti (acque)", 
+        "Anno": "1", 
+        "Docenti": [
+            "Antonino Cancelliere"
+        ], 
+        "SSD": "ICAR/02", 
+        "CFU": "9", 
+        "ID": "12874"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Meccanica applicata alle macchine e macchine", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria civile delle acque e dei trasporti (acque)", 
+        "Anno": "1", 
+        "Docenti": [
+            "Michele Lacagnina"
+        ], 
+        "SSD": "ING-IND/13", 
+        "CFU": "6", 
+        "ID": "12871"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Pianificazione territoriale", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria civile delle acque e dei trasporti (acque)", 
+        "Anno": "1", 
+        "Docenti": [
+            "Maurizio Spina"
+        ], 
+        "SSD": "ICAR/20", 
+        "CFU": "9", 
+        "ID": "12873"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Tecnica delle costruzioni", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria civile delle acque e dei trasporti (acque)", 
+        "Anno": "1", 
+        "Docenti": [
+            "Antonino D'Aveni"
+        ], 
+        "SSD": "ICAR/09", 
+        "CFU": "9", 
+        "ID": "12872"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Altre conoscenze utili per l'inserimento nel mondo del lavoro", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria civile delle acque e dei trasporti (acque)", 
+        "Anno": "1", 
+        "Docenti": [
+            " "
+        ], 
+        "SSD": "-1", 
+        "CFU": "3", 
+        "ID": "12878"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Complementi di idraulica", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria civile delle acque e dei trasporti (acque)", 
+        "Anno": "1", 
+        "Docenti": [
+            "Giuseppe Pezzinga"
+        ], 
+        "SSD": "ICAR/01", 
+        "CFU": "9", 
+        "ID": "12875"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Impianti di trattamento delle acque", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria civile delle acque e dei trasporti (acque)", 
+        "Anno": "1", 
+        "Docenti": [
+            "Paolo Roccaro"
+        ], 
+        "SSD": "ICAR/03", 
+        "CFU": "6", 
+        "ID": "12877"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Progetto di Infrastrutture Viarie", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria civile delle acque e dei trasporti (acque)", 
+        "Anno": "1", 
+        "Docenti": [
+            "Salvatore Cafiso"
+        ], 
+        "SSD": "ICAR/04", 
+        "CFU": "9", 
+        "ID": "12876"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Complementi di progetto di infrastrutture viarie", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria civile delle acque e dei trasporti (acque)", 
+        "Anno": "2", 
+        "Docenti": [
+            "Sascia Canale"
+        ], 
+        "SSD": "ICAR/04", 
+        "CFU": "9", 
+        "ID": "12882"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Costruzioni idrauliche e marittime", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria civile delle acque e dei trasporti (acque)", 
+        "Anno": "2", 
+        "Docenti": [
+            "Carlo Modica"
+        ], 
+        "SSD": "ICAR/02", 
+        "CFU": "9", 
+        "ID": "12880"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Idraulica marittima e costiera", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria civile delle acque e dei trasporti (acque)", 
+        "Anno": "2", 
+        "Docenti": [
+            "Enrico Foti"
+        ], 
+        "SSD": "ICAR/01", 
+        "CFU": "6", 
+        "ID": "12881"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Infrastrutture Idrauliche", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria civile delle acque e dei trasporti (acque)", 
+        "Anno": "2", 
+        "Docenti": [
+            "Bartolomeo Rejtano"
+        ], 
+        "SSD": "ICAR/02", 
+        "CFU": "9", 
+        "ID": "12879"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Meccanica applicata alle macchine", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria civile delle acque e dei trasporti (trasporti)", 
+        "Anno": "1", 
+        "Docenti": [
+            "Michele Lacagnina"
+        ], 
+        "SSD": "ING-IND/13", 
+        "CFU": "6", 
+        "ID": "12883"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Pianificazione e progettazione di sistemi di trasporto", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria civile delle acque e dei trasporti (trasporti)", 
+        "Anno": "1", 
+        "Docenti": [
+            "Matteo Ignaccolo"
+        ], 
+        "SSD": "ICAR/05", 
+        "CFU": "9", 
+        "ID": "12884"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Pianificazione territoriale", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria civile delle acque e dei trasporti (trasporti)", 
+        "Anno": "1", 
+        "Docenti": [
+            "Maurizio Spina"
+        ], 
+        "SSD": "ICAR/20", 
+        "CFU": "9", 
+        "ID": "12886"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Tecnica delle costruzioni", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria civile delle acque e dei trasporti (trasporti)", 
+        "Anno": "1", 
+        "Docenti": [
+            "Antonino D'Aveni"
+        ], 
+        "SSD": "ICAR/09", 
+        "CFU": "9", 
+        "ID": "12885"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Idrologia applicata alle infrastrutture viarie", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria civile delle acque e dei trasporti (trasporti)", 
+        "Anno": "1", 
+        "Docenti": [
+            "Carlo Modica"
+        ], 
+        "SSD": "ICAR/02", 
+        "CFU": "9", 
+        "ID": "12888"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Infrastrutture aeroportuali, ferroviarie e intermodali", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria civile delle acque e dei trasporti (trasporti)", 
+        "Anno": "1", 
+        "Docenti": [
+            "Sascia Canale"
+        ], 
+        "SSD": "ICAR/04", 
+        "CFU": "6", 
+        "ID": "12889"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Infrastrutture viarie nelle aree urbane e metropolitane", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria civile delle acque e dei trasporti (trasporti)", 
+        "Anno": "1", 
+        "Docenti": [
+            "Salvatore Leonardi"
+        ], 
+        "SSD": "ICAR/04", 
+        "CFU": "9", 
+        "ID": "12893"
+    }, 
+    {
+        "Semestre": "2deg Sem", 
+        "Nome": "Progetto di Infrastrutture Viarie", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria civile delle acque e dei trasporti (trasporti)", 
+        "Anno": "1", 
+        "Docenti": [
+            "Salvatore Cafiso"
+        ], 
+        "SSD": "ICAR/04", 
+        "CFU": "9", 
+        "ID": "12887"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Infrastrutture Idrauliche", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria civile delle acque e dei trasporti (trasporti)", 
+        "Anno": "2", 
+        "Docenti": [
+            "Bartolomeo Rejtano"
+        ], 
+        "SSD": "ICAR/02", 
+        "CFU": "9", 
+        "ID": "12894"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Intersezioni stradali e sicurezza delle infrastrutture viarie", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria civile delle acque e dei trasporti (trasporti)", 
+        "Anno": "2", 
+        "Docenti": [
+            "Salvatore Leonardi"
+        ], 
+        "SSD": "ICAR/04", 
+        "CFU": "9", 
+        "ID": "12892"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Lab. di modellazione dei sistemi di trasporto", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria civile delle acque e dei trasporti (trasporti)", 
+        "Anno": "2", 
+        "Docenti": [
+            "Giuseppe Inturri"
+        ], 
+        "SSD": "-1", 
+        "CFU": "3", 
+        "ID": "13079"
+    }, 
+    {
+        "Semestre": "1deg Sem.", 
+        "Nome": "Pavement Engineering", 
+        "Corso di Laurea": "Laurea Magistrale in Ingegneria civile delle acque e dei trasporti (trasporti)", 
+        "Anno": "2", 
+        "Docenti": [
+            "Salvatore Cafiso"
+        ], 
+        "SSD": "ICAR/04", 
+        "CFU": "6", 
+        "ID": "12891"
+    }
+]

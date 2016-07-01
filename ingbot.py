@@ -7,6 +7,7 @@
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 import logging
 from utility import *
+from unidecode import unidecode
 
 
 #need load configuration from file
