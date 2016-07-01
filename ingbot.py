@@ -8,15 +8,21 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 import logging
 from utility import *
 from unidecode import unidecode
+import json
 
 
 #need load configuration from file
 AULEFILE='aule.json'
 CDSFILE='cds.json'
+PROF_FILE='professori.json'
+INSEGNAMENTI_FILE='insegnamenti.json'
+
 
 ##global variables
 aule={}
 cds={}
+prof={}
+insegnamenti={}
 
 
 
@@ -50,8 +56,51 @@ def start(bot, update):
 def help(bot, update):
 	bot.sendMessage(update.message.chat_id, text='Help!')
 
-def prof(bot, update):
-	bot.sendMessage(update.message.chat_id, text='prof')
+def prof_handle(bot, update):
+
+	msg=update.message.text
+	msg=msg.split(' ')
+
+	
+	if len(msg)==2:
+
+		p_name=msg[1]
+		p_name=unidecode(p_name)
+
+		profs=[]
+
+		for p in prof:
+			if p_name.upper() in p['Nome'].upper():
+				profs.append(p)
+
+		if len(profs)>0:
+
+			bot.sendMessage(update.message.chat_id, text='Sono stati trovati %d professori con la tua ricerca' % len(profs))
+			for p in profs:
+				descr="Nome: %s\nQualifica: %s\nDipartimento: %s\n" % (p['Nome'],p['Qualifica'],p['Dipartimento'])
+				descr+="Indirizzo: %s\nEmail: %s\nTelefono: %s\n" % (p['Indirizzo'],p['Email'],p['Telefono'])
+				descr+="Sito: %s\nSSD: %s\n\n" % (p['Sito'],p['SSD'])
+				bot.sendMessage(update.message.chat_id, text= descr)
+
+
+			
+		else:
+			bot.sendMessage(update.message.chat_id, text='Professore non trovato')
+
+
+
+
+	else:
+		bot.sendMessage(update.message.chat_id, text="Devi inserire il professore su cui ottenere informazioni!\n/prof <cognome>")
+	
+
+
+	'''
+	if "blah" not in somestring: 
+    	continue
+    '''
+
+	
 
 def orari(bot, update):
 	bot.sendMessage(update.message.chat_id, text='Orari')
@@ -122,13 +171,24 @@ def main():
 
 	#print aule['d44'.upper()]
 
-	logger.info('[Loading] courses from "%s"' % CDSFILE)
+	logger.info('[Loading] CdS from "%s"' % CDSFILE)
 	global cds
 	cds = load_cds(CDSFILE)
+	logger.info('[Done] loading CdS')
+
+
+	logger.info('[Loading] professors from "%s"' % PROF_FILE)
+	global prof
+	prof = load_professors(PROF_FILE)
+	logger.info('[Done] loading professors')
+
+
+	logger.info('[Loading] courses from "%s"' % INSEGNAMENTI_FILE)
+	global insegnamenti
+	insegnamenti = load_courses(INSEGNAMENTI_FILE)
 	logger.info('[Done] loading courses')
 
 	##print json.dumps(cds,indent=4)
-
 
 
 
@@ -139,7 +199,7 @@ def main():
 
 	dp.add_handler(CommandHandler("start", start))
 	dp.add_handler(CommandHandler("help", start))
-	dp.add_handler(CommandHandler("prof", prof))
+	dp.add_handler(CommandHandler("prof", prof_handle))
 	dp.add_handler(CommandHandler("orari", orari))
 	dp.add_handler(CommandHandler("insegnamento", insegnamento))
 	dp.add_handler(CommandHandler("aula", aula))

@@ -35,3 +35,30 @@ def load_cds(filename):
 		dict_cds[c['ID']]={'Codice':c['Codice'],'Denominazione':c['Denominazione'],'Ordinamento':c['Ordinamento'],'Tipo':c['Tipo']}
 
 	return dict_cds
+
+
+def load_professors(filename):
+	with open(filename) as data_file:
+		prof_data = json.load(data_file)
+
+	prof=[]
+
+	for p in prof_data:
+		prof.append({'Nome':p['Nome'],
+		'ID':p['ID'],
+		'Qualifica':p.get('Qualifica', 'ND'),
+		'Indirizzo':p.get('Indirizzo', 'ND'),
+		'Dipartimento':p.get('Dipartimento', 'ND'),
+		'Sito':p.get('Sito', 'ND'),
+		'Email':p.get('Email', 'ND'),
+		'SSD':p.get('SSD', 'ND'),
+		'Telefono':p.get('Telefono', 'ND')
+		})
+
+
+	return prof
+
+
+		
+def load_courses(filename):
+	return {}
