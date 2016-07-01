@@ -94,20 +94,54 @@ def prof_handle(bot, update):
 		bot.sendMessage(update.message.chat_id, text="Devi inserire il professore su cui ottenere informazioni!\n/prof <cognome>")
 	
 
-
-	'''
-	if "blah" not in somestring: 
-    	continue
-    '''
-
 	
 
 def orari(bot, update):
 	bot.sendMessage(update.message.chat_id, text='Orari')
 
 
-def insegnamento(bot, update):
-	bot.sendMessage(update.message.chat_id, text='Insegnamento')
+def insegnamento_handle(bot, update):
+	msg=update.message.text
+	msg=msg.split(' ')
+
+	
+	if len(msg)==2:
+
+		m_name=msg[1]
+		m_name=unidecode(m_name)
+
+		insm=[]
+
+		for m in insegnamenti:
+			if m_name.upper() in m['Nome'].upper():
+				insm.append(m)
+
+		if len(insm)>0:
+
+			bot.sendMessage(update.message.chat_id, text='Sono stati trovati %d insegnamenti con la tua ricerca' % len(insm))
+			for m in insm:
+
+				doc=""
+				for d in m['Docenti']:
+					doc="%s " % d
+
+
+				descr="Nome: %s\nSemestre: %s\nCorso di Laurea: %s\n" % (m['Nome'],m['Semestre'],m['Corso di Laurea'])
+				descr+="Anno: %s\nDocenti: %s\nSSD: %s\n" % (m['Anno'],doc,m['SSD'])
+				descr+="CFU: %s\n\n" % (m['CFU'])
+				bot.sendMessage(update.message.chat_id, text=descr)
+
+
+			
+		else:
+			bot.sendMessage(update.message.chat_id, text='Insegnamento non trovato')
+
+
+
+
+	else:
+		bot.sendMessage(update.message.chat_id, text="Devi inserire l'insegnamento su cui ottenere informazioni!\n/prof <cognome>")
+	
 
 def aula(bot, update):
 
@@ -201,7 +235,7 @@ def main():
 	dp.add_handler(CommandHandler("help", start))
 	dp.add_handler(CommandHandler("prof", prof_handle))
 	dp.add_handler(CommandHandler("orari", orari))
-	dp.add_handler(CommandHandler("insegnamento", insegnamento))
+	dp.add_handler(CommandHandler("insegnamento", insegnamento_handle))
 	dp.add_handler(CommandHandler("aula", aula))
 	dp.add_handler(CommandHandler("segreteria", segreteria))
 	dp.add_handler(CommandHandler("cus", cus))

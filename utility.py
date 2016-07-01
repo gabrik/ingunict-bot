@@ -61,4 +61,21 @@ def load_professors(filename):
 
 		
 def load_courses(filename):
-	return {}
+	with open(filename) as data_file:
+		curs_data = json.load(data_file)
+
+	curs=[]
+
+	for c in curs_data:
+		curs.append({'Nome':c['Nome'],
+		'ID':c['ID'],
+		'Corso di Laurea':c.get('Corso di Laurea', 'ND'),
+		'Anno':c.get('Anno', 'ND'),
+		'Docenti':c.get('Docenti', []),
+		'CFU':c.get('CFU', 'ND'),
+		'Semestre':c.get('Semestre', 'ND'),
+		'SSD':c.get('SSD', 'ND')
+		})
+
+
+	return curs
