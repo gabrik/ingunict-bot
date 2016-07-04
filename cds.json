@@ -1,111 +1,119 @@
 [
 	{
-		"ID":0,
+		"ID":68,
 		"Codice":"L-7",
 		"Denominazione":"Ingegneria Civile e Ambientale",
 		"Ordinamento":"DM 270/04",
 		"Tipo":"Triennale"
 	},
 	{
-		"ID":1,
+		"ID":67,
 		"Codice":"L-8",
 		"Denominazione":"Ingegneria Elettronica",
 		"Ordinamento":"DM 270/04",
 		"Tipo":"Triennale"
 	},
 	{
-		"ID":2,
+		"ID":70,
 		"Codice":"L-8",
 		"Denominazione":"Ingegneria Informatica",
 		"Ordinamento":"DM 270/04",
 		"Tipo":"Triennale"
 	},
 	{
-		"ID":3,
+		"ID":69,
 		"Codice":"L-9",
 		"Denominazione":"Ingegneria Industriale",
 		"Ordinamento":"DM 270/04",
 		"Tipo":"Triennale"
 	},
 	{
-		"ID":4,
+		"ID":71,
 		"Codice":"LM-04",
-		"Denominazione":"Ingegneria Industriale",
+		"Denominazione":"Ingegneria Edile Architettura",
 		"Ordinamento":"DM 270/04",
 		"Tipo":"Magistrale Cliclo Unico"
 	},
 	{
-		"ID":5,
+		"ID":65,
 		"Codice":"LM-35",
 		"Denominazione":"Ingegneria per l'Ambiente e il Territorio",
 		"Ordinamento":"DM 270/04",
 		"Tipo":"Magistrale"
 	},
 	{
-		"ID":6,
+		"ID":82,
 		"Codice":"LM-23",
-		"Denominazione":"Ingegneria Civile delle Acque e dei Trasporti",
+		"Denominazione":"Ingegneria Civile delle Acque e dei Trasporti (acque)",
+		"Ordinamento":"DM 270/04",
+		"Tipo":"Magistrale"
+	},
+
+	{
+		"ID":83,
+		"Codice":"LM-23",
+		"Denominazione":"Ingegneria Civile delle Acque e dei Trasporti (trasporti)",
 		"Ordinamento":"DM 270/04",
 		"Tipo":"Magistrale"
 	},
 	{
-		"ID":8,
+		"ID":54,
 		"Codice":"LM-23",
 		"Denominazione":"Ingegneria Civile Strutturale e Geotecnica",
 		"Ordinamento":"DM 270/04",
 		"Tipo":"Magistrale"
 	},
 	{
-		"ID":9,
+		"ID":62,
 		"Codice":"LM-31",
 		"Denominazione":"Ingegneria Gestionale",
 		"Ordinamento":"DM 270/04",
 		"Tipo":"Magistrale"
 	},
 	{
-		"ID":10,
+		"ID":64,
 		"Codice":"LM-33",
 		"Denominazione":"Ingegneria Meccanica",
 		"Ordinamento":"DM 270/04",
 		"Tipo":"Magistrale"
 	},
 	{
-		"ID":11,
+		"ID":81,
 		"Codice":"LM-22",
 		"Denominazione":"Chemical Engineering for Industrial Sustainability",
 		"Ordinamento":"DM 270/04",
 		"Tipo":"Magistrale"
 	},
 	{
-		"ID":12,
-		"Codice":"LM-28",
-		"Denominazione":"Electrical Engineering",
-		"Ordinamento":"DM 270/04",
-		"Tipo":"Magistrale"
-	},
-	{
-		"ID":13,
+		"ID":59,
 		"Codice":"LM-25",
 		"Denominazione":"Automation Engineering and Control of Complex Systems",
 		"Ordinamento":"DM 270/04",
 		"Tipo":"Magistrale"
 	},
 	{
-		"ID":14,
+		"ID":61,
 		"Codice":"LM-29",
 		"Denominazione":"Ingegneria Elettronica",
 		"Ordinamento":"DM 270/04",
 		"Tipo":"Magistrale"
 	},
 	{
-		"ID":15,
+		"ID":58,
+		"Codice":"LM-29",
+		"Denominazione":"Ingegneria Elettrica",
+		"Ordinamento":"DM 270/04",
+		"Tipo":"Magistrale"
+	},
+	{
+		"ID":51,
 		"Codice":"LM-32",
 		"Denominazione":"Ingegneria Informatica",
 		"Ordinamento":"DM 270/04",
 		"Tipo":"Magistrale"
 	},
 	{
-		"ID":16,
+		"ID":60,
 		"Codice":"LM-27",
 		"Denominazione":"Ingegneria delle Telecomunicazioni",
 		"Ordinamento":"DM 270/04",

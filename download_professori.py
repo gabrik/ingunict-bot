@@ -92,42 +92,28 @@ def download_prof(url):
 
 
 
-def main():	
+def main():
 
 	resp = urllib2.urlopen(URL_PROF)
 
-
 	content = resp.read()
-
 	#remove comments
 	content=remove_comments(content)
-
-
 	matches=re.findall('<a.+?href=".+?docente&amp;id=(.+?)".+?>',content)
 
-
-
 	urls = []
-
 
 	for m in matches:
 		urls.append(m)
 
-
 	proffs=[]
 
-
-
-	
 	for u in urls:
 		p = download_prof(u)
 
 		if p!=None:
 			proffs.append(p)
 		
-
-	
-
 	data=json.dumps(proffs,indent=4)
 
 	with open(PROF_FILE,'wb') as f:

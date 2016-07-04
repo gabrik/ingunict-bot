@@ -46,7 +46,7 @@ logger = logging.getLogger(__name__)
 # update. Error handlers also receive the raised TelegramError object in error.
 def start(bot, update):
 
-	newmsg = "Ing UniCT Telegram Bot\nLista Comandi:\n\t/orari <cld> <anno> Orario delle lezioni\n\t/prof <cognome> <nome> Informazioni sul professore\n\t/insegnamento <nome_insegnamento> Informazioni su un insegnamento\n\t/aula <numero> Indicazioni sull'ubicazione di un'aula\n\t/segreteria Informazioni sugli orari della segreteria studenti\n\t/cus Informazioni sul CUS"
+	newmsg = "Ing UniCT Telegram Bot\nLista Comandi:\n\t/orari <cld> <anno> Orario delle lezioni\n\t/prof <cognome o nome> Informazioni sul professore\n\t/insegnamento <nome_insegnamento> Informazioni su un insegnamento\n\t/aula <numero> Indicazioni sull'ubicazione di un'aula\n\t/segreteria Informazioni sugli orari della segreteria studenti\n\t/cus Informazioni sul CUS"
 	developmode='\n\n\n Il bot è in via di sviluppo se vuoi contribuire vai su: https://github.com/gabrik/ingunict-bot\nO contatta @Gabrik91 '
 
 

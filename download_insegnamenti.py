@@ -115,8 +115,9 @@ def main():
 
 	matches=re.findall(id_regex,content)
 
+	print json.dumps(matches)
 
-
+	'''
 	urls = []
 
 
@@ -140,7 +141,7 @@ def main():
 		f.write(data)
 	
 	print '[  OK  ] Saved on: ' + INSEGNAMENTI_FILE
-
+	'''
 
 if __name__=='__main__':
 	main()
