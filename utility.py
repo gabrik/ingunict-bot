@@ -28,13 +28,15 @@ def load_cds(filename):
 	with open(filename) as data_file:
 		cds_data = json.load(data_file)
 
+	return cds_data
 	#convert in dictionary for simple scanning
-	dict_cds={}
+	'''dict_cds={}
 
 	for c in cds_data:
 		dict_cds[c['ID']]={'Codice':c['Codice'],'Denominazione':c['Denominazione'],'Ordinamento':c['Ordinamento'],'Tipo':c['Tipo']}
 
 	return dict_cds
+	'''
 
 
 def load_professors(filename):
@@ -79,3 +81,9 @@ def load_courses(filename):
 
 
 	return curs
+
+def load_esami(filename):
+	with open(filename) as data_file:
+		exams_data = json.load(data_file)
+
+	return exams_data

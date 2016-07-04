@@ -16,6 +16,7 @@ AULEFILE='aule.json'
 CDSFILE='cds.json'
 PROF_FILE='professori.json'
 INSEGNAMENTI_FILE='insegnamenti.json'
+ESAMI_FILE='esami.json'
 
 
 ##global variables
@@ -23,6 +24,7 @@ aule={}
 cds={}
 prof={}
 insegnamenti={}
+esami=[]
 
 
 
@@ -46,8 +48,11 @@ logger = logging.getLogger(__name__)
 # update. Error handlers also receive the raised TelegramError object in error.
 def start(bot, update):
 
-	newmsg = "Ing UniCT Telegram Bot\nLista Comandi:\n\t/orari <cld> <anno> Orario delle lezioni\n\t/prof <cognome o nome> Informazioni sul professore\n\t/insegnamento <nome_insegnamento> Informazioni su un insegnamento\n\t/aula <numero> Indicazioni sull'ubicazione di un'aula\n\t/segreteria Informazioni sugli orari della segreteria studenti\n\t/cus Informazioni sul CUS"
-	developmode='\n\n\n Il bot è in via di sviluppo se vuoi contribuire vai su: https://github.com/gabrik/ingunict-bot\nO contatta @Gabrik91 '
+	newmsg = "Ing UniCT Telegram Bot\nLista Comandi:\n\t/orari <cld> <anno> Orario delle lezioni\n\t/esami <id cds> Elenco degli esami\n\t/corso <nome>/prof <cognome o nome> Informazioni sul professore\n\t/insegnamento <nome_insegnamento> Informazioni su un insegnamento\n\t/aula <numero> Indicazioni sull'ubicazione di un'aula\n\t/segreteria Informazioni sugli orari della segreteria studenti\n\t/cus Informazioni sul CUS"
+	
+	newmsg+="\n\n\nATTENZIONE : Tutti i dati sono ricavati dal sito di Ingegneria, il bot non ha alcuna responsabilita' sulla corretteza di questi dati!!!\n"
+
+	developmode='\n\n\n Il bot è in via di sviluppo se vuoi contribuire vai su: https://github.com/gabrik/ingunict-bot\nOppure contatta @Garbik91 '
 
 
 	bot.sendMessage(update.message.chat_id, text=newmsg+developmode)
@@ -97,7 +102,7 @@ def prof_handle(bot, update):
 	
 
 def orari(bot, update):
-	bot.sendMessage(update.message.chat_id, text='Orari')
+	bot.sendMessage(update.message.chat_id, text='Orari temporaneamente non disponibili')
 
 
 def insegnamento_handle(bot, update):
@@ -140,7 +145,7 @@ def insegnamento_handle(bot, update):
 
 
 	else:
-		bot.sendMessage(update.message.chat_id, text="Devi inserire l'insegnamento su cui ottenere informazioni!\n/prof <cognome>")
+		bot.sendMessage(update.message.chat_id, text="Devi inserire l'insegnamento su cui ottenere informazioni!\n/insegnamento <nome>")
 	
 
 def aula(bot, update):
@@ -161,6 +166,75 @@ def aula(bot, update):
 			bot.sendMessage(update.message.chat_id, text='Aula non trovata')
 	else:
 		bot.sendMessage(update.message.chat_id, text="Devi inserire l'aula su cui ottenere informazioni!\n/aula <nome>")
+
+
+
+def cds_handle(bot,update):
+	msg=update.message.text
+	msg=msg.split(' ')
+
+	
+	if len(msg)==2:
+
+		cds_name=msg[1]
+		cds_name=unidecode(cds_name)
+
+		corsi=[]
+
+		for c in cds:
+			if cds_name.upper() in c['Denominazione'].upper():
+				corsi.append(c)
+
+		if len(corsi)>0:
+
+			bot.sendMessage(update.message.chat_id, text='Sono stati trovati %d corsi con la tua ricerca' % len(corsi))
+			for corso in corsi:
+
+				descr="Nome: %s\nID: %s\n" % (corso['Denominazione'],corso['ID'])
+				descr+="Codice: %s\nOrdinamento: %s\n Tipo: %s\n\n" % (corso['Codice'],corso['Ordinamento'],corso['Tipo'])
+				bot.sendMessage(update.message.chat_id, text=descr)
+			
+		else:
+			bot.sendMessage(update.message.chat_id, text='Corso non trovato')
+
+	else:
+		bot.sendMessage(update.message.chat_id, text="Devi inserire il corso su cui ottenere informazioni!\n/cds <nome>")
+	
+
+
+
+def esami_handle(bot,update):
+
+	msg=update.message.text
+	msg=msg.split(' ')
+
+	
+	if len(msg)==2:
+
+		list_esami=[]
+		cds_id=msg[1]
+		cds_id=unidecode(cds_id)
+
+		for esame in esami:
+			if cds_id==str(esame['CDS_ID']):
+				list_esami.append(esame)
+
+		if len(list_esami)>0:
+
+			bot.sendMessage(update.message.chat_id, text='Sono stati trovati %d esami con la tua ricerca' % len(list_esami))
+			
+
+			for esame in list_esami:
+				descr="Materia: %s\nData: %s\nOra: %s\n" % (esame['Insegnamento'],esame['Data'],esame['Ora'])
+				descr+='Aula: %s\n Scaglione: %s\nTipo: %s\nTipo Appello:%s\n\n' % (esame['Aula'],esame['Scaglione'],esame['Tipo Esame'],esame['Appello'])			
+				bot.sendMessage(update.message.chat_id, text=descr)
+			
+		else:
+			bot.sendMessage(update.message.chat_id, text="Inserisci l'id del corso, lo puoi conoscere usando il comando corsi")
+	
+
+
+
 
 def segreteria(bot, update):
 
@@ -222,6 +296,12 @@ def main():
 	insegnamenti = load_courses(INSEGNAMENTI_FILE)
 	logger.info('[Done] loading courses')
 
+
+	logger.info('[Loading] exams from "%s"' % ESAMI_FILE)
+	global esami
+	esami = load_esami(ESAMI_FILE)
+	logger.info('[Done] loading exams')
+
 	##print json.dumps(cds,indent=4)
 
 
@@ -234,6 +314,8 @@ def main():
 	dp.add_handler(CommandHandler("start", start))
 	dp.add_handler(CommandHandler("help", start))
 	dp.add_handler(CommandHandler("prof", prof_handle))
+	dp.add_handler(CommandHandler("corso", cds_handle))
+	dp.add_handler(CommandHandler("esami", esami_handle))
 	dp.add_handler(CommandHandler("orari", orari))
 	dp.add_handler(CommandHandler("insegnamento", insegnamento_handle))
 	dp.add_handler(CommandHandler("aula", aula))

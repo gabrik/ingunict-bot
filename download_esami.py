@@ -41,6 +41,7 @@ def download_esami(url,cds_id):
 		exam['Appello']=m[6]
 
 		exams.append(exam)
+		exam={}
 		
 	return exams
 
