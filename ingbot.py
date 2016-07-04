@@ -198,7 +198,7 @@ def cds_handle(bot,update):
 			bot.sendMessage(update.message.chat_id, text='Corso non trovato')
 
 	else:
-		bot.sendMessage(update.message.chat_id, text="Devi inserire il corso su cui ottenere informazioni!\n/cds <nome>")
+		bot.sendMessage(update.message.chat_id, text="Devi inserire il corso su cui ottenere informazioni!\n/corso <nome>")
 	
 
 
