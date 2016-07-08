@@ -18,24 +18,28 @@ PROF_FILE='professori.json'
 INSEGNAMENTI_FILE='insegnamenti.json'
 ESAMI_FILE='esami.json'
 
+## Other files
+TOKEN_FILE='token.conf'
+LOG_FILE='ing_tg_bog.log'
+
 
 ##global variables
 aule={}
 cds={}
-prof={}
+professori={}
 insegnamenti={}
 esami=[]
 
 
 
 
-# loading token from config file
-tokenconf = open('token.conf', 'r').read()
+# loading token from file
+tokenconf = open(TOKEN_FILE, 'r').read()
 tokenconf = tokenconf.replace("\n", "")
 TOKEN = tokenconf
 
 # Enable logging
-logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+logging.basicConfig(filename=LOG_FILE,format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
 	level=logging.INFO)
 
 logger = logging.getLogger(__name__)
@@ -43,9 +47,8 @@ logger = logging.getLogger(__name__)
 
 
 
+#define command handlers
 
-# Define a few command handlers. These usually take the two arguments bot and
-# update. Error handlers also receive the raised TelegramError object in error.
 def start(bot, update):
 
 	newmsg = "Ing UniCT Telegram Bot\nLista Comandi:\n\t/orari <cld> <anno> Orario delle lezioni\n\t/esami <id cds> Elenco degli esami\n\t/corso <nome>\n\t/prof <cognome o nome> Informazioni sul professore\n\t/insegnamento <nome_insegnamento> Informazioni su un insegnamento\n\t/aula <numero> Indicazioni sull'ubicazione di un'aula\n\t/segreteria Informazioni sugli orari della segreteria studenti\n\t/cus Informazioni sul CUS"
@@ -59,7 +62,10 @@ def start(bot, update):
 
 
 def help(bot, update):
-	bot.sendMessage(update.message.chat_id, text='Help!')
+	start(bot,update)
+
+def orari(bot, update):
+	bot.sendMessage(update.message.chat_id, text='Orari temporaneamente non disponibili')
 
 def prof_handle(bot, update):
 
@@ -69,81 +75,47 @@ def prof_handle(bot, update):
 	
 	if len(msg)==2:
 
-		p_name=msg[1]
-		p_name=unidecode(p_name)
+		professor_name=unidecode(msg[1])
 
-		profs=[]
+		search_result=[professore for professore in professori if professor_name.upper() in professore['Nome'].upper()]
 
-		for p in prof:
-			if p_name.upper() in p['Nome'].upper():
-				profs.append(p)
+		if len(search_result)>0:
 
-		if len(profs)>0:
-
-			bot.sendMessage(update.message.chat_id, text='Sono stati trovati %d professori con la tua ricerca' % len(profs))
-			for p in profs:
+			bot.sendMessage(update.message.chat_id, text='Sono stati trovati %d professori con la tua ricerca' % len(search_result))
+			for p in search_result:
 				descr="Nome: %s\nQualifica: %s\nDipartimento: %s\n" % (p['Nome'],p['Qualifica'],p['Dipartimento'])
 				descr+="Indirizzo: %s\nEmail: %s\nTelefono: %s\n" % (p['Indirizzo'],p['Email'],p['Telefono'])
 				descr+="Sito: %s\nSSD: %s\n\n" % (p['Sito'],p['SSD'])
 				bot.sendMessage(update.message.chat_id, text= descr)
-
-
-			
 		else:
 			bot.sendMessage(update.message.chat_id, text='Professore non trovato')
-
-
-
-
 	else:
-		bot.sendMessage(update.message.chat_id, text="Devi inserire il professore su cui ottenere informazioni!\n/prof <cognome>")
-	
-
-	
-
-def orari(bot, update):
-	bot.sendMessage(update.message.chat_id, text='Orari temporaneamente non disponibili')
-
+		bot.sendMessage(update.message.chat_id, text="Devi inserire il professore su cui ottenere informazioni!\n/prof <nome cognome>")
+		
 
 def insegnamento_handle(bot, update):
 	msg=update.message.text
 	msg=msg.split(' ')
 
-	
 	if len(msg)==2:
 
-		m_name=msg[1]
-		m_name=unidecode(m_name)
+		insegnamento_name=unidecode(msg[1])
 
-		insm=[]
+		search_result=[insegnamento for insegnamento in insegnamenti if insegnamento_name.upper() in insegnamento['Nome'].upper()]
 
-		for m in insegnamenti:
-			if m_name.upper() in m['Nome'].upper():
-				insm.append(m)
+		if len(search_result)>0:
 
-		if len(insm)>0:
+			bot.sendMessage(update.message.chat_id, text='Sono stati trovati %d insegnamenti con la tua ricerca' % len(search_result))
+			for m in search_result:
 
-			bot.sendMessage(update.message.chat_id, text='Sono stati trovati %d insegnamenti con la tua ricerca' % len(insm))
-			for m in insm:
-
-				doc=""
-				for d in m['Docenti']:
-					doc="%s " % d
-
+				doc=''.join([docente+'\n' for docente in m['Docenti']])
 
 				descr="Nome: %s\nSemestre: %s\nCorso di Laurea: %s\n" % (m['Nome'],m['Semestre'],m['Corso di Laurea'])
 				descr+="Anno: %s\nDocenti: %s\nSSD: %s\n" % (m['Anno'],doc,m['SSD'])
 				descr+="CFU: %s\n\n" % (m['CFU'])
 				bot.sendMessage(update.message.chat_id, text=descr)
-
-
-			
 		else:
 			bot.sendMessage(update.message.chat_id, text='Insegnamento non trovato')
-
-
-
-
 	else:
 		bot.sendMessage(update.message.chat_id, text="Devi inserire l'insegnamento su cui ottenere informazioni!\n/insegnamento <nome>")
 	
@@ -176,27 +148,20 @@ def cds_handle(bot,update):
 	
 	if len(msg)==2:
 
-		cds_name=msg[1]
-		cds_name=unidecode(cds_name)
+		nome_corso=unidecode(msg[1])
 
-		corsi=[]
+		search_result=[corso for corso in cds if nome_corso.upper() in corso['Denominazione'].upper()]
 
-		for c in cds:
-			if cds_name.upper() in c['Denominazione'].upper():
-				corsi.append(c)
+		if len(search_result)>0:
 
-		if len(corsi)>0:
-
-			bot.sendMessage(update.message.chat_id, text='Sono stati trovati %d corsi con la tua ricerca' % len(corsi))
-			for corso in corsi:
+			bot.sendMessage(update.message.chat_id, text='Sono stati trovati %d corsi con la tua ricerca' % len(search_result))
+			for corso in search_result:
 
 				descr="Nome: %s\nID: %s\n" % (corso['Denominazione'],corso['ID'])
 				descr+="Codice: %s\nOrdinamento: %s\n Tipo: %s\n\n" % (corso['Codice'],corso['Ordinamento'],corso['Tipo'])
 				bot.sendMessage(update.message.chat_id, text=descr)
-			
 		else:
 			bot.sendMessage(update.message.chat_id, text='Corso non trovato')
-
 	else:
 		bot.sendMessage(update.message.chat_id, text="Devi inserire il corso su cui ottenere informazioni!\n/corso <nome>")
 	
@@ -211,26 +176,22 @@ def esami_handle(bot,update):
 	
 	if len(msg)==2:
 
-		list_esami=[]
-		cds_id=msg[1]
-		cds_id=unidecode(cds_id)
+		cds_id=unidecode(msg[1])
 
-		for esame in esami:
-			if cds_id==str(esame['CDS_ID']):
-				list_esami.append(esame)
+		search_result=[esame for esame in esami if cds_id==str(esame['CDS_ID'])]
 
-		if len(list_esami)>0:
+		if len(search_result)>0:
 
-			bot.sendMessage(update.message.chat_id, text='Sono stati trovati %d esami con la tua ricerca' % len(list_esami))
+			bot.sendMessage(update.message.chat_id, text='Sono stati trovati %d esami con la tua ricerca' % len(search_result))
 			
-
-			for esame in list_esami:
+			for esame in search_result:
 				descr="Materia: %s\nData: %s\nOra: %s\n" % (esame['Insegnamento'],esame['Data'],esame['Ora'])
 				descr+='Aula: %s\n Scaglione: %s\nTipo: %s\nTipo Appello:%s\n\n' % (esame['Aula'],esame['Scaglione'],esame['Tipo Esame'],esame['Appello'])			
 				bot.sendMessage(update.message.chat_id, text=descr)
-			
 		else:
-			bot.sendMessage(update.message.chat_id, text="Inserisci l'id del corso, lo puoi conoscere usando il comando corsi")
+			bot.sendMessage(update.message.chat_id, text="Corso non trovato verifica di aver inserito l'id corretto")
+	else:
+		bot.sendMessage(update.message.chat_id, text="Inserisci l'id del corso, lo puoi conoscere usando il comando corsi")
 	
 
 
@@ -263,8 +224,6 @@ def cus(bot, update):
 
 	bot.sendMessage(update.message.chat_id, text=newmsg)
 
-def echo(bot, update):
-	bot.sendMessage(update.message.chat_id, text=update.message.text)
 
 def error(bot, update, error):
 	logger.warn('Update "%s" caused error "%s"' % (update, error))
@@ -272,39 +231,39 @@ def error(bot, update, error):
 
 def main():
 
-	logger.info('[Loading] aule from "%s"' % AULEFILE)
+	# loading data from files
+
+	logger.info('[LOADING] aule from "%s"' % AULEFILE)
 	global aule
 	aule = load_aule(AULEFILE)
-	logger.info('[Done] loading aule')
+	logger.info('[ DONE ] loading aule')
 
-	#print aule['d44'.upper()]
-
-	logger.info('[Loading] CdS from "%s"' % CDSFILE)
+	logger.info('[LOADING] CdS from "%s"' % CDSFILE)
 	global cds
 	cds = load_cds(CDSFILE)
-	logger.info('[Done] loading CdS')
+	logger.info('[ DONE ] loading CdS')
 
 
-	logger.info('[Loading] professors from "%s"' % PROF_FILE)
-	global prof
-	prof = load_professors(PROF_FILE)
-	logger.info('[Done] loading professors')
+	logger.info('[LOADING] professors from "%s"' % PROF_FILE)
+	global professori
+	professori = load_professors(PROF_FILE)
+	logger.info('[ DONE ] loading professors')
 
 
-	logger.info('[Loading] courses from "%s"' % INSEGNAMENTI_FILE)
+	logger.info('[LOADING] courses from "%s"' % INSEGNAMENTI_FILE)
 	global insegnamenti
 	insegnamenti = load_courses(INSEGNAMENTI_FILE)
-	logger.info('[Done] loading courses')
+	logger.info('[ DONE ] loading courses')
 
 
-	logger.info('[Loading] exams from "%s"' % ESAMI_FILE)
+	logger.info('[LOADING] exams from "%s"' % ESAMI_FILE)
 	global esami
 	esami = load_esami(ESAMI_FILE)
-	logger.info('[Done] loading exams')
-
-	##print json.dumps(cds,indent=4)
+	logger.info('[ DONE ] loading exams')
 
 
+
+	#setting up bot
 
 	updater = Updater(TOKEN)
 
@@ -322,15 +281,12 @@ def main():
 	dp.add_handler(CommandHandler("segreteria", segreteria))
 	dp.add_handler(CommandHandler("cus", cus))
 
-
-
-	#dp.add_handler(MessageHandler([Filters.text], echo))
-
-
 	dp.add_error_handler(error)
 
 
 	updater.start_polling()
+
+	logger.info('[ INFO ] Bot started!')
 
 	updater.idle()
 
