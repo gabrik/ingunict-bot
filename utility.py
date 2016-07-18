@@ -4,47 +4,28 @@ import json
 import datetime
 import re
 
-
 def remove_comments(text):
-	cregex='<!--.*?-->'
+	cregex = '<!--.*?-->'
 	return re.sub(cregex,"",text,flags=re.DOTALL)
-
 
 def load_aule(filename):
 	with open(filename) as data_file:
 		aule_data = json.load(data_file)
-
 	#convert in dictionary for simple scanning
-
-	dict_aule={}
-
+	dict_aule = {}
 	for a in aule_data:
-		dict_aule[a['Nome']]={'Piano':a['Piano'],'Edificio':a['Edificio']}
-
-
+		dict_aule[a['Nome']] = {'Piano':a['Piano'],'Edificio':a['Edificio']}
 	return dict_aule
 
 def load_cds(filename):
 	with open(filename) as data_file:
 		cds_data = json.load(data_file)
-
 	return cds_data
-	#convert in dictionary for simple scanning
-	'''dict_cds={}
-
-	for c in cds_data:
-		dict_cds[c['ID']]={'Codice':c['Codice'],'Denominazione':c['Denominazione'],'Ordinamento':c['Ordinamento'],'Tipo':c['Tipo']}
-
-	return dict_cds
-	'''
-
 
 def load_professors(filename):
 	with open(filename) as data_file:
 		prof_data = json.load(data_file)
-
-	prof=[]
-
+	prof = []
 	for p in prof_data:
 		prof.append({'Nome':p['Nome'],
 		'ID':p['ID'],
@@ -56,18 +37,12 @@ def load_professors(filename):
 		'SSD':p.get('SSD', 'ND'),
 		'Telefono':p.get('Telefono', 'ND')
 		})
-
-
 	return prof
 
-
-		
 def load_courses(filename):
 	with open(filename) as data_file:
 		curs_data = json.load(data_file)
-
-	curs=[]
-
+	curs = []
 	for c in curs_data:
 		curs.append({'Nome':c['Nome'],
 		'ID':c['ID'],
@@ -78,12 +53,9 @@ def load_courses(filename):
 		'Semestre':c.get('Semestre', 'ND'),
 		'SSD':c.get('SSD', 'ND')
 		})
-
-
 	return curs
 
 def load_esami(filename):
 	with open(filename) as data_file:
 		exams_data = json.load(data_file)
-
 	return exams_data
