@@ -9,7 +9,7 @@ Is currently under developement, if you have some requests please submit with Gi
 
 
 ### Online version is avaiable on [@IngUniCT_bot] (https://web.telegram.org/#/im?p=@IngUniCT_bot)
-Send '/start' or '/help' to get a list of avaiable commands
+Send `/start` or `/help` to get a list of avaiable commands
 
 
 #### Requirements 
@@ -20,7 +20,7 @@ Data used by the bot are provviden as opendata, are avaiable from a REST API ser
 
 Endpoints
 
-'
+```
 
 [GET] /professori     return a json with all professors
 [GET] /aule           return a json with all classrooms
@@ -28,7 +28,7 @@ Endpoints
 [GET] /insegnamenti   return a json with all courses
 [GET] /esami          return a json with all exams
 
-'
+```
 
 ###License
 This open-source software is published under the Apache License version 2.0. Please refer to the "LICENSE" file of this project for the full text.
