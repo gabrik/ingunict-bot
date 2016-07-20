@@ -15,6 +15,12 @@ Send `/start` or `/help` to get a list of avaiable commands
 #### Requirements 
 You should install [python-telegram-bot] (https://github.com/python-telegram-bot/python-telegram-bot) and [unidecode] (https://pypi.python.org/pypi/Unidecode)
 
+API service require [flask] (http://flask.pocoo.org/)
+
+You can install these libraries 
+
+`pip install python-telegram-bot unidecode flask`
+
 #### OpenData 
 Data used by the bot are provviden as opendata, are avaiable from a REST API service at [http://ingunictbotdata-gabrik.rhcloud.com/] (http://ingunictbotdata-gabrik.rhcloud.com/)
 
