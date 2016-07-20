@@ -14,13 +14,6 @@ PROF_FILE='../professori.json'
 INSEGNAMENTI_FILE='../insegnamenti.json'
 ESAMI_FILE='../esami.json'
 
-##global vars
-aule={}
-cds={}
-professori={}
-insegnamenti={}
-esami=[]
-
 @app.route('/')
 def index():
     return json.dumps(startpage,indent=None)
@@ -45,8 +38,8 @@ def insegnamenti_handler():
 def esami_handler():
     return json.dumps(esami,indent=None)
 
-
-if __name__ == '__main__':
+@app.before_first_request
+def load_data():
     app.logger.info('[LOADING] aule from "%s"' % AULEFILE)
     global aule
     aule = load_aule(AULEFILE)
@@ -71,4 +64,7 @@ if __name__ == '__main__':
     global esami
     esami = load_esami(ESAMI_FILE)
     app.logger.info('[ DONE ] loading exams')
-    app.run(debug=True)
+
+
+if __name__ == '__main__':
+    app.run(debug=False)
