@@ -92,3 +92,6 @@ token.conf
 regex.txt
 spam
 .vscode
+
+#openshift endpoint
+/data_api/ingunictbotdata
