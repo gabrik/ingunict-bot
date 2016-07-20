@@ -33,12 +33,28 @@
 <a id="online-version-is-avaiable-on-ingunict_bot" class="anchor" href="#online-version-is-avaiable-on-ingunict_bot" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Online version is avaiable on <a href="https://web.telegram.org/#/im?p=@IngUniCT_bot">@IngUniCT_bot</a>
 </h3>
 
-<p>Send '/start' or '/help' to get a list of avaiable commands</p>
+<p>Send <code>/start</code> or <code>/help</code> to get a list of avaiable commands</p>
 
 <h4>
 <a id="requirements" class="anchor" href="#requirements" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Requirements</h4>
 
 <p>You should install <a href="https://github.com/python-telegram-bot/python-telegram-bot">python-telegram-bot</a> and <a href="https://pypi.python.org/pypi/Unidecode">unidecode</a></p>
+
+<h4>
+<a id="opendata" class="anchor" href="#opendata" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>OpenData</h4>
+
+<p>Data used by the bot are provviden as opendata, are avaiable from a REST API service at <a href="http://ingunictbotdata-gabrik.rhcloud.com/">http://ingunictbotdata-gabrik.rhcloud.com/</a></p>
+
+<p>Endpoints</p>
+
+<pre><code>
+[GET] /professori     return a json with all professors
+[GET] /aule           return a json with all classrooms
+[GET] /corsi          return a json with all degree courses
+[GET] /insegnamenti   return a json with all courses
+[GET] /esami          return a json with all exams
+
+</code></pre>
 
 <h3>
 <a id="license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>License</h3>
