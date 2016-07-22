@@ -68,7 +68,7 @@ def prof_handler(bot, update):
 	msg = msg.split(' ')
 
 	if len(msg)>=2:
-		professor_name = unidecode(print " ".join(msg[1:]))
+		professor_name = unidecode(" ".join(msg[1:]))
 		search_result = [professore for professore in professori if professor_name.upper() in professore['Nome'].upper()]
 		if len(search_result)>0:
 			bot.sendMessage(update.message.chat_id, text='Sono stati trovati %d professori '\
