@@ -53,7 +53,7 @@ def start_handler(bot, update):
 	newmsg += "\n\n\nATTENZIONE : Tutti i dati sono ricavati dal sito di Ingegneria,"\
 	" il bot non ha alcuna responsabilita' sulla corretteza di questi dati!!!\n"
 	developmode = '\n\n\n Il bot è in via di sviluppo se vuoi contribuire vai su:"\
-	" https://github.com/gabrik/ingunict-bot\nOppure contatta @Garbik91 '
+	" https://github.com/gabrik/ingunict-bot\nOppure contatta @Gakbri '
 	bot.sendMessage(update.message.chat_id, text=newmsg+developmode)
 
 def help_handler(bot, update):
