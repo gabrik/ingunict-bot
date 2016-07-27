@@ -88,7 +88,7 @@ def insegnamento_handler(bot, update):
 	msg = msg.split(' ')
 
 	if len(msg)==2:
-		insegnamento_name=unidecode(msg[1])
+		insegnamento_name=unidecode(" ".join(msg[1:]))
 		search_result=[insegnamento for insegnamento in insegnamenti if insegnamento_name.upper() in insegnamento['Nome'].upper()]
 		if len(search_result)>0:
 			bot.sendMessage(update.message.chat_id, text='Sono stati trovati %d insegnamenti con la tua ricerca' % len(search_result))
