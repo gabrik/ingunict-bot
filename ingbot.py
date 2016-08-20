@@ -6,27 +6,27 @@
 
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 import logging
-from utility import *
+from utils import utility
 from unidecode import unidecode
 import json
 
 #need load configuration from file
-AULEFILE='aule.json'
-CDSFILE='cds.json'
-PROF_FILE='professori.json'
-INSEGNAMENTI_FILE='insegnamenti.json'
-ESAMI_FILE='esami.json'
+ROOMS_FILE='rooms.json'
+COURSES_FILE='courses.json'
+PROFESSORS_FILE='professors.json'
+CLASSROOMS_FILE='classrooms.json'
+EXAMS_FILE='exams.json'
 
 ## Other files
 TOKEN_FILE='token.conf'
-LOG_FILE='bog.log'
+LOG_FILE='ingbot.log'
 
 ##global variables
-aule={}
-cds={}
-professori={}
-insegnamenti={}
-esami=[]
+rooms={}
+courses={}
+professors={}
+classrooms={}
+exams=[]
 
 # loading token from file
 tokenconf = open(TOKEN_FILE, 'r').read()
@@ -59,17 +59,17 @@ def start_handler(bot, update):
 def help_handler(bot, update):
 	start(bot,update)
 
-def orari_handler(bot, update):
+def schedule_handler(bot, update):
 	bot.sendMessage(update.message.chat_id, text='Orari temporaneamente non disponibili')
 
-def prof_handler(bot, update):
+def professors_handler(bot, update):
 
 	msg = update.message.text
 	msg = msg.split(' ')
 
 	if len(msg)>=2:
 		professor_name = unidecode(" ".join(msg[1:]))
-		search_result = [professore for professore in professori if professor_name.upper() in professore['Nome'].upper()]
+		search_result = [professore for professore in professors if professor_name.upper() in professore['Nome'].upper()]
 		if len(search_result)>0:
 			bot.sendMessage(update.message.chat_id, text='Sono stati trovati %d professori '\
 															'con la tua ricerca' % len(search_result))
@@ -83,13 +83,13 @@ def prof_handler(bot, update):
 	else:
 		bot.sendMessage(update.message.chat_id, text="Devi inserire il professore su cui ottenere informazioni!\n/prof <nome cognome>")
 		
-def insegnamento_handler(bot, update):
+def classroom_handler(bot, update):
 	msg = update.message.text
 	msg = msg.split(' ')
 
 	if len(msg)==2:
 		insegnamento_name=unidecode(" ".join(msg[1:]))
-		search_result=[insegnamento for insegnamento in insegnamenti if insegnamento_name.upper() in insegnamento['Nome'].upper()]
+		search_result=[insegnamento for insegnamento in classrooms if insegnamento_name.upper() in insegnamento['Nome'].upper()]
 		if len(search_result)>0:
 			bot.sendMessage(update.message.chat_id, text='Sono stati trovati %d insegnamenti con la tua ricerca' % len(search_result))
 			for m in search_result:
@@ -103,26 +103,26 @@ def insegnamento_handler(bot, update):
 	else:
 		bot.sendMessage(update.message.chat_id, text="Devi inserire l'insegnamento su cui ottenere informazioni!\n/insegnamento <nome>")
 	
-def aula_handler(bot, update):
+def room_handler(bot, update):
 
 	msg = update.message.text
 	msg = msg.split(' ')
 	if len(msg)==2:
 		key = msg[1].upper().strip()
-		if key in aule:
-			aula = aule[key]
+		if key in rooms:
+			aula = rooms[key]
 			bot.sendMessage(update.message.chat_id, text='Aula %s , Edificio %s, Piano %s' % (key, aula['Edificio'], aula['Piano']))
 		else:
 			bot.sendMessage(update.message.chat_id, text='Aula non trovata')
 	else:
 		bot.sendMessage(update.message.chat_id, text="Devi inserire l'aula su cui ottenere informazioni!\n/aula <nome>")
 
-def cds_handler(bot,update):
+def courses_handler(bot,update):
 	msg = update.message.text
 	msg = msg.split(' ')
 	if len(msg)==2:
 		nome_corso = unidecode(msg[1])
-		search_result = [corso for corso in cds if nome_corso.upper() in corso['Denominazione'].upper()]
+		search_result = [corso for corso in courses if nome_corso.upper() in corso['Denominazione'].upper()]
 
 		if len(search_result)>0:
 			bot.sendMessage(update.message.chat_id, text='Sono stati trovati %d corsi con la tua ricerca' % len(search_result))
@@ -135,12 +135,12 @@ def cds_handler(bot,update):
 	else:
 		bot.sendMessage(update.message.chat_id, text="Devi inserire il corso su cui ottenere informazioni!\n/corso <nome>")
 	
-def esami_handler(bot,update):
+def exams_handler(bot,update):
 	msg = update.message.text
 	msg = msg.split(' ')	
 	if len(msg)==2:
 		cds_id = unidecode(msg[1])
-		search_result=[esame for esame in esami if cds_id==str(esame['CDS_ID'])]
+		search_result=[esame for esame in exams if cds_id==str(esame['CDS_ID'])]
 		if len(search_result)>0:
 			bot.sendMessage(update.message.chat_id, text='Sono stati trovati %d esami con la tua ricerca' % len(search_result))
 			for esame in search_result:
@@ -152,7 +152,7 @@ def esami_handler(bot,update):
 	else:
 		bot.sendMessage(update.message.chat_id, text="Inserisci l'id del corso, lo puoi conoscere usando il comando corsi")
 	
-def segreteria_handler(bot, update):
+def secretary_handler(bot, update):
 	newmsg = "Carriera Studenti - Settore tecnico - scientifico\n\nVia S. Sofia, 64 - Edificio 11 C.U. 95135 Catania\n\nTel.:095-738 6104/2051"
 	newmsg+= "\n\n Orari\n\n"
 	newmsg+= "Lunedì 10.00 - 12.30\n"
@@ -177,29 +177,29 @@ def error_handler(bot, update, error):
 def main():
 
 	# loading data from files
-	logger.info('[LOADING] aule from "%s"' % AULEFILE)
-	global aule
-	aule = load_aule(AULEFILE)
-	logger.info('[ DONE ] loading aule')
+	logger.info('[LOADING] rooms from "%s"' % ROOMS_FILE)
+	global rooms
+	aule = load_rooms(ROOMS_FILE)
+	logger.info('[ DONE ] loading rooms')
 
-	logger.info('[LOADING] CdS from "%s"' % CDSFILE)
-	global cds
-	cds = load_cds(CDSFILE)
-	logger.info('[ DONE ] loading CdS')
-
-	logger.info('[LOADING] professors from "%s"' % PROF_FILE)
-	global professori
-	professori = load_professors(PROF_FILE)
-	logger.info('[ DONE ] loading professors')
-
-	logger.info('[LOADING] courses from "%s"' % INSEGNAMENTI_FILE)
-	global insegnamenti
-	insegnamenti = load_courses(INSEGNAMENTI_FILE)
+	logger.info('[LOADING] courses from "%s"' % COURSES_FILE)
+	global courses
+	cds = load_courses(COURSES_FILE)
 	logger.info('[ DONE ] loading courses')
 
-	logger.info('[LOADING] exams from "%s"' % ESAMI_FILE)
-	global esami
-	esami = load_esami(ESAMI_FILE)
+	logger.info('[LOADING] professors from "%s"' % PROFESSORS_FILE)
+	global professors
+	professori = load_professors(PROFESSORS_FILE)
+	logger.info('[ DONE ] loading professors')
+
+	logger.info('[LOADING] classrooms from "%s"' % CLASSROOMS_FILE)
+	global classrooms
+	insegnamenti = load_classrooms(CLASSROOMS_FILE)
+	logger.info('[ DONE ] loading classrooms')
+
+	logger.info('[LOADING] exams from "%s"' % EXAMS_FILE)
+	global exams
+	esami = load_exams(ESAMEXAMS_FILEI_FILE)
 	logger.info('[ DONE ] loading exams')
 
 	#setting up bot
@@ -208,13 +208,13 @@ def main():
 	#setting handlers
 	dp.add_handler(CommandHandler("start", start_handler))
 	dp.add_handler(CommandHandler("help", start_handler))
-	dp.add_handler(CommandHandler("prof", prof_handler))
-	dp.add_handler(CommandHandler("corso", cds_handler))
-	dp.add_handler(CommandHandler("esami", esami_handler))
-	dp.add_handler(CommandHandler("orari", orari_handler))
-	dp.add_handler(CommandHandler("insegnamento", insegnamento_handler))
-	dp.add_handler(CommandHandler("aula", aula_handler))
-	dp.add_handler(CommandHandler("segreteria", segreteria_handler))
+	dp.add_handler(CommandHandler("prof", professors_handler))
+	dp.add_handler(CommandHandler("corso", courses_handler))
+	dp.add_handler(CommandHandler("esami", exams_handler))
+	dp.add_handler(CommandHandler("orari", schedule_handler))
+	dp.add_handler(CommandHandler("insegnamento", classroom_handler))
+	dp.add_handler(CommandHandler("aula", room_handler))
+	dp.add_handler(CommandHandler("segreteria", secretary_handler))
 	dp.add_handler(CommandHandler("cus", cus_handler))
 	dp.add_error_handler(error_handler)
 

@@ -8,7 +8,7 @@ def remove_comments(text):
 	cregex = '<!--.*?-->'
 	return re.sub(cregex,"",text,flags=re.DOTALL)
 
-def load_aule(filename):
+def load_rooms(filename):
 	with open(filename) as data_file:
 		aule_data = json.load(data_file)
 	#convert in dictionary for simple scanning
@@ -17,7 +17,7 @@ def load_aule(filename):
 		dict_aule[a['Nome']] = {'Piano':a['Piano'],'Edificio':a['Edificio']}
 	return dict_aule
 
-def load_cds(filename):
+def load_courses(filename):
 	with open(filename) as data_file:
 		cds_data = json.load(data_file)
 	return cds_data
@@ -39,7 +39,7 @@ def load_professors(filename):
 		})
 	return prof
 
-def load_courses(filename):
+def load_classrooms(filename):
 	with open(filename) as data_file:
 		curs_data = json.load(data_file)
 	curs = []
@@ -55,7 +55,7 @@ def load_courses(filename):
 		})
 	return curs
 
-def load_esami(filename):
+def load_exams(filename):
 	with open(filename) as data_file:
 		exams_data = json.load(data_file)
 	return exams_data
