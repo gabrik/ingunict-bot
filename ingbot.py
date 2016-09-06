@@ -11,11 +11,11 @@ from unidecode import unidecode
 import json
 
 #need load configuration from file
-ROOMS_FILE='rooms.json'
-COURSES_FILE='courses.json'
-PROFESSORS_FILE='professors.json'
-CLASSROOMS_FILE='classrooms.json'
-EXAMS_FILE='exams.json'
+ROOMS_FILE='utils/rooms.json'
+COURSES_FILE='utils/courses.json'
+PROFESSORS_FILE='utils/professors.json'
+CLASSROOMS_FILE='utils/classrooms.json'
+EXAMS_FILE='utils/exams.json'
 
 ## Other files
 TOKEN_FILE='token.conf'
@@ -69,8 +69,9 @@ def professors_handler(bot, update):
 
 	if len(msg)>=2:
 		professor_name = unidecode(" ".join(msg[1:]))
-		if len(professor_name)>4:
-			search_result = [professore for professore in professors if professor_name.upper() in professore['Nome'].upper()]
+		if len(professor_name)>3:
+			search_result = [professor for professor in professors if professor_name.upper() in professor['Nome'].upper()]
+
 			if len(search_result)>0:
 				bot.sendMessage(update.message.chat_id, text='Sono stati trovati %d professori '\
 																'con la tua ricerca' % len(search_result))
@@ -93,7 +94,7 @@ def classroom_handler(bot, update):
 
 	if len(msg)==2:
 		insegnamento_name=unidecode(" ".join(msg[1:]))
-		if len(insegnamento_name)>4:
+		if len(insegnamento_name)>3:
 			search_result=[insegnamento for insegnamento in classrooms if insegnamento_name.upper() in insegnamento['Nome'].upper()]
 			if len(search_result)>0:
 				bot.sendMessage(update.message.chat_id, text='Sono stati trovati %d insegnamenti con la tua ricerca' % len(search_result))
@@ -144,7 +145,7 @@ def courses_handler(bot,update):
 			else:
 				bot.sendMessage(update.message.chat_id, text='Corso non trovato')
 		else:
-			bot.sendMessage(update.message.chat_id, text='Inserisci almeno 3 caratteri per la ricerca')
+			bot.sendMessage(update.message.chat_id, text='Inserisci almeno 4 caratteri per la ricerca')
 	else:
 		bot.sendMessage(update.message.chat_id, text="Devi inserire il corso su cui ottenere informazioni!\n/corso <nome>")
 	
@@ -192,27 +193,27 @@ def main():
 	# loading data from files
 	logger.info('[LOADING] rooms from "%s"' % ROOMS_FILE)
 	global rooms
-	aule = load_rooms(ROOMS_FILE)
+	rooms = utility.load_rooms(ROOMS_FILE)
 	logger.info('[ DONE ] loading rooms')
 
 	logger.info('[LOADING] courses from "%s"' % COURSES_FILE)
 	global courses
-	cds = load_courses(COURSES_FILE)
+	courses = utility.load_courses(COURSES_FILE)
 	logger.info('[ DONE ] loading courses')
 
 	logger.info('[LOADING] professors from "%s"' % PROFESSORS_FILE)
 	global professors
-	professori = load_professors(PROFESSORS_FILE)
+	professors = utility.load_professors(PROFESSORS_FILE)
 	logger.info('[ DONE ] loading professors')
 
 	logger.info('[LOADING] classrooms from "%s"' % CLASSROOMS_FILE)
 	global classrooms
-	insegnamenti = load_classrooms(CLASSROOMS_FILE)
+	classrooms = utility.load_classrooms(CLASSROOMS_FILE)
 	logger.info('[ DONE ] loading classrooms')
 
 	logger.info('[LOADING] exams from "%s"' % EXAMS_FILE)
 	global exams
-	esami = load_exams(ESAMEXAMS_FILEI_FILE)
+	exams = utility.load_exams(EXAMS_FILE)
 	logger.info('[ DONE ] loading exams')
 
 	#setting up bot
