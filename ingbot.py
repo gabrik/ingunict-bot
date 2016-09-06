@@ -69,17 +69,21 @@ def professors_handler(bot, update):
 
 	if len(msg)>=2:
 		professor_name = unidecode(" ".join(msg[1:]))
-		search_result = [professore for professore in professors if professor_name.upper() in professore['Nome'].upper()]
-		if len(search_result)>0:
-			bot.sendMessage(update.message.chat_id, text='Sono stati trovati %d professori '\
-															'con la tua ricerca' % len(search_result))
-			for p in search_result:
-				descr = "Nome: %s\nQualifica: %s\nDipartimento: %s\n" % (p['Nome'], p['Qualifica'], p['Dipartimento'])
-				descr+= "Indirizzo: %s\nEmail: %s\nTelefono: %s\n" % (p['Indirizzo'], p['Email'], p['Telefono'])
-				descr+= "Sito: %s\nSSD: %s\n\n" % (p['Sito'], p['SSD'])
+		if len(professor_name)>4:
+			search_result = [professore for professore in professors if professor_name.upper() in professore['Nome'].upper()]
+			if len(search_result)>0:
+				bot.sendMessage(update.message.chat_id, text='Sono stati trovati %d professori '\
+																'con la tua ricerca' % len(search_result))
+				descr=""
+				for p in search_result:
+					descr += "Nome: %s\nQualifica: %s\nDipartimento: %s\n" % (p['Nome'], p['Qualifica'], p['Dipartimento'])
+					descr+= "Indirizzo: %s\nEmail: %s\nTelefono: %s\n" % (p['Indirizzo'], p['Email'], p['Telefono'])
+					descr+= "Sito: %s\nSSD: %s\n\n" % (p['Sito'], p['SSD'])
 				bot.sendMessage(update.message.chat_id,text= descr)
+			else:
+				bot.sendMessage(update.message.chat_id, text='Professore non trovato')
 		else:
-			bot.sendMessage(update.message.chat_id, text='Professore non trovato')
+			bot.sendMessage(update.message.chat_id, text='Inserisci almeno 4 caratteri per la ricerca')
 	else:
 		bot.sendMessage(update.message.chat_id, text="Devi inserire il professore su cui ottenere informazioni!\n/prof <nome cognome>")
 		
@@ -89,17 +93,21 @@ def classroom_handler(bot, update):
 
 	if len(msg)==2:
 		insegnamento_name=unidecode(" ".join(msg[1:]))
-		search_result=[insegnamento for insegnamento in classrooms if insegnamento_name.upper() in insegnamento['Nome'].upper()]
-		if len(search_result)>0:
-			bot.sendMessage(update.message.chat_id, text='Sono stati trovati %d insegnamenti con la tua ricerca' % len(search_result))
-			for m in search_result:
-				doc=''.join([docente+'\n' for docente in m['Docenti']])
-				descr = "Nome: %s\nSemestre: %s\nCorso di Laurea: %s\n" % (m['Nome'], m['Semestre'], m['Corso di Laurea'])
-				descr+= "Anno: %s\nDocenti: %s\nSSD: %s\n" % (m['Anno'], doc, m['SSD'])
-				descr+= "CFU: %s\n\n" % (m['CFU'])
+		if len(insegnamento_name)>4:
+			search_result=[insegnamento for insegnamento in classrooms if insegnamento_name.upper() in insegnamento['Nome'].upper()]
+			if len(search_result)>0:
+				bot.sendMessage(update.message.chat_id, text='Sono stati trovati %d insegnamenti con la tua ricerca' % len(search_result))
+				descr=""
+				for m in search_result:
+					doc=''.join([docente+'\n' for docente in m['Docenti']])
+					descr += "Nome: %s\nSemestre: %s\nCorso di Laurea: %s\n" % (m['Nome'], m['Semestre'], m['Corso di Laurea'])
+					descr+= "Anno: %s\nDocenti: %s\nSSD: %s\n" % (m['Anno'], doc, m['SSD'])
+					descr+= "CFU: %s\n\n" % (m['CFU'])
 				bot.sendMessage(update.message.chat_id, text=descr)
+			else:
+				bot.sendMessage(update.message.chat_id, text='Insegnamento non trovato')
 		else:
-			bot.sendMessage(update.message.chat_id, text='Insegnamento non trovato')
+			bot.sendMessage(update.message.chat_id, text='Inserisci almeno 4 caratteri per la ricerca')
 	else:
 		bot.sendMessage(update.message.chat_id, text="Devi inserire l'insegnamento su cui ottenere informazioni!\n/insegnamento <nome>")
 	
@@ -122,16 +130,21 @@ def courses_handler(bot,update):
 	msg = msg.split(' ')
 	if len(msg)==2:
 		nome_corso = unidecode(msg[1])
-		search_result = [corso for corso in courses if nome_corso.upper() in corso['Denominazione'].upper()]
+		if len(nome_corso)>3:
 
-		if len(search_result)>0:
-			bot.sendMessage(update.message.chat_id, text='Sono stati trovati %d corsi con la tua ricerca' % len(search_result))
-			for corso in search_result:
-				descr="Nome: %s\nID: %s\n" % (corso['Denominazione'], corso['ID'])
-				descr+="Codice: %s\nOrdinamento: %s\n Tipo: %s\n\n" % (corso['Codice'], corso['Ordinamento'], corso['Tipo'])
+			search_result = [corso for corso in courses if nome_corso.upper() in corso['Denominazione'].upper()]
+
+			if len(search_result)>0:
+				bot.sendMessage(update.message.chat_id, text='Sono stati trovati %d corsi con la tua ricerca' % len(search_result))
+				descr=""
+				for corso in search_result:
+					descr+="Nome: %s\nID: %s\n" % (corso['Denominazione'], corso['ID'])
+					descr+="Codice: %s\nOrdinamento: %s\n Tipo: %s\n\n" % (corso['Codice'], corso['Ordinamento'], corso['Tipo'])
 				bot.sendMessage(update.message.chat_id, text=descr)
+			else:
+				bot.sendMessage(update.message.chat_id, text='Corso non trovato')
 		else:
-			bot.sendMessage(update.message.chat_id, text='Corso non trovato')
+			bot.sendMessage(update.message.chat_id, text='Inserisci almeno 3 caratteri per la ricerca')
 	else:
 		bot.sendMessage(update.message.chat_id, text="Devi inserire il corso su cui ottenere informazioni!\n/corso <nome>")
 	
